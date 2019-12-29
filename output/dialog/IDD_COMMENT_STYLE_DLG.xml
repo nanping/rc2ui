@@ -20,7 +20,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Line comment position"</string>
+			<string>Line comment position</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_FOLDING_OF_COMMENTS">
@@ -32,8 +32,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Allow folding of comments"</string>
+		<property name="text">
+			<string>Allow folding of comments</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_ALLOW_ANYWHERE">
@@ -45,8 +45,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Allow anywhere"</string>
+		<property name="text">
+			<string>Allow anywhere</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_FORCE_AT_BOL">
@@ -58,8 +58,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Force at beginning of line"</string>
+		<property name="text">
+			<string>Force at beginning of line</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_ALLOW_WHITESPACE">
@@ -71,8 +71,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Allow preceding whitespace"</string>
+		<property name="text">
+			<string>Allow preceding whitespace</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_COMMENTLINE_OPEN_EDIT">
@@ -114,8 +114,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_COMMENTLINE_OPEN_STATIC">
@@ -127,8 +127,8 @@
 				<height>9</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Open:"</string>
+		<property name="text">
+			<string>Open:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_COMMENTLINE_CONTINUE_STATIC">
@@ -140,8 +140,8 @@
 				<height>9</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Continue character:"</string>
+		<property name="text">
+			<string>Continue character:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_COMMENTLINE_CLOSE_STATIC">
@@ -153,8 +153,8 @@
 				<height>9</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Close:"</string>
+		<property name="text">
+			<string>Close:</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_COMMENTLINE_DESCGROUP_STATIC">
@@ -167,7 +167,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Comment line style"</string>
+			<string>Comment line style</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_COMMENT_OPEN_EDIT">
@@ -199,8 +199,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_COMMENT_OPEN_STATIC">
@@ -212,8 +212,8 @@
 				<height>9</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Open:"</string>
+		<property name="text">
+			<string>Open:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_COMMENT_CLOSE_STATIC">
@@ -225,8 +225,8 @@
 				<height>9</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Close:"</string>
+		<property name="text">
+			<string>Close:</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_COMMENT_DESCGROUP_STATIC">
@@ -239,7 +239,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Comment style"</string>
+			<string>Comment style</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_NUMBER_DESCGROUP_STATIC">
@@ -252,7 +252,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Number style"</string>
+			<string>Number style</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_NUMBER_STYLER">
@@ -264,8 +264,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_NUMBER_PREFIX1_STATIC">
@@ -277,8 +277,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Prefix 1:"</string>
+		<property name="text">
+			<string>Prefix 1:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_NUMBER_PREFIX2_STATIC">
@@ -290,8 +290,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Prefix 2:"</string>
+		<property name="text">
+			<string>Prefix 2:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_NUMBER_EXTRAS1_STATIC">
@@ -303,8 +303,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Extras 1:"</string>
+		<property name="text">
+			<string>Extras 1:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_NUMBER_EXTRAS2_STATIC">
@@ -316,8 +316,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Extras 2:"</string>
+		<property name="text">
+			<string>Extras 2:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_NUMBER_SUFFIX1_STATIC">
@@ -329,8 +329,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Suffix 1:"</string>
+		<property name="text">
+			<string>Suffix 1:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_NUMBER_SUFFIX2_STATIC">
@@ -342,8 +342,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Suffix 2:"</string>
+		<property name="text">
+			<string>Suffix 2:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_NUMBER_RANGE_STATIC">
@@ -355,8 +355,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Range: "</string>
+		<property name="text">
+			<string>Range:</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_NUMBER_PREFIX1_EDIT">
@@ -439,7 +439,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Decimal separator"</string>
+			<string>Decimal separator</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_DOT_RADIO">
@@ -451,8 +451,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Dot"</string>
+		<property name="text">
+			<string>Dot</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_COMMA_RADIO">
@@ -464,8 +464,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Comma"</string>
+		<property name="text">
+			<string>Comma</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_BOTH_RADIO">
@@ -477,8 +477,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Both"</string>
+		<property name="text">
+			<string>Both</string>
 		</property>
 	</widget>
 </widget>

@@ -19,8 +19,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"X"</string>
+		<property name="text">
+			<string>X</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_INCSTATIC">
@@ -32,8 +32,8 @@
 				<height>12</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Find :"</string>
+		<property name="text">
+			<string>Find :</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_INCFINDTEXT">
@@ -55,8 +55,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"&lt;"</string>
+		<property name="text">
+			<string>&lt;</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_INCFINDNXTOK | WS_TABSTOP">
@@ -68,8 +68,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"&gt;"</string>
+		<property name="text">
+			<string>&gt;</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_INCFINDHILITEALL">
@@ -81,8 +81,8 @@
 				<height>12</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"&amp;Highlight all"</string>
+		<property name="text">
+			<string>&amp;Highlight all</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_INCFINDMATCHCASE">
@@ -94,8 +94,8 @@
 				<height>12</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Match &amp;case"</string>
+		<property name="text">
+			<string>Match &amp;case</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_INCFINDSTATUS">
@@ -107,8 +107,8 @@
 				<height>12</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>""</string>
+		<property name="text">
+			<string></string>
 		</property>
 	</widget>
 </widget>

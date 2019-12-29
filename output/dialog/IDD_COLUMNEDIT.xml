@@ -20,7 +20,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Text to Insert"</string>
+			<string>Text to Insert</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_COL_NUM_GRP_STATIC">
@@ -33,7 +33,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Number to Insert"</string>
+			<string>Number to Insert</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_COL_TEXT_RADIO">
@@ -45,8 +45,8 @@
 				<height>9</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>""</string>
+		<property name="text">
+			<string></string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_COL_NUM_RADIO">
@@ -58,8 +58,8 @@
 				<height>9</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>""</string>
+		<property name="text">
+			<string></string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_COL_TEXT_EDIT">
@@ -81,8 +81,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Initial number :"</string>
+		<property name="text">
+			<string>Initial number :</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_COL_INITNUM_EDIT">
@@ -104,8 +104,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Increase by :"</string>
+		<property name="text">
+			<string>Increase by :</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_COL_INCREASENUM_EDIT">
@@ -127,8 +127,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Repeat :"</string>
+		<property name="text">
+			<string>Repeat :</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_COL_REPEATNUM_EDIT">
@@ -150,8 +150,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Leading zeros"</string>
+		<property name="text">
+			<string>Leading zeros</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_COL_DEC_RADIO">
@@ -163,8 +163,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Dec"</string>
+		<property name="text">
+			<string>Dec</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_COL_HEX_RADIO">
@@ -176,8 +176,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Hex"</string>
+		<property name="text">
+			<string>Hex</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_COL_OCT_RADIO">
@@ -189,8 +189,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Oct"</string>
+		<property name="text">
+			<string>Oct</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_COL_BIN_RADIO">
@@ -202,8 +202,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Bin"</string>
+		<property name="text">
+			<string>Bin</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_COL_FORMAT_GRP_STATIC">
@@ -216,7 +216,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Format"</string>
+			<string>Format</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDOK">
@@ -228,7 +228,7 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
+		<property name="text">
 			<string>OK</string>
 		</property>
 	</widget>
@@ -241,8 +241,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Cancel"</string>
+		<property name="text">
+			<string>Cancel</string>
 		</property>
 	</widget>
 </widget>

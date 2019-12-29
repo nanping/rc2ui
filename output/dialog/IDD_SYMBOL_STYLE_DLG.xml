@@ -39,8 +39,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_OPERATOR_DESCGROUP_STATIC">
@@ -53,7 +53,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Operators style"</string>
+			<string>Operators style</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_OPERATOR1_STATIC">
@@ -65,8 +65,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Operators 1"</string>
+		<property name="text">
+			<string>Operators 1</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_OPERATOR2_STATIC">
@@ -78,8 +78,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Operators 2 (separators required)"</string>
+		<property name="text">
+			<string>Operators 2 (separators required)</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_DELIMITER1_BOUNDARYOPEN_EDIT">
@@ -121,8 +121,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER1_BOUNDARYOPEN_STATIC">
@@ -134,8 +134,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Open: "</string>
+		<property name="text">
+			<string>Open:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER1_ESCAPE_STATIC">
@@ -147,8 +147,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Escape: "</string>
+		<property name="text">
+			<string>Escape:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER1_BOUNDARYCLOSE_STATIC">
@@ -160,8 +160,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Close: "</string>
+		<property name="text">
+			<string>Close:</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_DELIMITER1_DESCGROUP_STATIC">
@@ -174,7 +174,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Delimiter 1 style"</string>
+			<string>Delimiter 1 style</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_DELIMITER2_BOUNDARYOPEN_EDIT">
@@ -216,8 +216,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER2_BOUNDARYOPEN_STATIC">
@@ -229,8 +229,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Open: "</string>
+		<property name="text">
+			<string>Open:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER2_ESCAPE_STATIC">
@@ -242,8 +242,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Escape: "</string>
+		<property name="text">
+			<string>Escape:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER2_BOUNDARYCLOSE_STATIC">
@@ -255,8 +255,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Close: "</string>
+		<property name="text">
+			<string>Close:</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_DELIMITER2_DESCGROUP_STATIC">
@@ -269,7 +269,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Delimiter 2 style"</string>
+			<string>Delimiter 2 style</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_DELIMITER3_BOUNDARYOPEN_EDIT">
@@ -311,8 +311,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER3_BOUNDARYOPEN_STATIC">
@@ -324,8 +324,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Open: "</string>
+		<property name="text">
+			<string>Open:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER3_ESCAPE_STATIC">
@@ -337,8 +337,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Escape: "</string>
+		<property name="text">
+			<string>Escape:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER3_BOUNDARYCLOSE_STATIC">
@@ -350,8 +350,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Close: "</string>
+		<property name="text">
+			<string>Close:</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_DELIMITER3_DESCGROUP_STATIC">
@@ -364,7 +364,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Delimiter 3 style"</string>
+			<string>Delimiter 3 style</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_DELIMITER4_BOUNDARYOPEN_EDIT">
@@ -406,8 +406,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER4_BOUNDARYOPEN_STATIC">
@@ -419,8 +419,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Open: "</string>
+		<property name="text">
+			<string>Open:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER4_ESCAPE_STATIC">
@@ -432,8 +432,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Escape: "</string>
+		<property name="text">
+			<string>Escape:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER4_BOUNDARYCLOSE_STATIC">
@@ -445,8 +445,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Close: "</string>
+		<property name="text">
+			<string>Close:</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_DELIMITER4_DESCGROUP_STATIC">
@@ -459,7 +459,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Delimiter 4 style"</string>
+			<string>Delimiter 4 style</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_DELIMITER5_BOUNDARYOPEN_EDIT">
@@ -501,8 +501,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER5_BOUNDARYOPEN_STATIC">
@@ -514,8 +514,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Open: "</string>
+		<property name="text">
+			<string>Open:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER5_ESCAPE_STATIC">
@@ -527,8 +527,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Escape: "</string>
+		<property name="text">
+			<string>Escape:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER5_BOUNDARYCLOSE_STATIC">
@@ -540,8 +540,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Close: "</string>
+		<property name="text">
+			<string>Close:</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_DELIMITER5_DESCGROUP_STATIC">
@@ -554,7 +554,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Delimiter 5 style"</string>
+			<string>Delimiter 5 style</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_DELIMITER6_BOUNDARYOPEN_EDIT">
@@ -596,8 +596,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER6_BOUNDARYOPEN_STATIC">
@@ -609,8 +609,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Open: "</string>
+		<property name="text">
+			<string>Open:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER6_ESCAPE_STATIC">
@@ -622,8 +622,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Escape: "</string>
+		<property name="text">
+			<string>Escape:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER6_BOUNDARYCLOSE_STATIC">
@@ -635,8 +635,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Close: "</string>
+		<property name="text">
+			<string>Close:</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_DELIMITER6_DESCGROUP_STATIC">
@@ -649,7 +649,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Delimiter 6 style"</string>
+			<string>Delimiter 6 style</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_DELIMITER7_BOUNDARYOPEN_EDIT">
@@ -691,8 +691,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER7_BOUNDARYOPEN_STATIC">
@@ -704,8 +704,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Open: "</string>
+		<property name="text">
+			<string>Open:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER7_ESCAPE_STATIC">
@@ -717,8 +717,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Escape: "</string>
+		<property name="text">
+			<string>Escape:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER7_BOUNDARYCLOSE_STATIC">
@@ -730,8 +730,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Close: "</string>
+		<property name="text">
+			<string>Close:</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_DELIMITER7_DESCGROUP_STATIC">
@@ -744,7 +744,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Delimiter 7 style"</string>
+			<string>Delimiter 7 style</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_DELIMITER8_BOUNDARYOPEN_EDIT">
@@ -786,8 +786,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER8_BOUNDARYOPEN_STATIC">
@@ -799,8 +799,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Open: "</string>
+		<property name="text">
+			<string>Open:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER8_ESCAPE_STATIC">
@@ -812,8 +812,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Escape: "</string>
+		<property name="text">
+			<string>Escape:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DELIMITER8_BOUNDARYCLOSE_STATIC">
@@ -825,8 +825,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Close: "</string>
+		<property name="text">
+			<string>Close:</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_DELIMITER8_DESCGROUP_STATIC">
@@ -839,7 +839,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Delimiter 8 style"</string>
+			<string>Delimiter 8 style</string>
 		</property>
 	</widget>
 </widget>

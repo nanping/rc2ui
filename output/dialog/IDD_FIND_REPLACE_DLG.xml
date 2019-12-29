@@ -19,8 +19,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"&amp;Find what :"</string>
+		<property name="text">
+			<string>&amp;Find what :</string>
 		</property>
 	</widget>
 	<widget class="QComboBox" name="IDFINDWHAT">
@@ -42,8 +42,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Rep&amp;lace with :"</string>
+		<property name="text">
+			<string>Rep&amp;lace with :</string>
 		</property>
 	</widget>
 	<widget class="QComboBox" name="IDREPLACEWITH">
@@ -65,8 +65,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Filter&amp;s :"</string>
+		<property name="text">
+			<string>Filter&amp;s :</string>
 		</property>
 	</widget>
 	<widget class="QComboBox" name="IDD_FINDINFILES_FILTERS_COMBO">
@@ -88,8 +88,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Dir&amp;ectory :"</string>
+		<property name="text">
+			<string>Dir&amp;ectory :</string>
 		</property>
 	</widget>
 	<widget class="QComboBox" name="IDD_FINDINFILES_DIR_COMBO">
@@ -111,8 +111,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"..."</string>
+		<property name="text">
+			<string>...</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDD_FINDINFILES_FOLDERFOLLOWSDOC_CHECK">
@@ -124,8 +124,8 @@
 				<height>15</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Follow current doc."</string>
+		<property name="text">
+			<string>Follow current doc.</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDD_FINDINFILES_RECURSIVE_CHECK">
@@ -137,8 +137,8 @@
 				<height>15</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"In all su&amp;b-folders"</string>
+		<property name="text">
+			<string>In all su&amp;b-folders</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDD_FINDINFILES_INHIDDENDIR_CHECK">
@@ -150,8 +150,8 @@
 				<height>15</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"In &amp;hidden folders"</string>
+		<property name="text">
+			<string>In &amp;hidden folders</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_MARKLINE_CHECK">
@@ -163,8 +163,8 @@
 				<height>15</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Book&amp;mark line"</string>
+		<property name="text">
+			<string>Book&amp;mark line</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_PURGE_CHECK">
@@ -176,8 +176,8 @@
 				<height>15</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Purge for each search"</string>
+		<property name="text">
+			<string>Purge for each search</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDCMARKALL">
@@ -189,8 +189,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Mark All"</string>
+		<property name="text">
+			<string>Mark All</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_REPLACEINSELECTION">
@@ -203,7 +203,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>""</string>
+			<string></string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_IN_SELECTION_CHECK">
@@ -215,8 +215,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"In select&amp;ion"</string>
+		<property name="text">
+			<string>In select&amp;ion</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_CLEAR_ALL">
@@ -228,8 +228,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Clear all marks"</string>
+		<property name="text">
+			<string>Clear all marks</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_BACKWARDDIRECTION">
@@ -241,8 +241,8 @@
 				<height>15</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Backward direction"</string>
+		<property name="text">
+			<string>Backward direction</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDWHOLEWORD">
@@ -254,8 +254,8 @@
 				<height>15</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Match &amp;whole word only"</string>
+		<property name="text">
+			<string>Match &amp;whole word only</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDMATCHCASE">
@@ -267,8 +267,8 @@
 				<height>15</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Match &amp;case"</string>
+		<property name="text">
+			<string>Match &amp;case</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDWRAP">
@@ -280,8 +280,8 @@
 				<height>15</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Wra&amp;p around"</string>
+		<property name="text">
+			<string>Wra&amp;p around</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_MODE_STATIC">
@@ -294,7 +294,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Search Mode"</string>
+			<string>Search Mode</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDNORMAL">
@@ -306,8 +306,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"&amp;Normal"</string>
+		<property name="text">
+			<string>&amp;Normal</string>
 		</property>
 	</widget>
 	<widget />
@@ -321,8 +321,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Re&amp;gular expression"</string>
+		<property name="text">
+			<string>Re&amp;gular expression</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDREDOTMATCHNL">
@@ -334,8 +334,8 @@
 				<height>9</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"&amp;. matches newline"</string>
+		<property name="text">
+			<string>&amp;. matches newline</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_FINDPREV">
@@ -347,8 +347,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>""</string>
+		<property name="text">
+			<string></string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_FINDNEXT">
@@ -360,8 +360,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>""</string>
+		<property name="text">
+			<string></string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDOK">
@@ -373,8 +373,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Find Next"</string>
+		<property name="text">
+			<string>Find Next</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_2_BUTTONS_MODE">
@@ -386,8 +386,8 @@
 				<height>15</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>""</string>
+		<property name="text">
+			<string></string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDCCOUNTALL">
@@ -399,8 +399,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Coun&amp;t"</string>
+		<property name="text">
+			<string>Coun&amp;t</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_FINDALL_OPENEDFILES">
@@ -412,8 +412,8 @@
 				<height>21</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Find All in All &amp;Opened Documents"</string>
+		<property name="text">
+			<string>Find All in All &amp;Opened Documents</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_FINDALL_CURRENTFILE">
@@ -425,8 +425,8 @@
 				<height>21</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Find All in Current &amp;Document"</string>
+		<property name="text">
+			<string>Find All in Current &amp;Document</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDREPLACE">
@@ -438,8 +438,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"&amp;Replace"</string>
+		<property name="text">
+			<string>&amp;Replace</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDREPLACEALL">
@@ -451,8 +451,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Replace &amp;All"</string>
+		<property name="text">
+			<string>Replace &amp;All</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_REPLACE_OPENEDFILES">
@@ -464,8 +464,8 @@
 				<height>21</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Replace All in All Opened Doc&amp;uments"</string>
+		<property name="text">
+			<string>Replace All in All Opened Doc&amp;uments</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDD_FINDINFILES_FIND_BUTTON">
@@ -477,8 +477,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Find All"</string>
+		<property name="text">
+			<string>Find All</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDD_FINDINFILES_REPLACEINFILES">
@@ -490,8 +490,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"&amp;Replace in Files"</string>
+		<property name="text">
+			<string>&amp;Replace in Files</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDCANCEL">
@@ -503,8 +503,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Close"</string>
+		<property name="text">
+			<string>Close</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_TRANSPARENT_GRPBOX">
@@ -517,7 +517,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>""</string>
+			<string></string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_TRANSPARENT_CHECK">
@@ -529,8 +529,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Transparenc&amp;y"</string>
+		<property name="text">
+			<string>Transparenc&amp;y</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_TRANSPARENT_LOSSFOCUS_RADIO">
@@ -542,8 +542,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"On losing focus"</string>
+		<property name="text">
+			<string>On losing focus</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_TRANSPARENT_ALWAYS_RADIO">
@@ -555,10 +555,21 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Always"</string>
+		<property name="text">
+			<string>Always</string>
 		</property>
 	</widget>
-	<widget />
-	<!--CONTROL         "",IDC_PERCENTAGE_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | NOT WS_VISIBLE | WS_TABSTOP,265,166,85,10-->
+	<widget class="QSlider" name="IDC_PERCENTAGE_SLIDER">
+		<property name="geometry">
+			<rect>
+				<x>265</x>
+				<y>166</y>
+				<width>85</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="orientation">
+			<enum>Qt::Horizontal</enum>
+		</property>
+	</widget>
 </widget>

@@ -20,7 +20,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Language Menu"</string>
+			<string>Language Menu</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_LANGMENUCOMPACT">
@@ -32,8 +32,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Make language menu compact"</string>
+		<property name="text">
+			<string>Make language menu compact</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_ENABLEDITEMS_STATIC">
@@ -45,8 +45,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Available items"</string>
+		<property name="text">
+			<string>Available items</string>
 		</property>
 	</widget>
 	<widget class="QListView" name="IDC_LIST_ENABLEDLANG">
@@ -68,8 +68,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"-&gt;"</string>
+		<property name="text">
+			<string>-&gt;</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_BUTTON_RESTORE">
@@ -81,8 +81,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"&lt;-"</string>
+		<property name="text">
+			<string>&lt;-</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_DISABLEDITEMS_STATIC">
@@ -94,8 +94,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Disabled items"</string>
+		<property name="text">
+			<string>Disabled items</string>
 		</property>
 	</widget>
 	<widget class="QListView" name="IDC_LIST_DISABLEDLANG">
@@ -118,7 +118,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Tab Settings"</string>
+			<string>Tab Settings</string>
 		</property>
 	</widget>
 	<widget class="QListView" name="IDC_LIST_TABSETTNG">
@@ -141,7 +141,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>""</string>
+			<string></string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_DEFAULTTABVALUE">
@@ -153,8 +153,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Use default value"</string>
+		<property name="text">
+			<string>Use default value</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_TABSIZE_STATIC">
@@ -166,8 +166,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Tab size : "</string>
+		<property name="text">
+			<string>Tab size :</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_TABSIZEVAL_STATIC">
@@ -179,8 +179,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"0"</string>
+		<property name="text">
+			<string>0</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_TABSIZEVAL_DISABLE_STATIC">
@@ -192,8 +192,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"0"</string>
+		<property name="text">
+			<string>0</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_REPLACEBYSPACE">
@@ -205,8 +205,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Replace by space"</string>
+		<property name="text">
+			<string>Replace by space</string>
 		</property>
 	</widget>
 </widget>

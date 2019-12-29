@@ -20,7 +20,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Recent Files History"</string>
+			<string>Recent Files History</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_MAXNBFILE_STATIC">
@@ -32,8 +32,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Max. number of entries :"</string>
+		<property name="text">
+			<string>Max. number of entries :</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_MAXNBFILEVAL_STATIC">
@@ -45,8 +45,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"0"</string>
+		<property name="text">
+			<string>0</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_DONTCHECKHISTORY">
@@ -58,8 +58,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Don't check at launch time"</string>
+		<property name="text">
+			<string>Don't check at launch time</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_DISPLAY_STATIC">
@@ -72,7 +72,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Display"</string>
+			<string>Display</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_INSUBMENU">
@@ -84,8 +84,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"In Submenu"</string>
+		<property name="text">
+			<string>In Submenu</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_ONLYFILENAME">
@@ -97,8 +97,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Only File Name"</string>
+		<property name="text">
+			<string>Only File Name</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_FULLFILENAMEPATH">
@@ -110,8 +110,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Full File Name Path"</string>
+		<property name="text">
+			<string>Full File Name Path</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_CUSTOMIZELENTH">
@@ -123,8 +123,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Customize Maximum Length:"</string>
+		<property name="text">
+			<string>Customize Maximum Length:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_CUSTOMIZELENGTHVAL_STATIC">
@@ -136,8 +136,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"0"</string>
+		<property name="text">
+			<string>0</string>
 		</property>
 	</widget>
 </widget>

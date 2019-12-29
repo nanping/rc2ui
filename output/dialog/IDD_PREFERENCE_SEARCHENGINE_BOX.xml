@@ -20,7 +20,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Search Engine (for command ""Search on Internet"")"</string>
+			<string>Search Engine (for command ""Search on Internet"")</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_SEARCHENGINE_DUCKDUCKGO_RADIO">
@@ -32,8 +32,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"DuckDuckGo"</string>
+		<property name="text">
+			<string>DuckDuckGo</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_SEARCHENGINE_GOOGLE_RADIO">
@@ -45,8 +45,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Google"</string>
+		<property name="text">
+			<string>Google</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_SEARCHENGINE_BING_RADIO">
@@ -58,8 +58,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Bing"</string>
+		<property name="text">
+			<string>Bing</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_SEARCHENGINE_YAHOO_RADIO">
@@ -71,8 +71,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Yahoo!"</string>
+		<property name="text">
+			<string>Yahoo!</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_SEARCHENGINE_STACKOVERFLOW_RADIO">
@@ -84,8 +84,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Stack Overflow"</string>
+		<property name="text">
+			<string>Stack Overflow</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_SEARCHENGINE_CUSTOM_RADIO">
@@ -97,8 +97,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Set your search engine here:"</string>
+		<property name="text">
+			<string>Set your search engine here:</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_SEARCHENGINE_EDIT">
@@ -120,8 +120,8 @@
 				<height>20</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Example: https://www.google.com/search?q=$(CURRENT_WORD)"</string>
+		<property name="text">
+			<string>Example: https://www.google.com/search?q=$(CURRENT_WORD)</string>
 		</property>
 	</widget>
 </widget>

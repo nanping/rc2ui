@@ -29,8 +29,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Copy debug info into clipboard"</string>
+		<property name="text">
+			<string>Copy debug info into clipboard</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDOK">
@@ -42,7 +42,7 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
+		<property name="text">
 			<string>OK</string>
 		</property>
 	</widget>

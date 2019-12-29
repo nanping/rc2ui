@@ -20,7 +20,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Smart Highlighting"</string>
+			<string>Smart Highlighting</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_ENABLSMARTHILITE">
@@ -32,8 +32,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Enable"</string>
+		<property name="text">
+			<string>Enable</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_SMARTHILITECASESENSITIVE">
@@ -45,8 +45,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Match case"</string>
+		<property name="text">
+			<string>Match case</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_SMARTHILITEWHOLEWORDONLY">
@@ -58,8 +58,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Match whole word only"</string>
+		<property name="text">
+			<string>Match whole word only</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_SMARTHILITEUSEFINDSETTINGS">
@@ -71,8 +71,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Use Find dialog settings"</string>
+		<property name="text">
+			<string>Use Find dialog settings</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_SMARTHILITEANOTHERRVIEW">
@@ -84,8 +84,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Highlight another view"</string>
+		<property name="text">
+			<string>Highlight another view</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_TAGMATCHEDHILITE_STATIC">
@@ -98,7 +98,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Highlight Matching Tags"</string>
+			<string>Highlight Matching Tags</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_ENABLTAGSMATCHHILITE">
@@ -110,8 +110,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Enable"</string>
+		<property name="text">
+			<string>Enable</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_ENABLTAGATTRHILITE">
@@ -123,8 +123,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Highlight tag attributes"</string>
+		<property name="text">
+			<string>Highlight tag attributes</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_HIGHLITENONEHTMLZONE">
@@ -136,8 +136,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Highlight comment/php/asp zone"</string>
+		<property name="text">
+			<string>Highlight comment/php/asp zone</string>
 		</property>
 	</widget>
 </widget>

@@ -20,7 +20,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Default Directory (Open/Save)"</string>
+			<string>Default Directory (Open/Save)</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_OPENSAVEDIR_FOLLOWCURRENT_RADIO">
@@ -32,8 +32,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Follow current document"</string>
+		<property name="text">
+			<string>Follow current document</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_OPENSAVEDIR_REMEMBERLAST_RADIO">
@@ -45,8 +45,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Remember last used directory"</string>
+		<property name="text">
+			<string>Remember last used directory</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_OPENSAVEDIR_ALWAYSON_RADIO">
@@ -58,8 +58,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>""</string>
+		<property name="text">
+			<string></string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_OPENSAVEDIR_ALWAYSON_EDIT">
@@ -81,8 +81,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"..."</string>
+		<property name="text">
+			<string>...</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_OPENSAVEDIR_CHECK_USENEWSTYLESAVEDIALOG">
@@ -94,8 +94,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Use new style dialog (without file extension feature &amp;&amp; Unix style path capacity)"</string>
+		<property name="text">
+			<string>Use new style dialog (without file extension feature &amp;&amp; Unix style path capacity)</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_OPENSAVEDIR_CHECK_DRROPFOLDEROPENFILES">
@@ -107,8 +107,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Open all files of folder instead of launching Folder as Workspace on folder dropping"</string>
+		<property name="text">
+			<string>Open all files of folder instead of launching Folder as Workspace on folder dropping</string>
 		</property>
 	</widget>
 </widget>

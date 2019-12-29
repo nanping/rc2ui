@@ -19,8 +19,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"CTRL"</string>
+		<property name="text">
+			<string>CTRL</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_ALT_CHECK">
@@ -32,8 +32,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"ALT"</string>
+		<property name="text">
+			<string>ALT</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_SHIFT_CHECK">
@@ -45,8 +45,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"SHIFT"</string>
+		<property name="text">
+			<string>SHIFT</string>
 		</property>
 	</widget>
 	<widget class="QComboBox" name="IDC_KEY_COMBO">
@@ -68,8 +68,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"OK"</string>
+		<property name="text">
+			<string>OK</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDCANCEL">
@@ -81,8 +81,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Cancel"</string>
+		<property name="text">
+			<string>Cancel</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_STATIC">
@@ -94,8 +94,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"+"</string>
+		<property name="text">
+			<string>+</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_STATIC">
@@ -107,8 +107,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"+"</string>
+		<property name="text">
+			<string>+</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_NAME_EDIT">
@@ -130,8 +130,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Name :"</string>
+		<property name="text">
+			<string>Name :</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_WARNING_STATIC">
@@ -143,8 +143,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"This will disable the accelerator"</string>
+		<property name="text">
+			<string>This will disable the accelerator</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_CONFLICT_STATIC">
@@ -156,8 +156,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"CONFLICT FOUND!"</string>
+		<property name="text">
+			<string>CONFLICT FOUND!</string>
 		</property>
 	</widget>
 </widget>

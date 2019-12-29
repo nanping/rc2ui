@@ -30,7 +30,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"1st group"</string>
+			<string>1st group</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_KEYWORD1_STYLER">
@@ -42,8 +42,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_KEYWORD1_PREFIX_CHECK">
@@ -55,8 +55,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Prefix mode"</string>
+		<property name="text">
+			<string>Prefix mode</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_KEYWORD2_EDIT">
@@ -79,7 +79,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"2nd group"</string>
+			<string>2nd group</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_KEYWORD2_STYLER">
@@ -91,8 +91,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_KEYWORD2_PREFIX_CHECK">
@@ -104,8 +104,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Prefix mode"</string>
+		<property name="text">
+			<string>Prefix mode</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_KEYWORD3_EDIT">
@@ -128,7 +128,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"3rd group"</string>
+			<string>3rd group</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_KEYWORD3_STYLER">
@@ -140,8 +140,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_KEYWORD3_PREFIX_CHECK">
@@ -153,8 +153,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Prefix mode"</string>
+		<property name="text">
+			<string>Prefix mode</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_KEYWORD4_EDIT">
@@ -177,7 +177,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"4th group"</string>
+			<string>4th group</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_KEYWORD4_STYLER">
@@ -189,8 +189,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_KEYWORD4_PREFIX_CHECK">
@@ -202,8 +202,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Prefix mode"</string>
+		<property name="text">
+			<string>Prefix mode</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_KEYWORD5_EDIT">
@@ -226,7 +226,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"5th group"</string>
+			<string>5th group</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_KEYWORD5_STYLER">
@@ -238,8 +238,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_KEYWORD5_PREFIX_CHECK">
@@ -251,8 +251,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Prefix mode"</string>
+		<property name="text">
+			<string>Prefix mode</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_KEYWORD6_EDIT">
@@ -275,7 +275,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"6th group"</string>
+			<string>6th group</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_KEYWORD6_STYLER">
@@ -287,8 +287,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_KEYWORD6_PREFIX_CHECK">
@@ -300,8 +300,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Prefix mode"</string>
+		<property name="text">
+			<string>Prefix mode</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_KEYWORD7_EDIT">
@@ -324,7 +324,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"7th group"</string>
+			<string>7th group</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_KEYWORD7_STYLER">
@@ -336,8 +336,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_KEYWORD7_PREFIX_CHECK">
@@ -349,8 +349,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Prefix mode"</string>
+		<property name="text">
+			<string>Prefix mode</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_KEYWORD8_EDIT">
@@ -373,7 +373,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"8th group"</string>
+			<string>8th group</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_KEYWORD8_STYLER">
@@ -385,8 +385,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_KEYWORD8_PREFIX_CHECK">
@@ -398,8 +398,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Prefix mode"</string>
+		<property name="text">
+			<string>Prefix mode</string>
 		</property>
 	</widget>
 </widget>

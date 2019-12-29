@@ -20,7 +20,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Multi-instance settings"</string>
+			<string>Multi-instance settings</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_SESSIONININST_RADIO">
@@ -32,8 +32,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Open session in a new instance of Notepad++"</string>
+		<property name="text">
+			<string>Open session in a new instance of Notepad++</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_MULTIINST_RADIO">
@@ -45,8 +45,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Always in multi-instance mode"</string>
+		<property name="text">
+			<string>Always in multi-instance mode</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_MONOINST_RADIO">
@@ -58,8 +58,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Default (mono-instance)"</string>
+		<property name="text">
+			<string>Default (mono-instance)</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDD_STATIC_RESTARTNOTE">
@@ -71,8 +71,8 @@
 				<height>20</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"* The modification of this setting needs to restart Notepad++"</string>
+		<property name="text">
+			<string>* The modification of this setting needs to restart Notepad++</string>
 		</property>
 	</widget>
 </widget>

@@ -19,8 +19,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"WYSIWYG"</string>
+		<property name="text">
+			<string>WYSIWYG</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_INVERT">
@@ -32,8 +32,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Invert"</string>
+		<property name="text">
+			<string>Invert</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_BW">
@@ -45,8 +45,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Black on white"</string>
+		<property name="text">
+			<string>Black on white</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_NOBG">
@@ -58,8 +58,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"No background colour"</string>
+		<property name="text">
+			<string>No background colour</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_COLOUROPT_STATIC">
@@ -72,7 +72,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Colour Options"</string>
+			<string>Colour Options</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_PRINTLINENUM">
@@ -84,8 +84,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Print line number"</string>
+		<property name="text">
+			<string>Print line number</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_EDIT_ML">
@@ -137,8 +137,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Left"</string>
+		<property name="text">
+			<string>Left</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_MT_STATIC">
@@ -150,8 +150,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Top"</string>
+		<property name="text">
+			<string>Top</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_MR_STATIC">
@@ -163,8 +163,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Right"</string>
+		<property name="text">
+			<string>Right</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_MB_STATIC">
@@ -176,8 +176,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Bottom"</string>
+		<property name="text">
+			<string>Bottom</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_MARGESETTINGS_STATIC">
@@ -190,7 +190,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Margin Setting (Unit:mm)"</string>
+			<string>Margin Setting (Unit:mm)</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_EDIT_HLEFT">
@@ -252,8 +252,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Bold"</string>
+		<property name="text">
+			<string>Bold</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_HITALIC">
@@ -265,8 +265,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Italic"</string>
+		<property name="text">
+			<string>Italic</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_HGB_STATIC">
@@ -279,7 +279,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Header"</string>
+			<string>Header</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_HL_STATIC">
@@ -291,8 +291,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Left part"</string>
+		<property name="text">
+			<string>Left part</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_HM_STATIC">
@@ -304,8 +304,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Middle part"</string>
+		<property name="text">
+			<string>Middle part</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_HR_STATIC">
@@ -317,8 +317,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Right part"</string>
+		<property name="text">
+			<string>Right part</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_EDIT_FLEFT">
@@ -380,8 +380,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Bold"</string>
+		<property name="text">
+			<string>Bold</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_FITALIC">
@@ -393,8 +393,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Italic"</string>
+		<property name="text">
+			<string>Italic</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_FGB_STATIC">
@@ -407,7 +407,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Footer"</string>
+			<string>Footer</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_FL_STATIC">
@@ -419,8 +419,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Left part"</string>
+		<property name="text">
+			<string>Left part</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_FM_STATIC">
@@ -432,8 +432,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Middle part"</string>
+		<property name="text">
+			<string>Middle part</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_FR_STATIC">
@@ -445,8 +445,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Right part"</string>
+		<property name="text">
+			<string>Right part</string>
 		</property>
 	</widget>
 	<widget class="QComboBox" name="IDC_COMBO_VARLIST">
@@ -468,8 +468,8 @@
 				<height>12</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Add"</string>
+		<property name="text">
+			<string>Add</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_VAR_STATIC">
@@ -481,8 +481,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Variable :"</string>
+		<property name="text">
+			<string>Variable :</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_WHICHPART_STATIC">
@@ -494,8 +494,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Here display your variable settings"</string>
+		<property name="text">
+			<string>Here display your variable settings</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_VIEWPANEL_STATIC">
@@ -507,8 +507,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>""</string>
+		<property name="text">
+			<string></string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_HEADERFPPTER_GR_STATIC">
@@ -521,7 +521,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Header and Footer"</string>
+			<string>Header and Footer</string>
 		</property>
 	</widget>
 </widget>

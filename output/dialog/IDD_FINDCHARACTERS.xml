@@ -19,8 +19,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Non-ASCII Characters (128-255)"</string>
+		<property name="text">
+			<string>Non-ASCII Characters (128-255)</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_ASCCI_RADIO">
@@ -32,8 +32,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"ASCII Characters (0 - 127)"</string>
+		<property name="text">
+			<string>ASCII Characters (0 - 127)</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_MYRANGE_RADIO">
@@ -45,8 +45,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"My Range:"</string>
+		<property name="text">
+			<string>My Range:</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_RANGESTART_EDIT">
@@ -68,8 +68,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"-"</string>
+		<property name="text">
+			<string>-</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_RANGEEND_EDIT">
@@ -91,8 +91,8 @@
 				<height>12</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"&amp;Up"</string>
+		<property name="text">
+			<string>&amp;Up</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="ID_FINDCHAR_DIRDOWN">
@@ -104,8 +104,8 @@
 				<height>12</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"&amp;Down"</string>
+		<property name="text">
+			<string>&amp;Down</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_FINDCHAR_DIR_STATIC">
@@ -118,7 +118,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Direction"</string>
+			<string>Direction</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="ID_FINDCHAR_WRAP">
@@ -130,8 +130,8 @@
 				<height>15</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Wra&amp;p around"</string>
+		<property name="text">
+			<string>Wra&amp;p around</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="ID_FINDCHAR_NEXT">
@@ -143,7 +143,7 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
+		<property name="text">
 			<string>Find</string>
 		</property>
 	</widget>
@@ -156,8 +156,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Close"</string>
+		<property name="text">
+			<string>Close</string>
 		</property>
 	</widget>
 </widget>

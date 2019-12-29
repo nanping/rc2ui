@@ -19,8 +19,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Select theme : "</string>
+		<property name="text">
+			<string>Select theme :</string>
 		</property>
 	</widget>
 	<widget class="QComboBox" name="IDC_SWITCH2THEME_COMBO">
@@ -42,8 +42,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Foreground colour"</string>
+		<property name="text">
+			<string>Foreground colour</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_BG_STATIC">
@@ -55,8 +55,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Background colour"</string>
+		<property name="text">
+			<string>Background colour</string>
 		</property>
 	</widget>
 	<widget class="QComboBox" name="IDC_FONT_COMBO">
@@ -88,8 +88,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Bold"</string>
+		<property name="text">
+			<string>Bold</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_ITALIC_CHECK">
@@ -101,8 +101,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Italic"</string>
+		<property name="text">
+			<string>Italic</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_FONTGROUP_STATIC">
@@ -115,7 +115,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Font Style"</string>
+			<string>Font Style</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_COLOURGROUP_STATIC">
@@ -128,7 +128,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Colour Style"</string>
+			<string>Colour Style</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_FONTNAME_STATIC">
@@ -140,8 +140,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Font name :"</string>
+		<property name="text">
+			<string>Font name :</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_FONTSIZE_STATIC">
@@ -153,8 +153,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Font size :"</string>
+		<property name="text">
+			<string>Font size :</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_STYLEDESC_STATIC">
@@ -166,8 +166,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Style :"</string>
+		<property name="text">
+			<string>Style :</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_STYLEDESCRIPTION_STATIC">
@@ -179,8 +179,8 @@
 				<height>22</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"                                                                                                                      "</string>
+		<property name="text">
+			<string></string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_DEF_EXT_EDIT">
@@ -202,8 +202,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Default ext. : "</string>
+		<property name="text">
+			<string>Default ext. :</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_USER_EXT_EDIT">
@@ -225,8 +225,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"User ext. :"</string>
+		<property name="text">
+			<string>User ext. :</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_UNDERLINE_CHECK">
@@ -238,8 +238,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Underline"</string>
+		<property name="text">
+			<string>Underline</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_DEF_KEYWORDS_EDIT">
@@ -271,8 +271,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Default keywords"</string>
+		<property name="text">
+			<string>Default keywords</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_USER_KEYWORDS_STATIC">
@@ -284,8 +284,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"User-defined keywords"</string>
+		<property name="text">
+			<string>User-defined keywords</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_PLUSSYMBOL_STATIC">
@@ -297,8 +297,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"+"</string>
+		<property name="text">
+			<string>+</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDCANCEL">
@@ -310,8 +310,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Cancel"</string>
+		<property name="text">
+			<string>Cancel</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_SAVECLOSE_BUTTON">
@@ -323,12 +323,23 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Save &amp;&amp; Close"</string>
+		<property name="text">
+			<string>Save &amp;&amp; Close</string>
 		</property>
 	</widget>
-	<widget />
-	<!--CONTROL         "",IDC_SC_PERCENTAGE_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | NOT WS_VISIBLE | WS_TABSTOP,441,235,53,10-->
+	<widget class="QSlider" name="IDC_SC_PERCENTAGE_SLIDER">
+		<property name="geometry">
+			<rect>
+				<x>441</x>
+				<y>235</y>
+				<width>53</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="orientation">
+			<enum>Qt::Horizontal</enum>
+		</property>
+	</widget>
 	<widget class="QCheckBox" name="IDC_SC_TRANSPARENT_CHECK">
 		<property name="geometry">
 			<rect>
@@ -338,8 +349,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Transparency"</string>
+		<property name="text">
+			<string>Transparency</string>
 		</property>
 	</widget>
 	<widget class="QListView" name="IDC_LANGUAGES_LIST">
@@ -372,7 +383,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>""</string>
+			<string></string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_LANGDESC_STATIC">
@@ -384,8 +395,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Language :"</string>
+		<property name="text">
+			<string>Language :</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_STATIC">
@@ -398,7 +409,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>""</string>
+			<string></string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_PLUSSYMBOL2_STATIC">
@@ -410,8 +421,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"+"</string>
+		<property name="text">
+			<string>+</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_GLOBAL_FG_CHECK">
@@ -423,8 +434,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Enable global foreground colour"</string>
+		<property name="text">
+			<string>Enable global foreground colour</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_GLOBAL_BG_CHECK">
@@ -436,8 +447,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Enable global background colour"</string>
+		<property name="text">
+			<string>Enable global background colour</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_GLOBAL_FONT_CHECK">
@@ -449,8 +460,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Enable global font"</string>
+		<property name="text">
+			<string>Enable global font</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_GLOBAL_FONTSIZE_CHECK">
@@ -462,8 +473,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Enable global font size"</string>
+		<property name="text">
+			<string>Enable global font size</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_GLOBAL_BOLD_CHECK">
@@ -475,8 +486,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Enable global bold font style"</string>
+		<property name="text">
+			<string>Enable global bold font style</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_GLOBAL_ITALIC_CHECK">
@@ -488,8 +499,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Enable global italic font style"</string>
+		<property name="text">
+			<string>Enable global italic font style</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_GLOBAL_UNDERLINE_CHECK">
@@ -501,8 +512,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Enable global underline font style"</string>
+		<property name="text">
+			<string>Enable global underline font style</string>
 		</property>
 	</widget>
 </widget>

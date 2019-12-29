@@ -19,8 +19,8 @@
 				<height>16</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Treat each line as a separate string"</string>
+		<property name="text">
+			<string>Treat each line as a separate string</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_HASH_TEXT_EDIT">
@@ -52,8 +52,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Copy to Clipboard"</string>
+		<property name="text">
+			<string>Copy to Clipboard</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDCANCEL">
@@ -65,8 +65,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Close"</string>
+		<property name="text">
+			<string>Close</string>
 		</property>
 	</widget>
 </widget>

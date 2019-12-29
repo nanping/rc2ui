@@ -19,8 +19,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"&amp;Line"</string>
+		<property name="text">
+			<string>&amp;Line</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_GOTOOFFSET">
@@ -32,8 +32,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"&amp;Offset"</string>
+		<property name="text">
+			<string>&amp;Offset</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="ID_URHERE_STATIC">
@@ -45,8 +45,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"You are here :"</string>
+		<property name="text">
+			<string>You are here :</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="ID_CURRLINE">
@@ -58,8 +58,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"0123456789"</string>
+		<property name="text">
+			<string>0123456789</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="ID_UGO_STATIC">
@@ -71,8 +71,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"You want to &amp;go to :"</string>
+		<property name="text">
+			<string>You want to &amp;go to :</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="ID_GOLINE_EDIT">
@@ -94,8 +94,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"You can't go further than :"</string>
+		<property name="text">
+			<string>You can't go further than :</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="ID_LASTLINE">
@@ -107,8 +107,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"0123456789"</string>
+		<property name="text">
+			<string>0123456789</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDOK">
@@ -120,7 +120,7 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
+		<property name="text">
 			<string>Go</string>
 		</property>
 	</widget>
@@ -133,8 +133,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"I'm going nowhere"</string>
+		<property name="text">
+			<string>I'm going nowhere</string>
 		</property>
 	</widget>
 </widget>

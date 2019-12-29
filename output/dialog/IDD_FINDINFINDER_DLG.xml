@@ -19,8 +19,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"&amp;Find what :"</string>
+		<property name="text">
+			<string>&amp;Find what :</string>
 		</property>
 	</widget>
 	<widget class="QComboBox" name="IDFINDWHAT_FIFOLDER">
@@ -42,8 +42,8 @@
 				<height>16</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Search only in found lines"</string>
+		<property name="text">
+			<string>Search only in found lines</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDWHOLEWORD_FIFOLDER">
@@ -55,8 +55,8 @@
 				<height>15</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Match &amp;whole word only"</string>
+		<property name="text">
+			<string>Match &amp;whole word only</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDMATCHCASE_FIFOLDER">
@@ -68,8 +68,8 @@
 				<height>15</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Match &amp;case"</string>
+		<property name="text">
+			<string>Match &amp;case</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_MODE_STATIC_FIFOLDER">
@@ -82,7 +82,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Search Mode"</string>
+			<string>Search Mode</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDNORMAL_FIFOLDER">
@@ -94,8 +94,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"&amp;Normal"</string>
+		<property name="text">
+			<string>&amp;Normal</string>
 		</property>
 	</widget>
 	<widget />
@@ -109,8 +109,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Re&amp;gular expression"</string>
+		<property name="text">
+			<string>Re&amp;gular expression</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDREDOTMATCHNL_FIFOLDER">
@@ -122,8 +122,8 @@
 				<height>9</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"&amp;. matches newline"</string>
+		<property name="text">
+			<string>&amp;. matches newline</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDOK">
@@ -135,8 +135,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Find All"</string>
+		<property name="text">
+			<string>Find All</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDCANCEL">
@@ -148,8 +148,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Close"</string>
+		<property name="text">
+			<string>Close</string>
 		</property>
 	</widget>
 </widget>

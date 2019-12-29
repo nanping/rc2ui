@@ -20,7 +20,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Localization"</string>
+			<string>Localization</string>
 		</property>
 	</widget>
 	<widget class="QComboBox" name="IDC_COMBO_LOCALIZATION">
@@ -43,7 +43,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Toolbar"</string>
+			<string>Toolbar</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_HIDE">
@@ -55,8 +55,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Hide"</string>
+		<property name="text">
+			<string>Hide</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_SMALLICON">
@@ -68,8 +68,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Small icons"</string>
+		<property name="text">
+			<string>Small icons</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_BIGICON">
@@ -81,8 +81,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Big icons"</string>
+		<property name="text">
+			<string>Big icons</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_STANDARD">
@@ -94,8 +94,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Standard icons"</string>
+		<property name="text">
+			<string>Standard icons</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_DOCSWITCH_GB_STATIC">
@@ -108,7 +108,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Document List Panel"</string>
+			<string>Document List Panel</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_DOCSWITCH">
@@ -120,8 +120,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Show"</string>
+		<property name="text">
+			<string>Show</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_DOCSWITCH_NOEXTCOLUMN">
@@ -133,8 +133,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Disable extension column"</string>
+		<property name="text">
+			<string>Disable extension column</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_TABBAR_GB_STATIC">
@@ -147,7 +147,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Tab Bar"</string>
+			<string>Tab Bar</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_TAB_HIDE">
@@ -159,8 +159,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Hide"</string>
+		<property name="text">
+			<string>Hide</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_TAB_MULTILINE">
@@ -172,8 +172,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Multi-line"</string>
+		<property name="text">
+			<string>Multi-line</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_TAB_VERTICAL">
@@ -185,8 +185,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Vertical"</string>
+		<property name="text">
+			<string>Vertical</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_REDUCE">
@@ -198,8 +198,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Reduce"</string>
+		<property name="text">
+			<string>Reduce</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_LOCK">
@@ -211,8 +211,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Lock (no drag and drop)"</string>
+		<property name="text">
+			<string>Lock (no drag and drop)</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_DRAWINACTIVE">
@@ -224,8 +224,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Darken inactive tabs"</string>
+		<property name="text">
+			<string>Darken inactive tabs</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_ORANGE">
@@ -237,8 +237,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Draw a coloured bar on active tab"</string>
+		<property name="text">
+			<string>Draw a coloured bar on active tab</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_ENABLETABCLOSE">
@@ -250,8 +250,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Show close button on each tab"</string>
+		<property name="text">
+			<string>Show close button on each tab</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_DBCLICK2CLOSE">
@@ -263,8 +263,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Double click to close document"</string>
+		<property name="text">
+			<string>Double click to close document</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_TAB_LAST_EXIT">
@@ -276,8 +276,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Exit on close the last tab"</string>
+		<property name="text">
+			<string>Exit on close the last tab</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_SHOWSTATUSBAR">
@@ -289,8 +289,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Show status bar"</string>
+		<property name="text">
+			<string>Show status bar</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_HIDEMENUBAR">
@@ -302,8 +302,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Hide menu bar (use Alt or F10 key to toggle)"</string>
+		<property name="text">
+			<string>Hide menu bar (use Alt or F10 key to toggle)</string>
 		</property>
 	</widget>
 </widget>

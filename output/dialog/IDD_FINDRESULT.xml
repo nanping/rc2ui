@@ -19,7 +19,7 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
+		<property name="text">
 			<string>&gt;</string>
 		</property>
 	</widget>

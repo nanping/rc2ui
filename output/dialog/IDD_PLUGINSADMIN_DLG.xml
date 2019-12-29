@@ -19,8 +19,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Search: "</string>
+		<property name="text">
+			<string>Search:</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_PLUGINADM_SEARCH_EDIT">
@@ -42,8 +42,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Next"</string>
+		<property name="text">
+			<string>Next</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_PLUGINADM_INSTALL">
@@ -55,8 +55,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Install"</string>
+		<property name="text">
+			<string>Install</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_PLUGINADM_UPDATE">
@@ -68,8 +68,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Update"</string>
+		<property name="text">
+			<string>Update</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_PLUGINADM_REMOVE">
@@ -81,8 +81,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Remove"</string>
+		<property name="text">
+			<string>Remove</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_PLUGINADM_EDIT">
@@ -104,8 +104,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Close"</string>
+		<property name="text">
+			<string>Close</string>
 		</property>
 	</widget>
 </widget>

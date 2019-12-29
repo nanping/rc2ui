@@ -19,8 +19,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"STATIC :"</string>
+		<property name="text">
+			<string>STATIC :</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_STRING_EDIT">
@@ -42,8 +42,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"OK"</string>
+		<property name="text">
+			<string>OK</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDCANCEL">
@@ -55,8 +55,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Cancel"</string>
+		<property name="text">
+			<string>Cancel</string>
 		</property>
 	</widget>
 </widget>

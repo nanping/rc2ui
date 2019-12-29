@@ -20,7 +20,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Word character list"</string>
+			<string>Word character list</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_WORDCHAR_DEFAULT">
@@ -32,8 +32,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Use default Word character list as it is"</string>
+		<property name="text">
+			<string>Use default Word character list as it is</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_WORDCHAR_CUSTOM">
@@ -45,8 +45,8 @@
 				<height>20</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Add your character as part of word\r(don't choose it unless you know what you're doing)"</string>
+		<property name="text">
+			<string>Add your character as part of word\r(don't choose it unless you know what you're doing)</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_WORDCHAR_CUSTOM_EDIT">
@@ -68,8 +68,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"?"</string>
+		<property name="text">
+			<string>?</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDD_STATIC_WORDCHAR_WARNING">
@@ -81,8 +81,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>""</string>
+		<property name="text">
+			<string></string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_DELIMITERSETTINGS_GB_STATIC">
@@ -95,7 +95,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Delimiter selection settings (Ctrl + Mouse double click)"</string>
+			<string>Delimiter selection settings (Ctrl + Mouse double click)</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDD_STATIC_OPENDELIMITER">
@@ -107,8 +107,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Open"</string>
+		<property name="text">
+			<string>Open</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_EDIT_OPENDELIMITER">
@@ -130,8 +130,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"bla bla bla bla bla bla"</string>
+		<property name="text">
+			<string>bla bla bla bla bla bla</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDD_STATIC_BLABLA2NDLINE">
@@ -143,8 +143,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"bla bla bla bla bla bla bla bla bla bla bla bla"</string>
+		<property name="text">
+			<string>bla bla bla bla bla bla bla bla bla bla bla bla</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_EDIT_CLOSEDELIMITER">
@@ -166,8 +166,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Close"</string>
+		<property name="text">
+			<string>Close</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDD_SEVERALLINEMODEON_CHECK">
@@ -179,8 +179,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Allow on several lines"</string>
+		<property name="text">
+			<string>Allow on several lines</string>
 		</property>
 	</widget>
 </widget>

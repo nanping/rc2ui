@@ -22,7 +22,7 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
+		<property name="text">
 			<string>Modify</string>
 		</property>
 	</widget>
@@ -35,7 +35,7 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
+		<property name="text">
 			<string>Clear</string>
 		</property>
 	</widget>
@@ -48,7 +48,7 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
+		<property name="text">
 			<string>Delete</string>
 		</property>
 	</widget>
@@ -61,7 +61,7 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
+		<property name="text">
 			<string>Close</string>
 		</property>
 	</widget>
@@ -84,8 +84,8 @@
 				<height>12</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Filter :"</string>
+		<property name="text">
+			<string>Filter :</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_BABYGRID_FILTER">

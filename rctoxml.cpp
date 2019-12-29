@@ -312,7 +312,7 @@ bool RcToXml::ReadDialog(const QString &tline,const QString &tnextline)
             child.append_attribute("name").set_value("title");
             caption=lsize[0].trimmed();
             if(caption.startsWith('"') && caption.endsWith('"')) caption=caption.mid(1,caption.length()-2).trimmed();
-            child.append_child("string").text().set(lsize[0].trimmed().toStdString().c_str());
+            child.append_child("string").text().set(caption.toStdString().c_str());
 
             k=QString("%1:%2").arg(objName).arg(lsize[1].trimmed());
             if(defines.find(k)==defines.end()) defines.insert(k,QString("output_define(%1);").arg(lsize[1].trimmed()));
@@ -329,6 +329,7 @@ bool RcToXml::ReadDialog(const QString &tline,const QString &tnextline)
                 lsize=tmp.split(',');
             }
             auto node=root.append_child("widget");
+            int fg=0;
             if(lsize[3].indexOf("BS_AUTORADIOBUTTON",0,Qt::CaseInsensitive)>=0)
             {
                 node.append_attribute("class").set_value("QRadioButton");
@@ -336,6 +337,11 @@ bool RcToXml::ReadDialog(const QString &tline,const QString &tnextline)
             else if(lsize[3].indexOf("BS_AUTOCHECKBOX",0,Qt::CaseInsensitive)>=0)
             {
                 node.append_attribute("class").set_value("QCheckBox");
+            }
+            else if(lsize[2].compare("\"msctls_trackbar32\"",Qt::CaseInsensitive)==0)
+            {
+                node.append_attribute("class").set_value("QSlider");
+                fg=1;
             }else{
                 root.append_child(xml_node_type::node_comment).set_value(line.toStdString().c_str());
                 continue;
@@ -349,11 +355,24 @@ bool RcToXml::ReadDialog(const QString &tline,const QString &tnextline)
             child.append_child("width").text().set(lsize[6].trimmed().toStdString().c_str());
             child.append_child("height").text().set(lsize[7].trimmed().toStdString().c_str());
             child=node.append_child("property");
-            child.append_attribute("name").set_value("title");
-            caption=lsize[0].trimmed();
-            if(caption.startsWith('"') && caption.endsWith('"')) caption=caption.mid(1,caption.length()-2).trimmed();
-            child.append_child("string").text().set(lsize[0].trimmed().toStdString().c_str());
-
+            if(fg==0)
+            {
+                child.append_attribute("name").set_value("text");
+                caption=lsize[0].trimmed();
+                if(caption.startsWith('"') && caption.endsWith('"')) caption=caption.mid(1,caption.length()-2).trimmed();
+                child.append_child("string").text().set(caption.toStdString().c_str());
+            }
+            else{
+                child.append_attribute("name").set_value("orientation");
+                if(lsize[3].indexOf("TBS_VERT",0,Qt::CaseInsensitive)>=0)
+                {
+                    child.append_child("enum").text().set("Qt::Vertical");
+                }
+                else
+                {
+                    child.append_child("enum").text().set("Qt::Horizontal");
+                }
+            }
             k=QString("%1:%2").arg(objName).arg(lsize[1].trimmed());
             if(defines.find(k)==defines.end()) defines.insert(k,QString("output_define(%1);").arg(lsize[1].trimmed()));
             continue;
@@ -454,10 +473,10 @@ bool RcToXml::ReadDialog(const QString &tline,const QString &tnextline)
             child.append_child("width").text().set(lsize[4].trimmed().toStdString().c_str());
             child.append_child("height").text().set(lsize[5].trimmed().toStdString().c_str());
             child=node.append_child("property");
-            child.append_attribute("name").set_value("title");
+            child.append_attribute("name").set_value("text");
             caption=lsize[0].trimmed();
             if(caption.startsWith('"') && caption.endsWith('"')) caption=caption.mid(1,caption.length()-2).trimmed();
-            child.append_child("string").text().set(lsize[0].trimmed().toStdString().c_str());
+            child.append_child("string").text().set(caption.toStdString().c_str());
 
             k=QString("%1:%2").arg(objName).arg(lsize[1].trimmed());
             if(defines.find(k)==defines.end()) defines.insert(k,QString("output_define(%1);").arg(lsize[1].trimmed()));
@@ -484,10 +503,10 @@ bool RcToXml::ReadDialog(const QString &tline,const QString &tnextline)
             child.append_child("width").text().set(lsize[4].trimmed().toStdString().c_str());
             child.append_child("height").text().set(lsize[5].trimmed().toStdString().c_str());
             child=node.append_child("property");
-            child.append_attribute("name").set_value("title");
+            child.append_attribute("name").set_value("text");
             caption=lsize[0].trimmed();
             if(caption.startsWith('"') && caption.endsWith('"')) caption=caption.mid(1,caption.length()-2).trimmed();
-            child.append_child("string").text().set(lsize[0].trimmed().toStdString().c_str());
+            child.append_child("string").text().set(caption.toStdString().c_str());
 
             k=QString("%1:%2").arg(objName).arg(lsize[1].trimmed());
             if(defines.find(k)==defines.end()) defines.insert(k,QString("output_define(%1);").arg(lsize[1].trimmed()));
@@ -514,7 +533,7 @@ bool RcToXml::ReadDialog(const QString &tline,const QString &tnextline)
             child.append_child("width").text().set(lsize[4].trimmed().toStdString().c_str());
             child.append_child("height").text().set(lsize[5].trimmed().toStdString().c_str());
             child=node.append_child("property");
-            child.append_attribute("name").set_value("title");
+            child.append_attribute("name").set_value("text");
             caption=lsize[0].trimmed();
             if(caption.startsWith('"') && caption.endsWith('"')) caption=caption.mid(1,caption.length()-2).trimmed();
             child.append_child("string").text().set(caption.toStdString().c_str());

@@ -19,8 +19,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Enable"</string>
+		<property name="text">
+			<string>Enable</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_STYLEMRU">
@@ -32,8 +32,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Enable MRU behaviour"</string>
+		<property name="text">
+			<string>Enable MRU behaviour</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_ENABLEDOCPEEKER">
@@ -45,8 +45,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Peek on tab"</string>
+		<property name="text">
+			<string>Peek on tab</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_ENABLEDOCPEEKONMAP">
@@ -58,8 +58,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Peek on document map"</string>
+		<property name="text">
+			<string>Peek on document map</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_DETECTENCODING">
@@ -71,8 +71,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Autodetect character encoding"</string>
+		<property name="text">
+			<string>Autodetect character encoding</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_MAINTAININDENT">
@@ -84,8 +84,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Auto-indent"</string>
+		<property name="text">
+			<string>Auto-indent</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_MIN2SYSTRAY">
@@ -97,8 +97,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Minimize to system tray"</string>
+		<property name="text">
+			<string>Minimize to system tray</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_SHORTTITLE">
@@ -110,8 +110,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Show only filename in title bar"</string>
+		<property name="text">
+			<string>Show only filename in title bar</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_BACKSLASHISESCAPECHARACTERFORSQL">
@@ -123,8 +123,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Treat backslash as escape character for SQL"</string>
+		<property name="text">
+			<string>Treat backslash as escape character for SQL</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_AUTOUPDATE">
@@ -136,8 +136,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Enable Notepad++ auto-updater"</string>
+		<property name="text">
+			<string>Enable Notepad++ auto-updater</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_CLICKABLELINK_ENABLE">
@@ -149,8 +149,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Enable"</string>
+		<property name="text">
+			<string>Enable</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_CLICKABLELINK_NOUNDERLINE">
@@ -162,8 +162,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"No underline"</string>
+		<property name="text">
+			<string>No underline</string>
 		</property>
 	</widget>
 	<widget class="QComboBox" name="IDC_COMBO_FILEUPDATECHOICE">
@@ -185,8 +185,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Update silently"</string>
+		<property name="text">
+			<string>Update silently</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_UPDATEGOTOEOF">
@@ -198,8 +198,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Scroll to the last line after update"</string>
+		<property name="text">
+			<string>Scroll to the last line after update</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_EDIT_SESSIONFILEEXT">
@@ -232,7 +232,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Document Switcher (Ctrl+TAB)"</string>
+			<string>Document Switcher (Ctrl+TAB)</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_CLICKABLELINK_STATIC">
@@ -245,7 +245,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Clickable Link Settings"</string>
+			<string>Clickable Link Settings</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_DOCUMENTPEEK_STATIC">
@@ -258,7 +258,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Document Peeker"</string>
+			<string>Document Peeker</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_FILEAUTODETECTION_STATIC">
@@ -271,7 +271,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"File Status Auto-Detection"</string>
+			<string>File Status Auto-Detection</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_SESSIONFILEEXT_STATIC">
@@ -283,8 +283,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Session file ext.:"</string>
+		<property name="text">
+			<string>Session file ext.:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_WORKSPACEFILEEXT_STATIC">
@@ -296,8 +296,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Workspace file ext.:"</string>
+		<property name="text">
+			<string>Workspace file ext.:</string>
 		</property>
 	</widget>
 </widget>

@@ -21,7 +21,7 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
+		<property name="text">
 			<string>&amp;Activate</string>
 		</property>
 	</widget>
@@ -34,8 +34,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"&amp;Save"</string>
+		<property name="text">
+			<string>&amp;Save</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_WINDOWS_CLOSE">
@@ -47,8 +47,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"&amp;Close window(s)"</string>
+		<property name="text">
+			<string>&amp;Close window(s)</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_WINDOWS_SORT">
@@ -60,8 +60,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Sort &amp;tabs"</string>
+		<property name="text">
+			<string>Sort &amp;tabs</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDCANCEL">
@@ -73,8 +73,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"&amp;OK"</string>
+		<property name="text">
+			<string>&amp;OK</string>
 		</property>
 	</widget>
 </widget>

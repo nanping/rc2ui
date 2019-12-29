@@ -31,7 +31,7 @@
 				<height>11</height>
 			</rect>
 		</property>
-		<property name="title">
+		<property name="text">
 			<string>NOTEPAD_PLUS_VERSION</string>
 		</property>
 	</widget>
@@ -44,8 +44,8 @@
 				<height>11</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"bit"</string>
+		<property name="text">
+			<string>bit</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_STATIC">
@@ -57,8 +57,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Author :"</string>
+		<property name="text">
+			<string>Author :</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_AUTHOR_NAME">
@@ -70,8 +70,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Notepad++ team"</string>
+		<property name="text">
+			<string>Notepad++ team</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_STATIC">
@@ -83,8 +83,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Home Page :"</string>
+		<property name="text">
+			<string>Home Page :</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_HOME_ADDR">
@@ -96,8 +96,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"https://notepad-plus-plus.org/"</string>
+		<property name="text">
+			<string>https://notepad-plus-plus.org/</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_STATIC">
@@ -110,7 +110,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"GNU General Public Licence"</string>
+			<string>GNU General Public Licence</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDOK">
@@ -122,7 +122,7 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
+		<property name="text">
 			<string>OK</string>
 		</property>
 	</widget>

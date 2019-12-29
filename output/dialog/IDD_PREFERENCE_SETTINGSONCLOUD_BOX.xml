@@ -20,7 +20,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Settings on cloud"</string>
+			<string>Settings on cloud</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_NOCLOUD_RADIO">
@@ -32,8 +32,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"No Cloud"</string>
+		<property name="text">
+			<string>No Cloud</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_WITHCLOUD_RADIO">
@@ -45,8 +45,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Set your cloud location path here:"</string>
+		<property name="text">
+			<string>Set your cloud location path here:</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_CLOUDPATH_EDIT">
@@ -68,8 +68,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"..."</string>
+		<property name="text">
+			<string>...</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_SETTINGSONCLOUD_WARNING_STATIC">
@@ -81,8 +81,8 @@
 				<height>20</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>""</string>
+		<property name="text">
+			<string></string>
 		</property>
 	</widget>
 </widget>

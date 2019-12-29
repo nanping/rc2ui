@@ -19,8 +19,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Supported extensions:"</string>
+		<property name="text">
+			<string>Supported extensions:</string>
 		</property>
 	</widget>
 	<widget class="QListView" name="IDC_REGEXT_LANG_LIST">
@@ -62,8 +62,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"-&gt;"</string>
+		<property name="text">
+			<string>-&gt;</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_REMOVEEXT_BUTTON">
@@ -75,8 +75,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"&lt;-"</string>
+		<property name="text">
+			<string>&lt;-</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_REGISTEREDEXTS_STATIC">
@@ -88,8 +88,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Registered extensions:"</string>
+		<property name="text">
+			<string>Registered extensions:</string>
 		</property>
 	</widget>
 	<widget class="QListView" name="IDC_REGEXT_REGISTEREDEXTS_LIST">

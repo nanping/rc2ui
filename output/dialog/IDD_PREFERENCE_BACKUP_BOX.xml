@@ -20,7 +20,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Session snapshot and periodic backup"</string>
+			<string>Session snapshot and periodic backup</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_REMEMBERSESSION">
@@ -32,8 +32,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Remember current session for next launch"</string>
+		<property name="text">
+			<string>Remember current session for next launch</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_BACKUPDIR_RESTORESESSION_CHECK">
@@ -45,8 +45,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Enable session snapshot and periodic backup"</string>
+		<property name="text">
+			<string>Enable session snapshot and periodic backup</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_BACKUPDIR_RESTORESESSION_EDIT">
@@ -68,8 +68,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Backup in every"</string>
+		<property name="text">
+			<string>Backup in every</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDD_BACKUPDIR_RESTORESESSION_STATIC2">
@@ -81,8 +81,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"seconds"</string>
+		<property name="text">
+			<string>seconds</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_BACKUPDIR_GRP_STATIC">
@@ -95,7 +95,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Backup on save"</string>
+			<string>Backup on save</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_BKNONE">
@@ -107,8 +107,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"None"</string>
+		<property name="text">
+			<string>None</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_BKSIMPLE">
@@ -120,8 +120,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Simple backup"</string>
+		<property name="text">
+			<string>Simple backup</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_BKVERBOSE">
@@ -133,8 +133,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Verbose backup"</string>
+		<property name="text">
+			<string>Verbose backup</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_BACKUPDIR_USERCUSTOMDIR_GRPSTATIC">
@@ -147,7 +147,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Custom Backup Directory"</string>
+			<string>Custom Backup Directory</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_BACKUPDIR_CHECK">
@@ -159,8 +159,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>""</string>
+		<property name="text">
+			<string></string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDD_BACKUPDIR_STATIC">
@@ -172,8 +172,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Directory :"</string>
+		<property name="text">
+			<string>Directory :</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_BACKUPDIR_EDIT">
@@ -195,8 +195,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"..."</string>
+		<property name="text">
+			<string>...</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDD_BACKUPDIR_RESTORESESSION_PATHLABEL_STATIC">
@@ -208,8 +208,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Backup path:"</string>
+		<property name="text">
+			<string>Backup path:</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDD_BACKUPDIR_RESTORESESSION_PATH_EDIT">

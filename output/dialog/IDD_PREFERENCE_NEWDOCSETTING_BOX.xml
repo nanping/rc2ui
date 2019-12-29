@@ -20,7 +20,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"New Document"</string>
+			<string>New Document</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_FORMAT_GB_STATIC">
@@ -33,7 +33,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Format (Line ending)"</string>
+			<string>Format (Line ending)</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_F_WIN">
@@ -45,8 +45,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Windows (CR LF)"</string>
+		<property name="text">
+			<string>Windows (CR LF)</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_F_UNIX">
@@ -58,8 +58,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Unix (LF)"</string>
+		<property name="text">
+			<string>Unix (LF)</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_F_MAC">
@@ -71,8 +71,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Macintosh (CR)"</string>
+		<property name="text">
+			<string>Macintosh (CR)</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_ENCODING_STATIC">
@@ -85,7 +85,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Encoding"</string>
+			<string>Encoding</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_ANSI">
@@ -97,8 +97,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"ANSI"</string>
+		<property name="text">
+			<string>ANSI</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_UTF8SANSBOM">
@@ -110,8 +110,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"UTF-8"</string>
+		<property name="text">
+			<string>UTF-8</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_CHECK_OPENANSIASUTF8">
@@ -123,8 +123,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Apply to opened ANSI files"</string>
+		<property name="text">
+			<string>Apply to opened ANSI files</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_UTF8">
@@ -136,8 +136,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"UTF-8 with BOM"</string>
+		<property name="text">
+			<string>UTF-8 with BOM</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_UCS2BIG">
@@ -149,8 +149,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"UCS-2 Big Endian with BOM"</string>
+		<property name="text">
+			<string>UCS-2 Big Endian with BOM</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_UCS2SMALL">
@@ -162,8 +162,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"UCS-2 Little Endian with BOM"</string>
+		<property name="text">
+			<string>UCS-2 Little Endian with BOM</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_RADIO_OTHERCP">
@@ -175,8 +175,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>""</string>
+		<property name="text">
+			<string></string>
 		</property>
 	</widget>
 	<widget class="QComboBox" name="IDC_COMBO_OTHERCP">
@@ -198,8 +198,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Default language :"</string>
+		<property name="text">
+			<string>Default language :</string>
 		</property>
 	</widget>
 	<widget class="QComboBox" name="IDC_COMBO_DEFAULTLANG">

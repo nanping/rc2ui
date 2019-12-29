@@ -19,8 +19,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"https://ivan-radic.github.io/udl-documentation/"</string>
+		<property name="text">
+			<string>https://ivan-radic.github.io/udl-documentation/</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_WEB_HELP_STATIC">
@@ -32,8 +32,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Temporary doc site:"</string>
+		<property name="text">
+			<string>Temporary doc site:</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_WEB_HELP_DESCGROUP_STATIC">
@@ -46,7 +46,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Documentation:"</string>
+			<string>Documentation:</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDC_DEFAULT_STYLER">
@@ -58,8 +58,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_DEFAULT_DESCGROUP_STATIC">
@@ -72,7 +72,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Default style:"</string>
+			<string>Default style:</string>
 		</property>
 	</widget>
 	<widget class="QCheckBox" name="IDC_FOLDER_FOLD_COMPACT">
@@ -84,8 +84,8 @@
 				<height>11</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Fold &amp;compact (fold empty lines too)"</string>
+		<property name="text">
+			<string>Fold &amp;compact (fold empty lines too)</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_FOLDER_IN_COMMENT_OPEN_EDIT">
@@ -127,8 +127,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_FOLDER_IN_COMMENT_OPEN_STATIC">
@@ -140,8 +140,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Open:"</string>
+		<property name="text">
+			<string>Open:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_FOLDER_IN_COMMENT_MIDDLE_STATIC">
@@ -153,8 +153,8 @@
 				<height>9</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Middle:"</string>
+		<property name="text">
+			<string>Middle:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_FOLDER_IN_COMMENT_CLOSE_STATIC">
@@ -166,8 +166,8 @@
 				<height>9</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Close:"</string>
+		<property name="text">
+			<string>Close:</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_FOLDER_IN_COMMENT_DESCGROUP_STATIC">
@@ -180,7 +180,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Folding in comment style:"</string>
+			<string>Folding in comment style:</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_FOLDER_IN_CODE1_OPEN_EDIT">
@@ -222,8 +222,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_FOLDER_IN_CODE1_OPEN_STATIC">
@@ -235,8 +235,8 @@
 				<height>9</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Open:"</string>
+		<property name="text">
+			<string>Open:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_FOLDER_IN_CODE1_MIDDLE_STATIC">
@@ -248,8 +248,8 @@
 				<height>9</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Middle:"</string>
+		<property name="text">
+			<string>Middle:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_FOLDER_IN_CODE1_CLOSE_STATIC">
@@ -261,8 +261,8 @@
 				<height>9</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Close:"</string>
+		<property name="text">
+			<string>Close:</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_FOLDER_IN_CODE1_DESCGROUP_STATIC">
@@ -275,7 +275,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Folding in code 1 style:"</string>
+			<string>Folding in code 1 style:</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_FOLDER_IN_CODE2_OPEN_EDIT">
@@ -317,8 +317,8 @@
 				<height>13</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Styler"</string>
+		<property name="text">
+			<string>Styler</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_FOLDER_IN_CODE2_OPEN_STATIC">
@@ -330,8 +330,8 @@
 				<height>9</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Open:"</string>
+		<property name="text">
+			<string>Open:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_FOLDER_IN_CODE2_MIDDLE_STATIC">
@@ -343,8 +343,8 @@
 				<height>9</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Middle:"</string>
+		<property name="text">
+			<string>Middle:</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_FOLDER_IN_CODE2_CLOSE_STATIC">
@@ -356,8 +356,8 @@
 				<height>9</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Close:"</string>
+		<property name="text">
+			<string>Close:</string>
 		</property>
 	</widget>
 	<widget class="QGroupBox" name="IDC_FOLDER_IN_CODE2_DESCGROUP_STATIC">
@@ -370,7 +370,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Folding in code 2 style (separators needed):"</string>
+			<string>Folding in code 2 style (separators needed):</string>
 		</property>
 	</widget>
 </widget>

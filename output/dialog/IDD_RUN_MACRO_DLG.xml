@@ -20,7 +20,7 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
+		<property name="text">
 			<string>&amp;Run</string>
 		</property>
 	</widget>
@@ -33,8 +33,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"&amp;Cancel"</string>
+		<property name="text">
+			<string>&amp;Cancel</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_M_RUN_MULTI">
@@ -46,8 +46,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Run"</string>
+		<property name="text">
+			<string>Run</string>
 		</property>
 	</widget>
 	<widget class="QRadioButton" name="IDC_M_RUN_EOF">
@@ -59,8 +59,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Run until the &amp;end of file"</string>
+		<property name="text">
+			<string>Run until the &amp;end of file</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_M_RUN_TIMES">
@@ -92,8 +92,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Macro to run :"</string>
+		<property name="text">
+			<string>Macro to run :</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_TIMES_STATIC">
@@ -105,8 +105,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"times"</string>
+		<property name="text">
+			<string>times</string>
 		</property>
 	</widget>
 </widget>

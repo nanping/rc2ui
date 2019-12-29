@@ -31,7 +31,7 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
+		<property name="text">
 			<string>More Colours...</string>
 		</property>
 	</widget>

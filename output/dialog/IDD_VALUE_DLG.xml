@@ -20,8 +20,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"STATIC :"</string>
+		<property name="text">
+			<string>STATIC :</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_VALUE_EDIT">

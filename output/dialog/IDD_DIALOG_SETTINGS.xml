@@ -20,7 +20,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Context Menu"</string>
+			<string>Context Menu</string>
 		</property>
 	</widget>
 	<widget />
@@ -34,8 +34,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Show icon"</string>
+		<property name="text">
+			<string>Show icon</string>
 		</property>
 	</widget>
 	<widget class="QLabel" name="IDC_STATIC">
@@ -47,8 +47,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Menu text"</string>
+		<property name="text">
+			<string>Menu text</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_EDIT_MENU">
@@ -70,8 +70,8 @@
 				<height>8</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Command line params"</string>
+		<property name="text">
+			<string>Command line params</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_EDIT_COMMAND">
@@ -94,7 +94,7 @@
 			</rect>
 		</property>
 		<property name="title">
-			<string>"Dynamic Icon"</string>
+			<string>Dynamic Icon</string>
 		</property>
 	</widget>
 	<widget />
@@ -108,8 +108,8 @@
 				<height>10</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Show extension"</string>
+		<property name="text">
+			<string>Show extension</string>
 		</property>
 	</widget>
 	<widget class="QPushButton" name="IDOK">
@@ -121,7 +121,7 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
+		<property name="text">
 			<string>OK</string>
 		</property>
 	</widget>

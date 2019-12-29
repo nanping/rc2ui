@@ -19,7 +19,7 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
+		<property name="text">
 			<string>OK</string>
 		</property>
 	</widget>
@@ -32,8 +32,8 @@
 				<height>14</height>
 			</rect>
 		</property>
-		<property name="title">
-			<string>"Cancel"</string>
+		<property name="text">
+			<string>Cancel</string>
 		</property>
 	</widget>
 	<widget class="QLineEdit" name="IDC_EDIT_FILEFULLPATHNAME">
