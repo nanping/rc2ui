@@ -1,0 +1,143 @@
+<widget class="QDialog" name="IDD_PREFERENCE_RECENTFILESHISTORY_BOX">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>455</width>
+			<height>185</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<widget class="QGroupBox" name="IDC_HISTORY_GB_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>104</x>
+				<y>25</y>
+				<width>260</width>
+				<height>126</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Recent Files History"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_MAXNBFILE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>108</x>
+				<y>52</y>
+				<width>112</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Max. number of entries :"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_MAXNBFILEVAL_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>229</x>
+				<y>52</y>
+				<width>15</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"0"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_DONTCHECKHISTORY">
+		<property name="geometry">
+			<rect>
+				<x>121</x>
+				<y>39</y>
+				<width>140</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Don't check at launch time"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_DISPLAY_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>121</x>
+				<y>65</y>
+				<width>225</width>
+				<height>73</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Display"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_INSUBMENU">
+		<property name="geometry">
+			<rect>
+				<x>132</x>
+				<y>76</y>
+				<width>79</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"In Submenu"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_ONLYFILENAME">
+		<property name="geometry">
+			<rect>
+				<x>133</x>
+				<y>92</y>
+				<width>170</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Only File Name"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_FULLFILENAMEPATH">
+		<property name="geometry">
+			<rect>
+				<x>133</x>
+				<y>106</y>
+				<width>170</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Full File Name Path"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_CUSTOMIZELENTH">
+		<property name="geometry">
+			<rect>
+				<x>133</x>
+				<y>120</y>
+				<width>120</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Customize Maximum Length:"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_CUSTOMIZELENGTHVAL_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>255</x>
+				<y>120</y>
+				<width>18</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"0"</string>
+		</property>
+	</widget>
+</widget>

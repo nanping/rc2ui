@@ -1,0 +1,443 @@
+<widget class="QDialog" name="IDD_PREFERENCE_MARGEIN_BOX">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>455</width>
+			<height>185</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<widget class="QGroupBox" name="IDC_FMS_GB_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>46</x>
+				<y>44</y>
+				<width>83</width>
+				<height>89</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Folder Margin Style"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_SIMPLE">
+		<property name="geometry">
+			<rect>
+				<x>55</x>
+				<y>57</y>
+				<width>59</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Simple"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_ARROW">
+		<property name="geometry">
+			<rect>
+				<x>55</x>
+				<y>71</y>
+				<width>60</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Arrow"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_CIRCLE">
+		<property name="geometry">
+			<rect>
+				<x>55</x>
+				<y>86</y>
+				<width>62</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Circle tree"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_FOLDMARGENONE">
+		<property name="geometry">
+			<rect>
+				<x>55</x>
+				<y>115</y>
+				<width>61</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"None"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_BOX">
+		<property name="geometry">
+			<rect>
+				<x>55</x>
+				<y>100</y>
+				<width>61</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Box tree"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_SHOWVERTICALEDGE">
+		<property name="geometry">
+			<rect>
+				<x>153</x>
+				<y>56</y>
+				<width>122</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Show vertical edge"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_NBCOLONE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>148</x>
+				<y>104</y>
+				<width>83</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Number of columns :"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_COLONENUMBER_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>238</x>
+				<y>103</y>
+				<width>18</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"0"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_VES_GB_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>142</x>
+				<y>44</y>
+				<width>148</width>
+				<height>77</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Vertical Edge Settings"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_LNMODE">
+		<property name="geometry">
+			<rect>
+				<x>156</x>
+				<y>72</y>
+				<width>91</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Line mode"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_BGMODE">
+		<property name="geometry">
+			<rect>
+				<x>156</x>
+				<y>86</y>
+				<width>91</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Background mode"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_CARETSETTING_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>46</x>
+				<y>1</y>
+				<width>199</width>
+				<height>40</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Caret Settings"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_WIDTH_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>50</x>
+				<y>20</y>
+				<width>37</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Width :"</string>
+		</property>
+	</widget>
+	<widget class="QComboBox" name="IDC_WIDTH_COMBO">
+		<property name="geometry">
+			<rect>
+				<x>89</x>
+				<y>18</y>
+				<width>40</width>
+				<height>30</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_BLINKRATE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>161</x>
+				<y>13</y>
+				<width>60</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Blink rate :"</string>
+		</property>
+	</widget>
+	<widget />
+	<!--CONTROL         "",IDC_CARETBLINKRATE_SLIDER,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,156,25,67,13-->
+	<widget class="QLabel" name="IDC_CARETBLINKRATE_S_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>225</x>
+				<y>25</y>
+				<width>12</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"S"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_CARETBLINKRATE_F_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>144</x>
+				<y>25</y>
+				<width>12</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"F"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_MULTISELECTION_GB_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>253</x>
+				<y>1</y>
+				<width>140</width>
+				<height>40</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Multi-Editing Settings"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_MULTISELECTION">
+		<property name="geometry">
+			<rect>
+				<x>261</x>
+				<y>18</y>
+				<width>130</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Enable (Ctrl+Mouse click/selection)"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_LW_GB_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>301</x>
+				<y>44</y>
+				<width>92</width>
+				<height>56</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Line Wrap"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_LWDEF">
+		<property name="geometry">
+			<rect>
+				<x>311</x>
+				<y>57</y>
+				<width>59</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Default"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_LWALIGN">
+		<property name="geometry">
+			<rect>
+				<x>311</x>
+				<y>71</y>
+				<width>60</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Aligned"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_LWINDENT">
+		<property name="geometry">
+			<rect>
+				<x>311</x>
+				<y>85</y>
+				<width>62</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Indent"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_BORDERWIDTH_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>142</x>
+				<y>122</y>
+				<width>148</width>
+				<height>30</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Border Width"</string>
+		</property>
+	</widget>
+	<widget />
+	<!--CONTROL         "",IDC_BORDERWIDTH_SLIDER,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,145,135,67,13-->
+	<widget class="QLabel" name="IDC_BORDERWIDTHVAL_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>213</x>
+				<y>135</y>
+				<width>12</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"0"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_NOEDGE">
+		<property name="geometry">
+			<rect>
+				<x>228</x>
+				<y>135</y>
+				<width>60</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"No edge"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_LINENUMBERMARGE">
+		<property name="geometry">
+			<rect>
+				<x>298</x>
+				<y>107</y>
+				<width>141</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Display line number"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_BOOKMARKMARGE">
+		<property name="geometry">
+			<rect>
+				<x>298</x>
+				<y>120</y>
+				<width>150</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Display bookmark"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_CURRENTLINEHILITE">
+		<property name="geometry">
+			<rect>
+				<x>298</x>
+				<y>133</y>
+				<width>129</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Enable current line highlighting"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_SMOOTHFONT">
+		<property name="geometry">
+			<rect>
+				<x>298</x>
+				<y>146</y>
+				<width>129</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Enable smooth font"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_SCROLLBEYONDLASTLINE">
+		<property name="geometry">
+			<rect>
+				<x>298</x>
+				<y>159</y>
+				<width>139</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Enable scrolling beyond last line"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_DISABLEADVANCEDSCROLL">
+		<property name="geometry">
+			<rect>
+				<x>298</x>
+				<y>172</y>
+				<width>139</width>
+				<height>18</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Disable advanced scrolling feature\r(if you have touchpad problem)"</string>
+		</property>
+	</widget>
+</widget>

@@ -1,0 +1,26 @@
+<widget class="QDialog" name="IDD_BUTTON_DLG">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>12</width>
+			<height>10</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<widget class="QPushButton" name="IDC_RESTORE_BUTTON">
+		<property name="geometry">
+			<rect>
+				<x>0</x>
+				<y>0</y>
+				<width>12</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"+"</string>
+		</property>
+	</widget>
+</widget>

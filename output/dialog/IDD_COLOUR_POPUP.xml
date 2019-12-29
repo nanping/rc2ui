@@ -1,0 +1,38 @@
+<widget class="QDialog" name="IDD_COLOUR_POPUP">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>132</width>
+			<height>113</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<widget class="QListView" name="IDC_COLOUR_LIST">
+		<property name="geometry">
+			<rect>
+				<x>7</x>
+				<y>7</y>
+				<width>117</width>
+				<height>79</height>
+			</rect>
+		</property>
+	</widget>
+	<!--LBS_OWNERDRAWFIXED | LBS_NOINTEGRALHEIGHT |-->
+	<!--LBS_MULTICOLUMN | NOT WS_BORDER | WS_TABSTOP-->
+	<widget class="QPushButton" name="IDOK">
+		<property name="geometry">
+			<rect>
+				<x>39</x>
+				<y>92</y>
+				<width>55</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>More Colours...</string>
+		</property>
+	</widget>
+</widget>

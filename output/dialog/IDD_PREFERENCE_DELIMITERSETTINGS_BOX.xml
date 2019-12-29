@@ -1,0 +1,186 @@
+<widget class="QDialog" name="IDD_PREFERENCE_DELIMITERSETTINGS_BOX">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>455</width>
+			<height>185</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<widget class="QGroupBox" name="IDC_WORDCHARLIST_GB_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>89</x>
+				<y>2</y>
+				<width>268</width>
+				<height>93</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Word character list"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_WORDCHAR_DEFAULT">
+		<property name="geometry">
+			<rect>
+				<x>100</x>
+				<y>18</y>
+				<width>250</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Use default Word character list as it is"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_WORDCHAR_CUSTOM">
+		<property name="geometry">
+			<rect>
+				<x>100</x>
+				<y>32</y>
+				<width>250</width>
+				<height>20</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Add your character as part of word\r(don't choose it unless you know what you're doing)"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_WORDCHAR_CUSTOM_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>111</x>
+				<y>54</y>
+				<width>180</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDD_WORDCHAR_QUESTION_BUTTON">
+		<property name="geometry">
+			<rect>
+				<x>303</x>
+				<y>53</y>
+				<width>16</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"?"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDD_STATIC_WORDCHAR_WARNING">
+		<property name="geometry">
+			<rect>
+				<x>111</x>
+				<y>70</y>
+				<width>210</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>""</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_DELIMITERSETTINGS_GB_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>89</x>
+				<y>113</y>
+				<width>268</width>
+				<height>70</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Delimiter selection settings (Ctrl + Mouse double click)"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDD_STATIC_OPENDELIMITER">
+		<property name="geometry">
+			<rect>
+				<x>117</x>
+				<y>128</y>
+				<width>34</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Open"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_EDIT_OPENDELIMITER">
+		<property name="geometry">
+			<rect>
+				<x>156</x>
+				<y>126</y>
+				<width>14</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDD_STATIC_BLABLA">
+		<property name="geometry">
+			<rect>
+				<x>172</x>
+				<y>128</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"bla bla bla bla bla bla"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDD_STATIC_BLABLA2NDLINE">
+		<property name="geometry">
+			<rect>
+				<x>132</x>
+				<y>148</y>
+				<width>126</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"bla bla bla bla bla bla bla bla bla bla bla bla"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_EDIT_CLOSEDELIMITER">
+		<property name="geometry">
+			<rect>
+				<x>237</x>
+				<y>126</y>
+				<width>14</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDD_STATIC_CLOSEDELIMITER">
+		<property name="geometry">
+			<rect>
+				<x>252</x>
+				<y>128</y>
+				<width>47</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Close"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDD_SEVERALLINEMODEON_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>118</x>
+				<y>166</y>
+				<width>160</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Allow on several lines"</string>
+		</property>
+	</widget>
+</widget>

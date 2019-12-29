@@ -1,0 +1,163 @@
+<widget class="QDialog" name="IDD_FINDCHARACTERS">
+	<property name="geometry">
+		<rect>
+			<x>26</x>
+			<y>41</y>
+			<width>263</width>
+			<height>126</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Find Characters in Range...</string>
+	</property>
+	<widget class="QRadioButton" name="IDC_NONASCCI_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>22</x>
+				<y>13</y>
+				<width>146</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Non-ASCII Characters (128-255)"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_ASCCI_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>22</x>
+				<y>32</y>
+				<width>151</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"ASCII Characters (0 - 127)"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_MYRANGE_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>22</x>
+				<y>51</y>
+				<width>67</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"My Range:"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_RANGESTART_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>91</x>
+				<y>49</y>
+				<width>25</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>122</x>
+				<y>52</y>
+				<width>8</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"-"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_RANGEEND_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>129</x>
+				<y>49</y>
+				<width>25</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="ID_FINDCHAR_DIRUP">
+		<property name="geometry">
+			<rect>
+				<x>25</x>
+				<y>91</y>
+				<width>64</width>
+				<height>12</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"&amp;Up"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="ID_FINDCHAR_DIRDOWN">
+		<property name="geometry">
+			<rect>
+				<x>25</x>
+				<y>103</y>
+				<width>63</width>
+				<height>12</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"&amp;Down"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_FINDCHAR_DIR_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>19</x>
+				<y>79</y>
+				<width>74</width>
+				<height>42</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Direction"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="ID_FINDCHAR_WRAP">
+		<property name="geometry">
+			<rect>
+				<x>105</x>
+				<y>102</y>
+				<width>110</width>
+				<height>15</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Wra&amp;p around"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="ID_FINDCHAR_NEXT">
+		<property name="geometry">
+			<rect>
+				<x>182</x>
+				<y>8</y>
+				<width>70</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>Find</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDCANCEL">
+		<property name="geometry">
+			<rect>
+				<x>181</x>
+				<y>27</y>
+				<width>70</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Close"</string>
+		</property>
+	</widget>
+</widget>

@@ -1,0 +1,114 @@
+<widget class="QDialog" name="IDD_PREFERENCE_DEFAULTDIRECTORY_BOX">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>455</width>
+			<height>185</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<widget class="QGroupBox" name="IDC_OPENSAVEDIR_GR_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>110</x>
+				<y>29</y>
+				<width>232</width>
+				<height>101</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Default Directory (Open/Save)"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_OPENSAVEDIR_FOLLOWCURRENT_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>118</x>
+				<y>60</y>
+				<width>200</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Follow current document"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_OPENSAVEDIR_REMEMBERLAST_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>118</x>
+				<y>75</y>
+				<width>217</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Remember last used directory"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_OPENSAVEDIR_ALWAYSON_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>118</x>
+				<y>89</y>
+				<width>11</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>""</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_OPENSAVEDIR_ALWAYSON_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>134</x>
+				<y>88</y>
+				<width>179</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDD_OPENSAVEDIR_ALWAYSON_BROWSE_BUTTON">
+		<property name="geometry">
+			<rect>
+				<x>320</x>
+				<y>87</y>
+				<width>16</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"..."</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_OPENSAVEDIR_CHECK_USENEWSTYLESAVEDIALOG">
+		<property name="geometry">
+			<rect>
+				<x>110</x>
+				<y>145</y>
+				<width>342</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Use new style dialog (without file extension feature &amp;&amp; Unix style path capacity)"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_OPENSAVEDIR_CHECK_DRROPFOLDEROPENFILES">
+		<property name="geometry">
+			<rect>
+				<x>110</x>
+				<y>158</y>
+				<width>342</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Open all files of folder instead of launching Folder as Workspace on folder dropping"</string>
+		</property>
+	</widget>
+</widget>

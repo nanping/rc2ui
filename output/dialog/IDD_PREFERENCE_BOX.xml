@@ -1,0 +1,36 @@
+<widget class="QDialog" name="IDD_PREFERENCE_BOX">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>560</width>
+			<height>220</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Preferences</string>
+	</property>
+	<widget class="QListView" name="IDC_LIST_DLGTITLE">
+		<property name="geometry">
+			<rect>
+				<x>10</x>
+				<y>10</y>
+				<width>80</width>
+				<height>185</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_BUTTON_CLOSE">
+		<property name="geometry">
+			<rect>
+				<x>255</x>
+				<y>200</y>
+				<width>45</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Close"</string>
+		</property>
+	</widget>
+</widget>

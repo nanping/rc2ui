@@ -1,0 +1,26 @@
+<widget class="QDialog" name="IDD_FINDRESULT">
+	<property name="geometry">
+		<rect>
+			<x>26</x>
+			<y>41</y>
+			<width>223</width>
+			<height>67</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Find result</string>
+	</property>
+	<widget class="QPushButton" name="IDC_INCFINDNXTOK">
+		<property name="geometry">
+			<rect>
+				<x>243</x>
+				<y>0</y>
+				<width>16</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>&gt;</string>
+		</property>
+	</widget>
+</widget>

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/debug_continue.png</file>
+        <file>images/tiny_refresh_plugins.png</file>
+    </qresource>
+</RCC>

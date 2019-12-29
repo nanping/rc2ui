@@ -1,0 +1,90 @@
+<widget class="QDialog" name="IDD_RUN_DLG">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>196</width>
+			<height>100</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Run...</string>
+	</property>
+	<!--WS_SYSMENU-->
+	<widget class="QPushButton" name="IDOK">
+		<property name="geometry">
+			<rect>
+				<x>16</x>
+				<y>74</y>
+				<width>47</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>Run</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDCANCEL">
+		<property name="geometry">
+			<rect>
+				<x>121</x>
+				<y>74</y>
+				<width>48</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Cancel"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_BUTTON_FILE_BROWSER">
+		<property name="geometry">
+			<rect>
+				<x>154</x>
+				<y>30</y>
+				<width>16</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"..."</string>
+		</property>
+	</widget>
+	<widget class="QComboBox" name="IDC_COMBO_RUN_PATH">
+		<property name="geometry">
+			<rect>
+				<x>14</x>
+				<y>31</y>
+				<width>136</width>
+				<height>71</height>
+			</rect>
+		</property>
+	</widget>
+	<!--CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP-->
+	<widget class="QGroupBox" name="IDC_MAINTEXT_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>7</x>
+				<y>10</y>
+				<width>172</width>
+				<height>49</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"The Program to Run"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_BUTTON_SAVE">
+		<property name="geometry">
+			<rect>
+				<x>68</x>
+				<y>74</y>
+				<width>50</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Save..."</string>
+		</property>
+	</widget>
+</widget>

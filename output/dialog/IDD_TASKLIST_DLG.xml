@@ -1,0 +1,13 @@
+<widget class="QDialog" name="IDD_TASKLIST_DLG">
+	<property name="geometry">
+		<rect>
+			<x>DISCARDABLE 0</x>
+			<y>0</y>
+			<width>300</width>
+			<height>300</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+</widget>

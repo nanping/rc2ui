@@ -1,0 +1,139 @@
+<widget class="QDialog" name="IDD_ABOUTBOX">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>271</width>
+			<height>240</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<widget class="QLineEdit" name="IDC_BUILD_DATETIME">
+		<property name="geometry">
+			<rect>
+				<x>150</x>
+				<y>2</y>
+				<width>150</width>
+				<height>10</height>
+			</rect>
+		</property>
+	</widget>
+	<widget />
+	<!--CONTROL         "",IDI_CHAMELEON,"Static",SS_OWNERDRAW,20,5,64,64-->
+	<widget class="QLabel" name="IDC_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>70</x>
+				<y>20</y>
+				<width>140</width>
+				<height>11</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>NOTEPAD_PLUS_VERSION</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_VERSION_BIT">
+		<property name="geometry">
+			<rect>
+				<x>150</x>
+				<y>20</y>
+				<width>140</width>
+				<height>11</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"bit"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>21</x>
+				<y>45</y>
+				<width>31</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Author :"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_AUTHOR_NAME">
+		<property name="geometry">
+			<rect>
+				<x>78</x>
+				<y>45</y>
+				<width>70</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Notepad++ team"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>21</x>
+				<y>59</y>
+				<width>47</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Home Page :"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_HOME_ADDR">
+		<property name="geometry">
+			<rect>
+				<x>78</x>
+				<y>59</y>
+				<width>126</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"https://notepad-plus-plus.org/"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>19</x>
+				<y>75</y>
+				<width>231</width>
+				<height>131</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"GNU General Public Licence"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDOK">
+		<property name="geometry">
+			<rect>
+				<x>106</x>
+				<y>215</y>
+				<width>50</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>OK</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_LICENCE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>31</x>
+				<y>99</y>
+				<width>209</width>
+				<height>96</height>
+			</rect>
+		</property>
+	</widget>
+</widget>

@@ -1,0 +1,88 @@
+<widget class="QDialog" name="IDD_PREFERENCE_SETTINGSONCLOUD_BOX">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>455</width>
+			<height>185</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<widget class="QGroupBox" name="IDC_SETTINGSONCLOUD_GB_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>89</x>
+				<y>44</y>
+				<width>268</width>
+				<height>102</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Settings on cloud"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_NOCLOUD_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>125</x>
+				<y>57</y>
+				<width>180</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"No Cloud"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_WITHCLOUD_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>125</x>
+				<y>72</y>
+				<width>180</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Set your cloud location path here:"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_CLOUDPATH_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>134</x>
+				<y>88</y>
+				<width>179</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDD_CLOUDPATH_BROWSE_BUTTON">
+		<property name="geometry">
+			<rect>
+				<x>320</x>
+				<y>87</y>
+				<width>16</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"..."</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_SETTINGSONCLOUD_WARNING_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>131</x>
+				<y>117</y>
+				<width>220</width>
+				<height>20</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>""</string>
+		</property>
+	</widget>
+</widget>

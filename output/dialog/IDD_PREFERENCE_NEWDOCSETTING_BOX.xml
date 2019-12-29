@@ -1,0 +1,215 @@
+<widget class="QDialog" name="IDD_PREFERENCE_NEWDOCSETTING_BOX">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>455</width>
+			<height>185</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<widget class="QGroupBox" name="IDC_NEWDOCUMENT_GR_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>50</x>
+				<y>8</y>
+				<width>354</width>
+				<height>161</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"New Document"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_FORMAT_GB_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>68</x>
+				<y>29</y>
+				<width>129</width>
+				<height>79</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Format (Line ending)"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_F_WIN">
+		<property name="geometry">
+			<rect>
+				<x>75</x>
+				<y>48</y>
+				<width>70</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Windows (CR LF)"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_F_UNIX">
+		<property name="geometry">
+			<rect>
+				<x>75</x>
+				<y>64</y>
+				<width>70</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Unix (LF)"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_F_MAC">
+		<property name="geometry">
+			<rect>
+				<x>75</x>
+				<y>80</y>
+				<width>70</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Macintosh (CR)"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_ENCODING_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>212</x>
+				<y>28</y>
+				<width>175</width>
+				<height>122</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Encoding"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_ANSI">
+		<property name="geometry">
+			<rect>
+				<x>222</x>
+				<y>39</y>
+				<width>80</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"ANSI"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_UTF8SANSBOM">
+		<property name="geometry">
+			<rect>
+				<x>222</x>
+				<y>53</y>
+				<width>128</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"UTF-8"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_OPENANSIASUTF8">
+		<property name="geometry">
+			<rect>
+				<x>232</x>
+				<y>65</y>
+				<width>144</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Apply to opened ANSI files"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_UTF8">
+		<property name="geometry">
+			<rect>
+				<x>222</x>
+				<y>79</y>
+				<width>62</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"UTF-8 with BOM"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_UCS2BIG">
+		<property name="geometry">
+			<rect>
+				<x>222</x>
+				<y>95</y>
+				<width>110</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"UCS-2 Big Endian with BOM"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_UCS2SMALL">
+		<property name="geometry">
+			<rect>
+				<x>222</x>
+				<y>111</y>
+				<width>110</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"UCS-2 Little Endian with BOM"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_OTHERCP">
+		<property name="geometry">
+			<rect>
+				<x>222</x>
+				<y>126</y>
+				<width>10</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>""</string>
+		</property>
+	</widget>
+	<widget class="QComboBox" name="IDC_COMBO_OTHERCP">
+		<property name="geometry">
+			<rect>
+				<x>236</x>
+				<y>126</y>
+				<width>100</width>
+				<height>140</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DEFAULTLANG_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>57</x>
+				<y>130</y>
+				<width>77</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Default language :"</string>
+		</property>
+	</widget>
+	<widget class="QComboBox" name="IDC_COMBO_DEFAULTLANG">
+		<property name="geometry">
+			<rect>
+				<x>139</x>
+				<y>128</y>
+				<width>60</width>
+				<height>140</height>
+			</rect>
+		</property>
+	</widget>
+</widget>

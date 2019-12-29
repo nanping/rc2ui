@@ -1,0 +1,405 @@
+<widget class="QDialog" name="IDD_KEYWORD_STYLE_DLG">
+	<property name="geometry">
+		<rect>
+			<x>36</x>
+			<y>44</y>
+			<width>466</width>
+			<height>415</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<widget class="QLineEdit" name="IDC_KEYWORD1_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>19</x>
+				<y>44</y>
+				<width>180</width>
+				<height>50</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_KEYWORD1_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>9</x>
+				<y>17</y>
+				<width>200</width>
+				<height>85</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"1st group"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_KEYWORD1_STYLER">
+		<property name="geometry">
+			<rect>
+				<x>19</x>
+				<y>27</y>
+				<width>53</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Styler"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_KEYWORD1_PREFIX_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>89</x>
+				<y>31</y>
+				<width>68</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Prefix mode"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_KEYWORD2_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>262</x>
+				<y>44</y>
+				<width>180</width>
+				<height>50</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_KEYWORD2_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>252</x>
+				<y>17</y>
+				<width>200</width>
+				<height>85</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"2nd group"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_KEYWORD2_STYLER">
+		<property name="geometry">
+			<rect>
+				<x>262</x>
+				<y>26</y>
+				<width>53</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Styler"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_KEYWORD2_PREFIX_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>332</x>
+				<y>31</y>
+				<width>68</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Prefix mode"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_KEYWORD3_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>19</x>
+				<y>138</y>
+				<width>180</width>
+				<height>50</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_KEYWORD3_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>10</x>
+				<y>111</y>
+				<width>200</width>
+				<height>85</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"3rd group"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_KEYWORD3_STYLER">
+		<property name="geometry">
+			<rect>
+				<x>19</x>
+				<y>120</y>
+				<width>53</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Styler"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_KEYWORD3_PREFIX_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>89</x>
+				<y>125</y>
+				<width>68</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Prefix mode"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_KEYWORD4_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>262</x>
+				<y>138</y>
+				<width>180</width>
+				<height>50</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_KEYWORD4_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>252</x>
+				<y>111</y>
+				<width>200</width>
+				<height>85</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"4th group"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_KEYWORD4_STYLER">
+		<property name="geometry">
+			<rect>
+				<x>262</x>
+				<y>120</y>
+				<width>53</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Styler"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_KEYWORD4_PREFIX_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>332</x>
+				<y>125</y>
+				<width>68</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Prefix mode"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_KEYWORD5_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>19</x>
+				<y>233</y>
+				<width>180</width>
+				<height>50</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_KEYWORD5_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>10</x>
+				<y>206</y>
+				<width>200</width>
+				<height>85</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"5th group"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_KEYWORD5_STYLER">
+		<property name="geometry">
+			<rect>
+				<x>19</x>
+				<y>215</y>
+				<width>53</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Styler"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_KEYWORD5_PREFIX_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>89</x>
+				<y>220</y>
+				<width>68</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Prefix mode"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_KEYWORD6_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>262</x>
+				<y>233</y>
+				<width>180</width>
+				<height>50</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_KEYWORD6_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>252</x>
+				<y>206</y>
+				<width>200</width>
+				<height>85</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"6th group"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_KEYWORD6_STYLER">
+		<property name="geometry">
+			<rect>
+				<x>262</x>
+				<y>215</y>
+				<width>53</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Styler"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_KEYWORD6_PREFIX_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>332</x>
+				<y>220</y>
+				<width>68</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Prefix mode"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_KEYWORD7_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>19</x>
+				<y>329</y>
+				<width>180</width>
+				<height>50</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_KEYWORD7_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>10</x>
+				<y>302</y>
+				<width>200</width>
+				<height>85</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"7th group"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_KEYWORD7_STYLER">
+		<property name="geometry">
+			<rect>
+				<x>19</x>
+				<y>311</y>
+				<width>53</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Styler"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_KEYWORD7_PREFIX_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>89</x>
+				<y>315</y>
+				<width>72</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Prefix mode"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_KEYWORD8_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>262</x>
+				<y>329</y>
+				<width>180</width>
+				<height>50</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_KEYWORD8_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>252</x>
+				<y>302</y>
+				<width>200</width>
+				<height>85</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"8th group"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_KEYWORD8_STYLER">
+		<property name="geometry">
+			<rect>
+				<x>262</x>
+				<y>311</y>
+				<width>53</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Styler"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_KEYWORD8_PREFIX_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>332</x>
+				<y>315</y>
+				<width>72</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Prefix mode"</string>
+		</property>
+	</widget>
+</widget>

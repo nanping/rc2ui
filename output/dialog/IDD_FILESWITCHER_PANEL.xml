@@ -1,0 +1,13 @@
+<widget class="QDialog" name="IDD_FILESWITCHER_PANEL">
+	<property name="geometry">
+		<rect>
+			<x>26</x>
+			<y>41</y>
+			<width>142</width>
+			<height>324</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Doc Switcher</string>
+	</property>
+</widget>

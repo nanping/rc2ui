@@ -1,0 +1,303 @@
+<widget class="QDialog" name="IDD_PREFERENCE_SETTING_BOX">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>455</width>
+			<height>185</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<widget class="QCheckBox" name="IDC_CHECK_ENABLEDOCSWITCHER">
+		<property name="geometry">
+			<rect>
+				<x>45</x>
+				<y>15</y>
+				<width>140</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Enable"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_STYLEMRU">
+		<property name="geometry">
+			<rect>
+				<x>45</x>
+				<y>28</y>
+				<width>140</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Enable MRU behaviour"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_ENABLEDOCPEEKER">
+		<property name="geometry">
+			<rect>
+				<x>45</x>
+				<y>58</y>
+				<width>140</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Peek on tab"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_ENABLEDOCPEEKONMAP">
+		<property name="geometry">
+			<rect>
+				<x>45</x>
+				<y>71</y>
+				<width>140</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Peek on document map"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_DETECTENCODING">
+		<property name="geometry">
+			<rect>
+				<x>37</x>
+				<y>98</y>
+				<width>217</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Autodetect character encoding"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_MAINTAININDENT">
+		<property name="geometry">
+			<rect>
+				<x>37</x>
+				<y>113</y>
+				<width>217</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Auto-indent"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_MIN2SYSTRAY">
+		<property name="geometry">
+			<rect>
+				<x>37</x>
+				<y>128</y>
+				<width>217</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Minimize to system tray"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_SHORTTITLE">
+		<property name="geometry">
+			<rect>
+				<x>37</x>
+				<y>143</y>
+				<width>217</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Show only filename in title bar"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_BACKSLASHISESCAPECHARACTERFORSQL">
+		<property name="geometry">
+			<rect>
+				<x>37</x>
+				<y>158</y>
+				<width>217</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Treat backslash as escape character for SQL"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_AUTOUPDATE">
+		<property name="geometry">
+			<rect>
+				<x>37</x>
+				<y>173</y>
+				<width>217</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Enable Notepad++ auto-updater"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_CLICKABLELINK_ENABLE">
+		<property name="geometry">
+			<rect>
+				<x>267</x>
+				<y>15</y>
+				<width>140</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Enable"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_CLICKABLELINK_NOUNDERLINE">
+		<property name="geometry">
+			<rect>
+				<x>267</x>
+				<y>28</y>
+				<width>140</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"No underline"</string>
+		</property>
+	</widget>
+	<widget class="QComboBox" name="IDC_COMBO_FILEUPDATECHOICE">
+		<property name="geometry">
+			<rect>
+				<x>267</x>
+				<y>60</y>
+				<width>140</width>
+				<height>100</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_UPDATESILENTLY">
+		<property name="geometry">
+			<rect>
+				<x>267</x>
+				<y>76</y>
+				<width>140</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Update silently"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_UPDATEGOTOEOF">
+		<property name="geometry">
+			<rect>
+				<x>267</x>
+				<y>88</y>
+				<width>140</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Scroll to the last line after update"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_EDIT_SESSIONFILEEXT">
+		<property name="geometry">
+			<rect>
+				<x>381</x>
+				<y>135</y>
+				<width>34</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_EDIT_WORKSPACEFILEEXT">
+		<property name="geometry">
+			<rect>
+				<x>381</x>
+				<y>152</y>
+				<width>34</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_DOCUMENTSWITCHER_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>37</x>
+				<y>4</y>
+				<width>155</width>
+				<height>39</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Document Switcher (Ctrl+TAB)"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_CLICKABLELINK_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>259</x>
+				<y>4</y>
+				<width>155</width>
+				<height>39</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Clickable Link Settings"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_DOCUMENTPEEK_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>37</x>
+				<y>47</y>
+				<width>155</width>
+				<height>39</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Document Peeker"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_FILEAUTODETECTION_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>259</x>
+				<y>47</y>
+				<width>155</width>
+				<height>60</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"File Status Auto-Detection"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_SESSIONFILEEXT_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>271</x>
+				<y>138</y>
+				<width>108</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Session file ext.:"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_WORKSPACEFILEEXT_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>271</x>
+				<y>155</y>
+				<width>108</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Workspace file ext.:"</string>
+		</property>
+	</widget>
+</widget>

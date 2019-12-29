@@ -1,0 +1,15 @@
+<widget class="QDialog" name="IDD_VIEWZONE">
+	<property name="geometry">
+		<rect>
+			<x>26</x>
+			<y>41</y>
+			<width>200</width>
+			<height>200</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<widget />
+	<!--CONTROL         "",IDC_VIEWZONECANVAS,"Static",SS_OWNERDRAW,0,0,50,14-->
+</widget>

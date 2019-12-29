@@ -1,0 +1,155 @@
+<widget class="QDialog" name="IDD_FINDINFINDER_DLG">
+	<property name="geometry">
+		<rect>
+			<x>36</x>
+			<y>44</y>
+			<width>367</width>
+			<height>200</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Find in found results</string>
+	</property>
+	<widget class="QLabel" name="IDFINDWHAT_STATIC_FIFOLDER">
+		<property name="geometry">
+			<rect>
+				<x>6</x>
+				<y>22</y>
+				<width>75</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"&amp;Find what :"</string>
+		</property>
+	</widget>
+	<widget class="QComboBox" name="IDFINDWHAT_FIFOLDER">
+		<property name="geometry">
+			<rect>
+				<x>83</x>
+				<y>20</y>
+				<width>178</width>
+				<height>150</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_MATCHLINENUM_CHECK_FIFOLDER">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>66</y>
+				<width>99</width>
+				<height>16</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Search only in found lines"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDWHOLEWORD_FIFOLDER">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>88</y>
+				<width>140</width>
+				<height>15</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Match &amp;whole word only"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDMATCHCASE_FIFOLDER">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>100</y>
+				<width>140</width>
+				<height>15</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Match &amp;case"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_MODE_STATIC_FIFOLDER">
+		<property name="geometry">
+			<rect>
+				<x>6</x>
+				<y>131</y>
+				<width>159</width>
+				<height>48</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Search Mode"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDNORMAL_FIFOLDER">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>143</y>
+				<width>126</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"&amp;Normal"</string>
+		</property>
+	</widget>
+	<widget />
+	<!--CONTROL         "E&xtended (\\n, \\r, \\t, \\0, \\x...)",IDEXTENDED_FIFOLDER, "Button",BS_AUTORADIOBUTTON,12,155,145,10-->
+	<widget class="QRadioButton" name="IDREGEXP_FIFOLDER">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>167</y>
+				<width>78</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Re&amp;gular expression"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDREDOTMATCHNL_FIFOLDER">
+		<property name="geometry">
+			<rect>
+				<x>93</x>
+				<y>167</y>
+				<width>68</width>
+				<height>9</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"&amp;. matches newline"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDOK">
+		<property name="geometry">
+			<rect>
+				<x>268</x>
+				<y>20</y>
+				<width>90</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Find All"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDCANCEL">
+		<property name="geometry">
+			<rect>
+				<x>268</x>
+				<y>38</y>
+				<width>90</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Close"</string>
+		</property>
+	</widget>
+</widget>

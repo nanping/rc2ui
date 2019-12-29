@@ -1,0 +1,13 @@
+<widget class="QDialog" name="IDD_DOCUMENTSNAPSHOT">
+	<property name="geometry">
+		<rect>
+			<x>26</x>
+			<y>41</y>
+			<width>140</width>
+			<height>140</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+</widget>

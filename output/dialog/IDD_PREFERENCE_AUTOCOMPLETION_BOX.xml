@@ -1,0 +1,372 @@
+<widget class="QDialog" name="IDD_PREFERENCE_AUTOCOMPLETION_BOX">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>455</width>
+			<height>185</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<widget class="QGroupBox" name="IDD_AUTOC_GRPSTATIC">
+		<property name="geometry">
+			<rect>
+				<x>86</x>
+				<y>4</y>
+				<width>289</width>
+				<height>84</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Auto-Completion"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDD_AUTOC_ENABLECHECK">
+		<property name="geometry">
+			<rect>
+				<x>91</x>
+				<y>15</y>
+				<width>150</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Enable auto-completion on each input"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDD_AUTOC_FUNCRADIO">
+		<property name="geometry">
+			<rect>
+				<x>118</x>
+				<y>27</y>
+				<width>145</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Function completion"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDD_AUTOC_WORDRADIO">
+		<property name="geometry">
+			<rect>
+				<x>118</x>
+				<y>41</y>
+				<width>145</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Word completion"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDD_AUTOC_BOTHRADIO">
+		<property name="geometry">
+			<rect>
+				<x>118</x>
+				<y>55</y>
+				<width>145</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Function and word completion"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDD_AUTOC_STATIC_FROM">
+		<property name="geometry">
+			<rect>
+				<x>248</x>
+				<y>15</y>
+				<width>47</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"From"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDD_AUTOC_STATIC_N">
+		<property name="geometry">
+			<rect>
+				<x>299</x>
+				<y>15</y>
+				<width>8</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"1"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDD_AUTOC_STATIC_CHAR">
+		<property name="geometry">
+			<rect>
+				<x>313</x>
+				<y>15</y>
+				<width>57</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"th character"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDD_AUTOC_STATIC_NOTE">
+		<property name="geometry">
+			<rect>
+				<x>278</x>
+				<y>25</y>
+				<width>93</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Valid value : 1 - 9"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDD_AUTOC_IGNORENUMBERS">
+		<property name="geometry">
+			<rect>
+				<x>278</x>
+				<y>55</y>
+				<width>80</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Ignore numbers"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDD_FUNC_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>91</x>
+				<y>72</y>
+				<width>160</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Function parameters hint on input"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDD_AUTOCINSERT_GRPSTATIC">
+		<property name="geometry">
+			<rect>
+				<x>86</x>
+				<y>94</y>
+				<width>289</width>
+				<height>84</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Auto-Insert"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDD_AUTOCPARENTHESES_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>101</x>
+				<y>115</y>
+				<width>24</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>" ("</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDD_AUTOCBRACKET_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>101</x>
+				<y>133</y>
+				<width>24</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>" ["</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDD_AUTOCCURLYBRACKET_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>101</x>
+				<y>152</y>
+				<width>24</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>" {"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDD_AUTOC_DOUBLEQUOTESCHECK">
+		<property name="geometry">
+			<rect>
+				<x>145</x>
+				<y>116</y>
+				<width>24</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>" """</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDD_AUTOC_QUOTESCHECK">
+		<property name="geometry">
+			<rect>
+				<x>145</x>
+				<y>133</y>
+				<width>24</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>" '"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDD_AUTOCTAG_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>145</x>
+				<y>152</y>
+				<width>76</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>" html/xml close tag"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_MACHEDPAIROPEN_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>307</x>
+				<y>103</y>
+				<width>25</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Open"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_MACHEDPAIRCLOSE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>345</x>
+				<y>103</y>
+				<width>25</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Close"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_MACHEDPAIR_STATIC1">
+		<property name="geometry">
+			<rect>
+				<x>248</x>
+				<y>117</y>
+				<width>70</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Matched pair 1:"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_MACHEDPAIROPEN_EDIT1">
+		<property name="geometry">
+			<rect>
+				<x>320</x>
+				<y>115</y>
+				<width>14</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_MACHEDPAIRCLOSE_EDIT1">
+		<property name="geometry">
+			<rect>
+				<x>348</x>
+				<y>115</y>
+				<width>14</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_MACHEDPAIR_STATIC2">
+		<property name="geometry">
+			<rect>
+				<x>248</x>
+				<y>137</y>
+				<width>70</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Matched pair 2:"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_MACHEDPAIROPEN_EDIT2">
+		<property name="geometry">
+			<rect>
+				<x>320</x>
+				<y>135</y>
+				<width>14</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_MACHEDPAIRCLOSE_EDIT2">
+		<property name="geometry">
+			<rect>
+				<x>348</x>
+				<y>135</y>
+				<width>14</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_MACHEDPAIR_STATIC3">
+		<property name="geometry">
+			<rect>
+				<x>248</x>
+				<y>157</y>
+				<width>70</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Matched pair 3:"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_MACHEDPAIROPEN_EDIT3">
+		<property name="geometry">
+			<rect>
+				<x>320</x>
+				<y>155</y>
+				<width>14</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_MACHEDPAIRCLOSE_EDIT3">
+		<property name="geometry">
+			<rect>
+				<x>348</x>
+				<y>155</y>
+				<width>14</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+</widget>

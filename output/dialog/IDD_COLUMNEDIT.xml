@@ -1,0 +1,248 @@
+<widget class="QDialog" name="IDD_COLUMNEDIT">
+	<property name="geometry">
+		<rect>
+			<x>26</x>
+			<y>41</y>
+			<width>223</width>
+			<height>221</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Column / Multi-Selection Editor</string>
+	</property>
+	<widget class="QGroupBox" name="IDC_COL_TEXT_GRP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>10</y>
+				<width>124</width>
+				<height>54</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Text to Insert"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_COL_NUM_GRP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>75</y>
+				<width>204</width>
+				<height>139</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Number to Insert"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_COL_TEXT_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>7</x>
+				<y>10</y>
+				<width>8</width>
+				<height>9</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>""</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_COL_NUM_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>7</x>
+				<y>75</y>
+				<width>8</width>
+				<height>9</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>""</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_COL_TEXT_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>25</x>
+				<y>32</y>
+				<width>97</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_COL_INITNUM_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>15</x>
+				<y>91</y>
+				<width>76</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Initial number :"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_COL_INITNUM_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>95</x>
+				<y>89</y>
+				<width>38</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_COL_INCRNUM_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>16</x>
+				<y>112</y>
+				<width>75</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Increase by :"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_COL_INCREASENUM_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>95</x>
+				<y>110</y>
+				<width>38</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_COL_REPEATNUM_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>16</x>
+				<y>133</y>
+				<width>75</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Repeat :"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_COL_REPEATNUM_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>95</x>
+				<y>131</y>
+				<width>38</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_COL_LEADZERO_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>140</x>
+				<y>133</y>
+				<width>70</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Leading zeros"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_COL_DEC_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>30</x>
+				<y>169</y>
+				<width>70</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Dec"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_COL_HEX_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>124</x>
+				<y>169</y>
+				<width>70</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Hex"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_COL_OCT_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>30</x>
+				<y>188</y>
+				<width>70</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Oct"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_COL_BIN_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>124</x>
+				<y>188</y>
+				<width>70</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Bin"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_COL_FORMAT_GRP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>20</x>
+				<y>153</y>
+				<width>188</width>
+				<height>54</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Format"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDOK">
+		<property name="geometry">
+			<rect>
+				<x>145</x>
+				<y>13</y>
+				<width>70</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>OK</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDCANCEL">
+		<property name="geometry">
+			<rect>
+				<x>145</x>
+				<y>36</y>
+				<width>70</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Cancel"</string>
+		</property>
+	</widget>
+</widget>

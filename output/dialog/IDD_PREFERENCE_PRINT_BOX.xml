@@ -1,0 +1,527 @@
+<widget class="QDialog" name="IDD_PREFERENCE_PRINT_BOX">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>455</width>
+			<height>185</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<widget class="QRadioButton" name="IDC_RADIO_WYSIWYG">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>30</y>
+				<width>123</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"WYSIWYG"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_INVERT">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>45</y>
+				<width>90</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Invert"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_BW">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>60</y>
+				<width>90</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Black on white"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_RADIO_NOBG">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>76</y>
+				<width>123</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"No background colour"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_COLOUROPT_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>6</x>
+				<y>20</y>
+				<width>133</width>
+				<height>73</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Colour Options"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_PRINTLINENUM">
+		<property name="geometry">
+			<rect>
+				<x>6</x>
+				<y>6</y>
+				<width>133</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Print line number"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_EDIT_ML">
+		<property name="geometry">
+			<rect>
+				<x>42</x>
+				<y>136</y>
+				<width>17</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_EDIT_MT">
+		<property name="geometry">
+			<rect>
+				<x>59</x>
+				<y>120</y>
+				<width>17</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_EDIT_MR">
+		<property name="geometry">
+			<rect>
+				<x>77</x>
+				<y>136</y>
+				<width>17</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_EDIT_MB">
+		<property name="geometry">
+			<rect>
+				<x>59</x>
+				<y>152</y>
+				<width>17</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_ML_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>9</x>
+				<y>139</y>
+				<width>30</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Left"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_MT_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>41</x>
+				<y>110</y>
+				<width>54</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Top"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_MR_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>99</x>
+				<y>139</y>
+				<width>29</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Right"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_MB_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>41</x>
+				<y>167</y>
+				<width>54</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Bottom"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_MARGESETTINGS_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>6</x>
+				<y>98</y>
+				<width>133</width>
+				<height>82</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Margin Setting (Unit:mm)"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_EDIT_HLEFT">
+		<property name="geometry">
+			<rect>
+				<x>166</x>
+				<y>58</y>
+				<width>83</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_EDIT_HMIDDLE">
+		<property name="geometry">
+			<rect>
+				<x>256</x>
+				<y>58</y>
+				<width>83</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_EDIT_HRIGHT">
+		<property name="geometry">
+			<rect>
+				<x>346</x>
+				<y>58</y>
+				<width>83</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QComboBox" name="IDC_COMBO_HFONTNAME">
+		<property name="geometry">
+			<rect>
+				<x>166</x>
+				<y>76</y>
+				<width>84</width>
+				<height>104</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QComboBox" name="IDC_COMBO_HFONTSIZE">
+		<property name="geometry">
+			<rect>
+				<x>256</x>
+				<y>76</y>
+				<width>31</width>
+				<height>72</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_HBOLD">
+		<property name="geometry">
+			<rect>
+				<x>296</x>
+				<y>76</y>
+				<width>46</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Bold"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_HITALIC">
+		<property name="geometry">
+			<rect>
+				<x>356</x>
+				<y>76</y>
+				<width>43</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Italic"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_HGB_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>158</x>
+				<y>39</y>
+				<width>279</width>
+				<height>56</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Header"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_HL_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>168</x>
+				<y>49</y>
+				<width>79</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Left part"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_HM_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>260</x>
+				<y>49</y>
+				<width>75</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Middle part"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_HR_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>348</x>
+				<y>49</y>
+				<width>78</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Right part"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_EDIT_FLEFT">
+		<property name="geometry">
+			<rect>
+				<x>166</x>
+				<y>116</y>
+				<width>83</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_EDIT_FMIDDLE">
+		<property name="geometry">
+			<rect>
+				<x>257</x>
+				<y>116</y>
+				<width>83</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_EDIT_FRIGHT">
+		<property name="geometry">
+			<rect>
+				<x>346</x>
+				<y>116</y>
+				<width>83</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QComboBox" name="IDC_COMBO_FFONTNAME">
+		<property name="geometry">
+			<rect>
+				<x>166</x>
+				<y>134</y>
+				<width>84</width>
+				<height>119</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QComboBox" name="IDC_COMBO_FFONTSIZE">
+		<property name="geometry">
+			<rect>
+				<x>258</x>
+				<y>134</y>
+				<width>31</width>
+				<height>71</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_FBOLD">
+		<property name="geometry">
+			<rect>
+				<x>297</x>
+				<y>136</y>
+				<width>46</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Bold"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_FITALIC">
+		<property name="geometry">
+			<rect>
+				<x>356</x>
+				<y>136</y>
+				<width>47</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Italic"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_FGB_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>158</x>
+				<y>97</y>
+				<width>279</width>
+				<height>58</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Footer"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_FL_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>168</x>
+				<y>107</y>
+				<width>78</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Left part"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_FM_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>257</x>
+				<y>107</y>
+				<width>82</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Middle part"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_FR_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>348</x>
+				<y>107</y>
+				<width>79</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Right part"</string>
+		</property>
+	</widget>
+	<widget class="QComboBox" name="IDC_COMBO_VARLIST">
+		<property name="geometry">
+			<rect>
+				<x>259</x>
+				<y>24</y>
+				<width>70</width>
+				<height>58</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_BUTTON_ADDVAR">
+		<property name="geometry">
+			<rect>
+				<x>337</x>
+				<y>24</y>
+				<width>44</width>
+				<height>12</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Add"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_VAR_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>198</x>
+				<y>26</y>
+				<width>59</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Variable :"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_WHICHPART_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>155</x>
+				<y>161</y>
+				<width>120</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Here display your variable settings"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_VIEWPANEL_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>277</x>
+				<y>161</y>
+				<width>180</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>""</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_HEADERFPPTER_GR_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>150</x>
+				<y>7</y>
+				<width>296</width>
+				<height>172</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Header and Footer"</string>
+		</property>
+	</widget>
+</widget>

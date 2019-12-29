@@ -1,0 +1,72 @@
+<widget class="QDialog" name="IDD_HASHFROMTEXT_DLG">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>357</width>
+			<height>213</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Generate MD5 digest</string>
+	</property>
+	<widget class="QCheckBox" name="IDC_HASH_EACHLINE_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>9</x>
+				<y>3</y>
+				<width>179</width>
+				<height>16</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Treat each line as a separate string"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_HASH_TEXT_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>9</x>
+				<y>21</y>
+				<width>340</width>
+				<height>64</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_HASH_RESULT_FOMTEXT_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>9</x>
+				<y>105</y>
+				<width>340</width>
+				<height>64</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_HASH_FROMTEXT_TOCLIPBOARD_BUTTON">
+		<property name="geometry">
+			<rect>
+				<x>259</x>
+				<y>172</y>
+				<width>90</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Copy to Clipboard"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDCANCEL">
+		<property name="geometry">
+			<rect>
+				<x>148</x>
+				<y>190</y>
+				<width>60</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Close"</string>
+		</property>
+	</widget>
+</widget>

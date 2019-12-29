@@ -1,0 +1,101 @@
+<widget class="QDialog" name="IDD_SHORTCUTMAPPER_DLG">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>450</width>
+			<height>355</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Shortcut mapper</string>
+	</property>
+	<!--WS_SYSMENU | WS_MAXIMIZEBOX | WS_THICKFRAME-->
+	<widget />
+	<!--CONTROL         "",IDC_BABYGRID_TABBAR,"SysTabControl32",WS_TABSTOP,4,6,384,12-->
+	<widget class="QPushButton" name="IDM_BABYGRID_MODIFY">
+		<property name="geometry">
+			<rect>
+				<x>118</x>
+				<y>330</y>
+				<width>47</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>Modify</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDM_BABYGRID_CLEAR">
+		<property name="geometry">
+			<rect>
+				<x>172</x>
+				<y>330</y>
+				<width>47</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>Clear</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDM_BABYGRID_DELETE">
+		<property name="geometry">
+			<rect>
+				<x>226</x>
+				<y>330</y>
+				<width>47</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>Delete</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDOK">
+		<property name="geometry">
+			<rect>
+				<x>280</x>
+				<y>330</y>
+				<width>47</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>Close</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_BABYGRID_INFO">
+		<property name="geometry">
+			<rect>
+				<x>4</x>
+				<y>281</y>
+				<width>440</width>
+				<height>29</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_BABYGRID_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>4</x>
+				<y>313</y>
+				<width>25</width>
+				<height>12</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Filter :"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_BABYGRID_FILTER">
+		<property name="geometry">
+			<rect>
+				<x>30</x>
+				<y>312</y>
+				<width>415</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+</widget>

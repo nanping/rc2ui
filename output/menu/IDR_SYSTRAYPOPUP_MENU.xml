@@ -1,0 +1,54 @@
+<widget class="QMenuBar" name="IDR_SYSTRAYPOPUP_MENU">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>1193</width>
+			<height>26</height>
+		</rect>
+	</property>
+	<widget class="QMenu" name="menu0">
+		<property name="title">
+			<string>Popup</string>
+		</property>
+		<addaction name="IDM_SYSTRAYPOPUP_ACTIVATE" />
+		<addaction name="separator" />
+		<addaction name="IDM_SYSTRAYPOPUP_NEWDOC" />
+		<addaction name="IDM_SYSTRAYPOPUP_NEW_AND_PASTE" />
+		<addaction name="IDM_SYSTRAYPOPUP_OPENFILE" />
+		<addaction name="IDM_SEARCH_FINDINFILES" />
+		<addaction name="separator" />
+		<addaction name="IDM_SYSTRAYPOPUP_CLOSE" />
+	</widget>
+	<addaction name="menu0" />
+</widget>
+<action name="IDM_SYSTRAYPOPUP_ACTIVATE">
+	<property name="text">
+		<string>Activate</string>
+	</property>
+</action>
+<action name="IDM_SYSTRAYPOPUP_NEWDOC">
+	<property name="text">
+		<string>New</string>
+	</property>
+</action>
+<action name="IDM_SYSTRAYPOPUP_NEW_AND_PASTE">
+	<property name="text">
+		<string>New and Paste</string>
+	</property>
+</action>
+<action name="IDM_SYSTRAYPOPUP_OPENFILE">
+	<property name="text">
+		<string>Open...</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_FINDINFILES">
+	<property name="text">
+		<string>Find in Files...</string>
+	</property>
+</action>
+<action name="IDM_SYSTRAYPOPUP_CLOSE">
+	<property name="text">
+		<string>Close Tray Icon</string>
+	</property>
+</action>

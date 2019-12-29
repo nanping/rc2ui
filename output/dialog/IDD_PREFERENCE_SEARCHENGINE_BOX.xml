@@ -1,0 +1,127 @@
+<widget class="QDialog" name="IDD_PREFERENCE_SEARCHENGINE_BOX">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>455</width>
+			<height>185</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<widget class="QGroupBox" name="IDC_SEARCHENGINES_GB_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>74</x>
+				<y>24</y>
+				<width>297</width>
+				<height>145</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Search Engine (for command ""Search on Internet"")"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_SEARCHENGINE_DUCKDUCKGO_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>105</x>
+				<y>37</y>
+				<width>180</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"DuckDuckGo"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_SEARCHENGINE_GOOGLE_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>105</x>
+				<y>52</y>
+				<width>180</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Google"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_SEARCHENGINE_BING_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>105</x>
+				<y>67</y>
+				<width>180</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Bing"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_SEARCHENGINE_YAHOO_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>105</x>
+				<y>82</y>
+				<width>180</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Yahoo!"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_SEARCHENGINE_STACKOVERFLOW_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>105</x>
+				<y>97</y>
+				<width>180</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Stack Overflow"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_SEARCHENGINE_CUSTOM_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>105</x>
+				<y>112</y>
+				<width>180</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Set your search engine here:"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_SEARCHENGINE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>114</x>
+				<y>128</y>
+				<width>179</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDD_SEARCHENGINE_NOTE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>114</x>
+				<y>143</y>
+				<width>245</width>
+				<height>20</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Example: https://www.google.com/search?q=$(CURRENT_WORD)"</string>
+		</property>
+	</widget>
+</widget>

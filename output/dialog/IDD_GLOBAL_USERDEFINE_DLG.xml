@@ -1,0 +1,178 @@
+<widget class="QDialog" name="IDD_GLOBAL_USERDEFINE_DLG">
+	<property name="geometry">
+		<rect>
+			<x>36</x>
+			<y>44</y>
+			<width>490</width>
+			<height>470</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>User Defined Language v2.1</string>
+	</property>
+	<widget class="QLabel" name="IDC_LANGNAME_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>0</x>
+				<y>3</y>
+				<width>63</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"User language : "</string>
+		</property>
+	</widget>
+	<widget class="QComboBox" name="IDC_LANGNAME_COMBO">
+		<property name="geometry">
+			<rect>
+				<x>64</x>
+				<y>1</y>
+				<width>90</width>
+				<height>58</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_UD_TRANSPARENT_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>408</x>
+				<y>22</y>
+				<width>66</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Transparency"</string>
+		</property>
+	</widget>
+	<widget />
+	<!--CONTROL         "",IDC_UD_PERCENTAGE_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | NOT WS_VISIBLE | WS_TABSTOP,422,33,53,10-->
+	<widget class="QPushButton" name="IDC_DOCK_BUTTON">
+		<property name="geometry">
+			<rect>
+				<x>425</x>
+				<y>1</y>
+				<width>50</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Dock"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_ADDNEW_BUTTON">
+		<property name="geometry">
+			<rect>
+				<x>161</x>
+				<y>1</y>
+				<width>62</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Create New..."</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_SAVEAS_BUTTON">
+		<property name="geometry">
+			<rect>
+				<x>226</x>
+				<y>1</y>
+				<width>62</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Save As..."</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_LANGNAME_IGNORECASE_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>186</x>
+				<y>24</y>
+				<width>76</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Ignore case"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_EXT_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>259</x>
+				<y>25</y>
+				<width>33</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Ext. :"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_EXT_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>293</x>
+				<y>23</y>
+				<width>33</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_IMPORT_BUTTON">
+		<property name="geometry">
+			<rect>
+				<x>23</x>
+				<y>21</y>
+				<width>62</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Import..."</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_EXPORT_BUTTON">
+		<property name="geometry">
+			<rect>
+				<x>93</x>
+				<y>21</y>
+				<width>62</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Export..."</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_RENAME_BUTTON">
+		<property name="geometry">
+			<rect>
+				<x>290</x>
+				<y>1</y>
+				<width>62</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Rename"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_REMOVELANG_BUTTON">
+		<property name="geometry">
+			<rect>
+				<x>354</x>
+				<y>1</y>
+				<width>62</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Remove"</string>
+		</property>
+	</widget>
+</widget>

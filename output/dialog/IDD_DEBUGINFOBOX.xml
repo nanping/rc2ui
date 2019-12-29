@@ -1,0 +1,49 @@
+<widget class="QDialog" name="IDD_DEBUGINFOBOX">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>271</width>
+			<height>200</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Debug Info</string>
+	</property>
+	<widget class="QLineEdit" name="IDC_DEBUGINFO_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>31</x>
+				<y>20</y>
+				<width>220</width>
+				<height>96</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DEBUGINFO_COPYLINK">
+		<property name="geometry">
+			<rect>
+				<x>31</x>
+				<y>120</y>
+				<width>126</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Copy debug info into clipboard"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDOK">
+		<property name="geometry">
+			<rect>
+				<x>106</x>
+				<y>160</y>
+				<width>50</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>OK</string>
+		</property>
+	</widget>
+</widget>

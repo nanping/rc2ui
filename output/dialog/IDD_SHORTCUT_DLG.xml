@@ -1,0 +1,163 @@
+<widget class="QDialog" name="IDD_SHORTCUT_DLG">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>180</width>
+			<height>105</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Shortcut</string>
+	</property>
+	<widget class="QCheckBox" name="IDC_CTRL_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>30</y>
+				<width>33</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"CTRL"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_ALT_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>51</y>
+				<width>28</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"ALT"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_SHIFT_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>57</x>
+				<y>42</y>
+				<width>35</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"SHIFT"</string>
+		</property>
+	</widget>
+	<widget class="QComboBox" name="IDC_KEY_COMBO">
+		<property name="geometry">
+			<rect>
+				<x>110</x>
+				<y>40</y>
+				<width>64</width>
+				<height>270</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDOK">
+		<property name="geometry">
+			<rect>
+				<x>32</x>
+				<y>74</y>
+				<width>50</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"OK"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDCANCEL">
+		<property name="geometry">
+			<rect>
+				<x>103</x>
+				<y>73</y>
+				<width>50</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Cancel"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>45</x>
+				<y>42</y>
+				<width>8</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"+"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>96</x>
+				<y>42</y>
+				<width>8</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"+"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_NAME_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>56</x>
+				<y>9</y>
+				<width>118</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_NAME_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>15</x>
+				<y>12</y>
+				<width>34</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Name :"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_WARNING_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>6</x>
+				<y>93</y>
+				<width>170</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"This will disable the accelerator"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_CONFLICT_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>6</x>
+				<y>93</y>
+				<width>170</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"CONFLICT FOUND!"</string>
+		</property>
+	</widget>
+</widget>

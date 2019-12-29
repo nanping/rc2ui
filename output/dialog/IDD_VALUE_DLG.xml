@@ -1,0 +1,37 @@
+<widget class="QDialog" name="IDD_VALUE_DLG">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>74</width>
+			<height>17</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<!--WS_SYSMENU-->
+	<widget class="QLabel" name="IDC_VALUE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>6</x>
+				<y>4</y>
+				<width>45</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"STATIC :"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_VALUE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>49</x>
+				<y>2</y>
+				<width>18</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+</widget>

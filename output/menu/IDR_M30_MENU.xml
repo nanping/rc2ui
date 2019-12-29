@@ -1,0 +1,3302 @@
+<widget class="QMenuBar" name="IDR_M30_MENU">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>1193</width>
+			<height>26</height>
+		</rect>
+	</property>
+	<widget class="QMenu" name="menu0">
+		<property name="title">
+			<string>&amp;File</string>
+		</property>
+		<addaction name="IDM_FILE_NEW" />
+		<addaction name="IDM_FILE_OPEN" />
+		<widget class="QMenu" name="menu002">
+			<property name="title">
+				<string>Open Containing Folder</string>
+			</property>
+			<addaction name="IDM_FILE_OPEN_FOLDER" />
+			<addaction name="IDM_FILE_OPEN_CMD" />
+		</widget>
+		<addaction name="menu002" />
+		<addaction name="IDM_FILE_OPEN_DEFAULT_VIEWER" />
+		<addaction name="IDM_FILE_OPENFOLDERASWORSPACE" />
+		<addaction name="IDM_FILE_RELOAD" />
+		<addaction name="IDM_FILE_SAVE" />
+		<addaction name="IDM_FILE_SAVEAS" />
+		<addaction name="IDM_FILE_SAVECOPYAS" />
+		<addaction name="IDM_FILE_SAVEALL" />
+		<addaction name="IDM_FILE_RENAME" />
+		<addaction name="IDM_FILE_CLOSE" />
+		<addaction name="IDM_FILE_CLOSEALL" />
+		<widget class="QMenu" name="menu013">
+			<property name="title">
+				<string>Close More</string>
+			</property>
+			<addaction name="IDM_FILE_CLOSEALL_BUT_CURRENT" />
+			<addaction name="IDM_FILE_CLOSEALL_TOLEFT" />
+			<addaction name="IDM_FILE_CLOSEALL_TORIGHT" />
+			<addaction name="IDM_FILE_CLOSEALL_UNCHANGED" />
+		</widget>
+		<addaction name="menu013" />
+		<addaction name="IDM_FILE_DELETE" />
+		<addaction name="separator" />
+		<addaction name="IDM_FILE_LOADSESSION" />
+		<addaction name="IDM_FILE_SAVESESSION" />
+		<addaction name="separator" />
+		<addaction name="IDM_FILE_PRINT" />
+		<addaction name="IDM_FILE_PRINTNOW" />
+		<addaction name="separator" />
+		<addaction name="IDM_FILE_EXIT" />
+	</widget>
+	<addaction name="menu0" />
+	<widget class="QMenu" name="menu1">
+		<property name="title">
+			<string>&amp;Edit</string>
+		</property>
+		<addaction name="IDM_EDIT_UNDO" />
+		<addaction name="IDM_EDIT_REDO" />
+		<addaction name="separator" />
+		<addaction name="IDM_EDIT_CUT" />
+		<addaction name="IDM_EDIT_COPY" />
+		<addaction name="IDM_EDIT_PASTE" />
+		<addaction name="IDM_EDIT_DELETE" />
+		<addaction name="IDM_EDIT_SELECTALL" />
+		<addaction name="IDM_EDIT_BEGINENDSELECT" />
+		<addaction name="separator" />
+		<widget class="QMenu" name="menu110">
+			<property name="title">
+				<string>Copy to Clipboard</string>
+			</property>
+			<addaction name="IDM_EDIT_FULLPATHTOCLIP" />
+			<addaction name="IDM_EDIT_FILENAMETOCLIP" />
+			<addaction name="IDM_EDIT_CURRENTDIRTOCLIP" />
+		</widget>
+		<addaction name="menu110" />
+		<widget class="QMenu" name="menu111">
+			<property name="title">
+				<string>Indent</string>
+			</property>
+			<addaction name="IDM_EDIT_INS_TAB" />
+			<addaction name="IDM_EDIT_RMV_TAB" />
+		</widget>
+		<addaction name="menu111" />
+		<widget class="QMenu" name="menu112">
+			<property name="title">
+				<string>Convert Case to</string>
+			</property>
+			<addaction name="IDM_EDIT_UPPERCASE" />
+			<addaction name="IDM_EDIT_LOWERCASE" />
+			<addaction name="IDM_EDIT_PROPERCASE_FORCE" />
+			<addaction name="IDM_EDIT_PROPERCASE_BLEND" />
+			<addaction name="IDM_EDIT_SENTENCECASE_FORCE" />
+			<addaction name="IDM_EDIT_SENTENCECASE_BLEND" />
+			<addaction name="IDM_EDIT_INVERTCASE" />
+			<addaction name="IDM_EDIT_RANDOMCASE" />
+		</widget>
+		<addaction name="menu112" />
+		<widget class="QMenu" name="menu113">
+			<property name="title">
+				<string>Line Operations</string>
+			</property>
+			<addaction name="IDM_EDIT_DUP_LINE" />
+			<addaction name="IDM_EDIT_REMOVE_DUP_LINES" />
+			<addaction name="IDM_EDIT_SPLIT_LINES" />
+			<addaction name="IDM_EDIT_JOIN_LINES" />
+			<addaction name="IDM_EDIT_LINE_UP" />
+			<addaction name="IDM_EDIT_LINE_DOWN" />
+			<addaction name="IDM_EDIT_REMOVEEMPTYLINES" />
+			<addaction name="IDM_EDIT_REMOVEEMPTYLINESWITHBLANK" />
+			<addaction name="IDM_EDIT_BLANKLINEABOVECURRENT" />
+			<addaction name="IDM_EDIT_BLANKLINEBELOWCURRENT" />
+			<addaction name="separator" />
+			<addaction name="IDM_EDIT_SORTLINES_LEXICOGRAPHIC_ASCENDING" />
+			<addaction name="IDM_EDIT_SORTLINES_INTEGER_ASCENDING" />
+			<addaction name="IDM_EDIT_SORTLINES_DECIMALCOMMA_ASCENDING" />
+			<addaction name="IDM_EDIT_SORTLINES_DECIMALDOT_ASCENDING" />
+			<addaction name="separator" />
+			<addaction name="IDM_EDIT_SORTLINES_LEXICOGRAPHIC_DESCENDING" />
+			<addaction name="IDM_EDIT_SORTLINES_INTEGER_DESCENDING" />
+			<addaction name="IDM_EDIT_SORTLINES_DECIMALCOMMA_DESCENDING" />
+			<addaction name="IDM_EDIT_SORTLINES_DECIMALDOT_DESCENDING" />
+		</widget>
+		<addaction name="menu113" />
+		<widget class="QMenu" name="menu114">
+			<property name="title">
+				<string>Comment/Uncomment</string>
+			</property>
+			<addaction name="IDM_EDIT_BLOCK_COMMENT" />
+			<addaction name="IDM_EDIT_BLOCK_COMMENT_SET" />
+			<addaction name="IDM_EDIT_BLOCK_UNCOMMENT" />
+			<addaction name="IDM_EDIT_STREAM_COMMENT" />
+			<addaction name="IDM_EDIT_STREAM_UNCOMMENT" />
+		</widget>
+		<addaction name="menu114" />
+		<widget class="QMenu" name="menu115">
+			<property name="title">
+				<string>Auto-Completion</string>
+			</property>
+			<addaction name="IDM_EDIT_AUTOCOMPLETE" />
+			<addaction name="IDM_EDIT_AUTOCOMPLETE_CURRENTFILE" />
+			<addaction name="IDM_EDIT_FUNCCALLTIP" />
+			<addaction name="IDM_EDIT_AUTOCOMPLETE_PATH" />
+		</widget>
+		<addaction name="menu115" />
+		<widget class="QMenu" name="menu116">
+			<property name="title">
+				<string>EOL Conversion</string>
+			</property>
+			<addaction name="IDM_FORMAT_TODOS" />
+			<addaction name="IDM_FORMAT_TOUNIX" />
+			<addaction name="IDM_FORMAT_TOMAC" />
+		</widget>
+		<addaction name="menu116" />
+		<widget class="QMenu" name="menu117">
+			<property name="title">
+				<string>Blank Operations</string>
+			</property>
+			<addaction name="IDM_EDIT_TRIMTRAILING" />
+			<addaction name="IDM_EDIT_TRIMLINEHEAD" />
+			<addaction name="IDM_EDIT_TRIM_BOTH" />
+			<addaction name="IDM_EDIT_EOL2WS" />
+			<addaction name="IDM_EDIT_TRIMALL" />
+			<addaction name="separator" />
+			<addaction name="IDM_EDIT_TAB2SW" />
+			<addaction name="IDM_EDIT_SW2TAB_ALL" />
+			<addaction name="IDM_EDIT_SW2TAB_LEADING" />
+		</widget>
+		<addaction name="menu117" />
+		<widget class="QMenu" name="menu118">
+			<property name="title">
+				<string>Paste Special</string>
+			</property>
+			<addaction name="IDM_EDIT_PASTE_AS_HTML" />
+			<addaction name="IDM_EDIT_PASTE_AS_RTF" />
+			<addaction name="separator" />
+			<addaction name="IDM_EDIT_COPY_BINARY" />
+			<addaction name="IDM_EDIT_CUT_BINARY" />
+			<addaction name="IDM_EDIT_PASTE_BINARY" />
+		</widget>
+		<addaction name="menu118" />
+		<widget class="QMenu" name="menu119">
+			<property name="title">
+				<string>On Selection</string>
+			</property>
+			<addaction name="IDM_EDIT_OPENASFILE" />
+			<addaction name="IDM_EDIT_OPENINFOLDER" />
+			<addaction name="separator" />
+			<addaction name="IDM_EDIT_SEARCHONINTERNET" />
+			<addaction name="IDM_EDIT_CHANGESEARCHENGINE" />
+		</widget>
+		<addaction name="menu119" />
+		<addaction name="separator" />
+		<addaction name="IDM_EDIT_COLUMNMODETIP" />
+		<addaction name="IDM_EDIT_COLUMNMODE" />
+		<addaction name="IDM_EDIT_CHAR_PANEL" />
+		<addaction name="IDM_EDIT_CLIPBOARDHISTORY_PANEL" />
+		<addaction name="separator" />
+		<addaction name="IDM_EDIT_SETREADONLY" />
+		<addaction name="IDM_EDIT_CLEARREADONLY" />
+	</widget>
+	<addaction name="menu1" />
+	<widget class="QMenu" name="menu2">
+		<property name="title">
+			<string>&amp;Search</string>
+		</property>
+		<addaction name="IDM_SEARCH_FIND" />
+		<addaction name="IDM_SEARCH_FINDINFILES" />
+		<addaction name="IDM_SEARCH_FINDNEXT" />
+		<addaction name="IDM_SEARCH_FINDPREV" />
+		<addaction name="IDM_SEARCH_SETANDFINDNEXT" />
+		<addaction name="IDM_SEARCH_SETANDFINDPREV" />
+		<addaction name="IDM_SEARCH_VOLATILE_FINDNEXT" />
+		<addaction name="IDM_SEARCH_VOLATILE_FINDPREV" />
+		<addaction name="IDM_SEARCH_REPLACE" />
+		<addaction name="IDM_SEARCH_FINDINCREMENT" />
+		<addaction name="IDM_FOCUS_ON_FOUND_RESULTS" />
+		<addaction name="IDM_SEARCH_GOTONEXTFOUND" />
+		<addaction name="IDM_SEARCH_GOTOPREVFOUND" />
+		<addaction name="IDM_SEARCH_GOTOLINE" />
+		<addaction name="IDM_SEARCH_GOTOMATCHINGBRACE" />
+		<addaction name="IDM_SEARCH_SELECTMATCHINGBRACES" />
+		<addaction name="IDM_SEARCH_MARK" />
+		<addaction name="separator" />
+		<widget class="QMenu" name="menu218">
+			<property name="title">
+				<string>Mark All</string>
+			</property>
+			<addaction name="IDM_SEARCH_MARKALLEXT1" />
+			<addaction name="IDM_SEARCH_MARKALLEXT2" />
+			<addaction name="IDM_SEARCH_MARKALLEXT3" />
+			<addaction name="IDM_SEARCH_MARKALLEXT4" />
+			<addaction name="IDM_SEARCH_MARKALLEXT5" />
+		</widget>
+		<addaction name="menu218" />
+		<widget class="QMenu" name="menu219">
+			<property name="title">
+				<string>Unmark All</string>
+			</property>
+			<addaction name="IDM_SEARCH_UNMARKALLEXT1" />
+			<addaction name="IDM_SEARCH_UNMARKALLEXT2" />
+			<addaction name="IDM_SEARCH_UNMARKALLEXT3" />
+			<addaction name="IDM_SEARCH_UNMARKALLEXT4" />
+			<addaction name="IDM_SEARCH_UNMARKALLEXT5" />
+			<addaction name="IDM_SEARCH_CLEARALLMARKS" />
+		</widget>
+		<addaction name="menu219" />
+		<widget class="QMenu" name="menu220">
+			<property name="title">
+				<string>Jump up</string>
+			</property>
+			<addaction name="IDM_SEARCH_GOPREVMARKER1" />
+			<addaction name="IDM_SEARCH_GOPREVMARKER2" />
+			<addaction name="IDM_SEARCH_GOPREVMARKER3" />
+			<addaction name="IDM_SEARCH_GOPREVMARKER4" />
+			<addaction name="IDM_SEARCH_GOPREVMARKER5" />
+			<addaction name="IDM_SEARCH_GOPREVMARKER_DEF" />
+		</widget>
+		<addaction name="menu220" />
+		<widget class="QMenu" name="menu221">
+			<property name="title">
+				<string>Jump down</string>
+			</property>
+			<addaction name="IDM_SEARCH_GONEXTMARKER1" />
+			<addaction name="IDM_SEARCH_GONEXTMARKER2" />
+			<addaction name="IDM_SEARCH_GONEXTMARKER3" />
+			<addaction name="IDM_SEARCH_GONEXTMARKER4" />
+			<addaction name="IDM_SEARCH_GONEXTMARKER5" />
+			<addaction name="IDM_SEARCH_GONEXTMARKER_DEF" />
+		</widget>
+		<addaction name="menu221" />
+		<addaction name="separator" />
+		<widget class="QMenu" name="menu223">
+			<property name="title">
+				<string>Bookmark</string>
+			</property>
+			<addaction name="IDM_SEARCH_TOGGLE_BOOKMARK" />
+			<addaction name="IDM_SEARCH_NEXT_BOOKMARK" />
+			<addaction name="IDM_SEARCH_PREV_BOOKMARK" />
+			<addaction name="IDM_SEARCH_CLEAR_BOOKMARKS" />
+			<addaction name="IDM_SEARCH_CUTMARKEDLINES" />
+			<addaction name="IDM_SEARCH_COPYMARKEDLINES" />
+			<addaction name="IDM_SEARCH_PASTEMARKEDLINES" />
+			<addaction name="IDM_SEARCH_DELETEMARKEDLINES" />
+			<addaction name="IDM_SEARCH_DELETEUNMARKEDLINES" />
+			<addaction name="IDM_SEARCH_INVERSEMARKS" />
+		</widget>
+		<addaction name="menu223" />
+		<addaction name="separator" />
+		<addaction name="IDM_SEARCH_FINDCHARINRANGE" />
+	</widget>
+	<addaction name="menu2" />
+	<widget class="QMenu" name="menu3">
+		<property name="title">
+			<string>&amp;View</string>
+		</property>
+		<addaction name="IDM_VIEW_ALWAYSONTOP" />
+		<addaction name="IDM_VIEW_FULLSCREENTOGGLE" />
+		<addaction name="IDM_VIEW_POSTIT" />
+		<addaction name="separator" />
+		<widget class="QMenu" name="menu304">
+			<property name="title">
+				<string>View Current File in</string>
+			</property>
+			<addaction name="IDM_VIEW_IN_FIREFOX" />
+			<addaction name="IDM_VIEW_IN_CHROME" />
+			<addaction name="IDM_VIEW_IN_EDGE" />
+			<addaction name="IDM_VIEW_IN_IE" />
+		</widget>
+		<addaction name="menu304" />
+		<addaction name="separator" />
+		<widget class="QMenu" name="menu306">
+			<property name="title">
+				<string>Show Symbol</string>
+			</property>
+			<addaction name="IDM_VIEW_TAB_SPACE" />
+			<addaction name="IDM_VIEW_EOL" />
+			<addaction name="IDM_VIEW_ALL_CHARACTERS" />
+			<addaction name="separator" />
+			<addaction name="IDM_VIEW_INDENT_GUIDE" />
+			<addaction name="IDM_VIEW_WRAP_SYMBOL" />
+		</widget>
+		<addaction name="menu306" />
+		<widget class="QMenu" name="menu307">
+			<property name="title">
+				<string>Zoom</string>
+			</property>
+			<addaction name="IDM_VIEW_ZOOMIN" />
+			<addaction name="IDM_VIEW_ZOOMOUT" />
+			<addaction name="IDM_VIEW_ZOOMRESTORE" />
+		</widget>
+		<addaction name="menu307" />
+		<widget class="QMenu" name="menu308">
+			<property name="title">
+				<string>Move/Clone Current Document</string>
+			</property>
+			<addaction name="IDM_VIEW_GOTO_ANOTHER_VIEW" />
+			<addaction name="IDM_VIEW_CLONE_TO_ANOTHER_VIEW" />
+			<addaction name="IDM_VIEW_GOTO_NEW_INSTANCE" />
+			<addaction name="IDM_VIEW_LOAD_IN_NEW_INSTANCE" />
+		</widget>
+		<addaction name="menu308" />
+		<widget class="QMenu" name="menu309">
+			<property name="title">
+				<string>Tab</string>
+			</property>
+			<addaction name="IDM_VIEW_TAB1" />
+			<addaction name="IDM_VIEW_TAB2" />
+			<addaction name="IDM_VIEW_TAB3" />
+			<addaction name="IDM_VIEW_TAB4" />
+			<addaction name="IDM_VIEW_TAB5" />
+			<addaction name="IDM_VIEW_TAB6" />
+			<addaction name="IDM_VIEW_TAB7" />
+			<addaction name="IDM_VIEW_TAB8" />
+			<addaction name="IDM_VIEW_TAB9" />
+			<addaction name="separator" />
+			<addaction name="IDM_VIEW_TAB_NEXT" />
+			<addaction name="IDM_VIEW_TAB_PREV" />
+			<addaction name="separator" />
+			<addaction name="IDM_VIEW_TAB_MOVEFORWARD" />
+			<addaction name="IDM_VIEW_TAB_MOVEBACKWARD" />
+		</widget>
+		<addaction name="menu309" />
+		<addaction name="IDM_VIEW_WRAP" />
+		<addaction name="IDM_VIEW_SWITCHTO_OTHER_VIEW" />
+		<addaction name="IDM_VIEW_HIDELINES" />
+		<addaction name="separator" />
+		<addaction name="IDM_VIEW_TOGGLE_FOLDALL" />
+		<addaction name="IDM_VIEW_TOGGLE_UNFOLDALL" />
+		<addaction name="IDM_VIEW_FOLD_CURRENT" />
+		<addaction name="IDM_VIEW_UNFOLD_CURRENT" />
+		<widget class="QMenu" name="menu318">
+			<property name="title">
+				<string>Collapse Level</string>
+			</property>
+			<addaction name="IDM_VIEW_FOLD_1" />
+			<addaction name="IDM_VIEW_FOLD_2" />
+			<addaction name="IDM_VIEW_FOLD_3" />
+			<addaction name="IDM_VIEW_FOLD_4" />
+			<addaction name="IDM_VIEW_FOLD_5" />
+			<addaction name="IDM_VIEW_FOLD_6" />
+			<addaction name="IDM_VIEW_FOLD_7" />
+			<addaction name="IDM_VIEW_FOLD_8" />
+		</widget>
+		<addaction name="menu318" />
+		<widget class="QMenu" name="menu319">
+			<property name="title">
+				<string>Uncollapse Level</string>
+			</property>
+			<addaction name="IDM_VIEW_UNFOLD_1" />
+			<addaction name="IDM_VIEW_UNFOLD_2" />
+			<addaction name="IDM_VIEW_UNFOLD_3" />
+			<addaction name="IDM_VIEW_UNFOLD_4" />
+			<addaction name="IDM_VIEW_UNFOLD_5" />
+			<addaction name="IDM_VIEW_UNFOLD_6" />
+			<addaction name="IDM_VIEW_UNFOLD_7" />
+			<addaction name="IDM_VIEW_UNFOLD_8" />
+		</widget>
+		<addaction name="menu319" />
+		<addaction name="separator" />
+		<addaction name="IDM_VIEW_SUMMARY" />
+		<addaction name="separator" />
+		<widget class="QMenu" name="menu323">
+			<property name="title">
+				<string>Project</string>
+			</property>
+			<addaction name="IDM_VIEW_PROJECT_PANEL_1" />
+			<addaction name="IDM_VIEW_PROJECT_PANEL_2" />
+			<addaction name="IDM_VIEW_PROJECT_PANEL_3" />
+		</widget>
+		<addaction name="menu323" />
+		<addaction name="IDM_VIEW_FILEBROWSER" />
+		<addaction name="IDM_VIEW_DOC_MAP" />
+		<addaction name="IDM_VIEW_FUNC_LIST" />
+		<addaction name="separator" />
+		<addaction name="IDM_VIEW_SYNSCROLLV" />
+		<addaction name="IDM_VIEW_SYNSCROLLH" />
+		<addaction name="separator" />
+		<addaction name="IDM_EDIT_RTL" />
+		<addaction name="IDM_EDIT_LTR" />
+		<addaction name="separator" />
+		<addaction name="IDM_VIEW_MONITORING" />
+	</widget>
+	<addaction name="menu3" />
+	<widget class="QMenu" name="menu4">
+		<property name="title">
+			<string>E&amp;ncoding</string>
+		</property>
+		<addaction name="IDM_FORMAT_ANSI" />
+		<addaction name="IDM_FORMAT_AS_UTF_8" />
+		<addaction name="IDM_FORMAT_UTF_8" />
+		<addaction name="IDM_FORMAT_UCS_2BE" />
+		<addaction name="IDM_FORMAT_UCS_2LE" />
+		<widget class="QMenu" name="menu405">
+			<property name="title">
+				<string>Character sets</string>
+			</property>
+			<widget class="QMenu" name="menu40500">
+				<property name="title">
+					<string>Arabic</string>
+				</property>
+				<addaction name="IDM_FORMAT_ISO_8859_6" />
+				<addaction name="IDM_FORMAT_DOS_720" />
+				<addaction name="IDM_FORMAT_WIN_1256" />
+			</widget>
+			<addaction name="menu40500" />
+			<widget class="QMenu" name="menu40501">
+				<property name="title">
+					<string>Baltic</string>
+				</property>
+				<addaction name="IDM_FORMAT_ISO_8859_4" />
+				<addaction name="IDM_FORMAT_ISO_8859_13" />
+				<addaction name="IDM_FORMAT_DOS_775" />
+				<addaction name="IDM_FORMAT_WIN_1257" />
+			</widget>
+			<addaction name="menu40501" />
+			<widget class="QMenu" name="menu40502">
+				<property name="title">
+					<string>Celtic</string>
+				</property>
+				<addaction name="IDM_FORMAT_ISO_8859_14" />
+			</widget>
+			<addaction name="menu40502" />
+			<widget class="QMenu" name="menu40503">
+				<property name="title">
+					<string>Cyrillic</string>
+				</property>
+				<addaction name="IDM_FORMAT_ISO_8859_5" />
+				<addaction name="IDM_FORMAT_KOI8R_CYRILLIC" />
+				<addaction name="IDM_FORMAT_KOI8U_CYRILLIC" />
+				<addaction name="IDM_FORMAT_MAC_CYRILLIC" />
+				<addaction name="IDM_FORMAT_DOS_855" />
+				<addaction name="IDM_FORMAT_DOS_866" />
+				<addaction name="IDM_FORMAT_WIN_1251" />
+			</widget>
+			<addaction name="menu40503" />
+			<widget class="QMenu" name="menu40504">
+				<property name="title">
+					<string>Central European</string>
+				</property>
+				<addaction name="IDM_FORMAT_DOS_852" />
+				<addaction name="IDM_FORMAT_WIN_1250" />
+			</widget>
+			<addaction name="menu40504" />
+			<widget class="QMenu" name="menu40505">
+				<property name="title">
+					<string>Chinese</string>
+				</property>
+				<addaction name="IDM_FORMAT_BIG5" />
+				<addaction name="IDM_FORMAT_GB2312" />
+			</widget>
+			<addaction name="menu40505" />
+			<widget class="QMenu" name="menu40506">
+				<property name="title">
+					<string>Eastern European</string>
+				</property>
+				<addaction name="IDM_FORMAT_ISO_8859_2" />
+			</widget>
+			<addaction name="menu40506" />
+			<widget class="QMenu" name="menu40507">
+				<property name="title">
+					<string>Greek</string>
+				</property>
+				<addaction name="IDM_FORMAT_ISO_8859_7" />
+				<addaction name="IDM_FORMAT_DOS_737" />
+				<addaction name="IDM_FORMAT_DOS_869" />
+				<addaction name="IDM_FORMAT_WIN_1253" />
+			</widget>
+			<addaction name="menu40507" />
+			<widget class="QMenu" name="menu40508">
+				<property name="title">
+					<string>Hebrew</string>
+				</property>
+				<addaction name="IDM_FORMAT_ISO_8859_8" />
+				<addaction name="IDM_FORMAT_DOS_862" />
+				<addaction name="IDM_FORMAT_WIN_1255" />
+			</widget>
+			<addaction name="menu40508" />
+			<widget class="QMenu" name="menu40509">
+				<property name="title">
+					<string>Japanese</string>
+				</property>
+				<addaction name="IDM_FORMAT_SHIFT_JIS" />
+			</widget>
+			<addaction name="menu40509" />
+			<widget class="QMenu" name="menu40510">
+				<property name="title">
+					<string>Korean</string>
+				</property>
+				<addaction name="IDM_FORMAT_KOREAN_WIN" />
+				<addaction name="IDM_FORMAT_EUC_KR" />
+			</widget>
+			<addaction name="menu40510" />
+			<widget class="QMenu" name="menu40511">
+				<property name="title">
+					<string>North European</string>
+				</property>
+				<addaction name="IDM_FORMAT_DOS_861" />
+				<addaction name="IDM_FORMAT_DOS_865" />
+			</widget>
+			<addaction name="menu40511" />
+			<widget class="QMenu" name="menu40512">
+				<property name="title">
+					<string>Thai</string>
+				</property>
+				<addaction name="IDM_FORMAT_TIS_620" />
+			</widget>
+			<addaction name="menu40512" />
+			<widget class="QMenu" name="menu40513">
+				<property name="title">
+					<string>Turkish</string>
+				</property>
+				<addaction name="IDM_FORMAT_ISO_8859_3" />
+				<addaction name="IDM_FORMAT_ISO_8859_9" />
+				<addaction name="IDM_FORMAT_DOS_857" />
+				<addaction name="IDM_FORMAT_WIN_1254" />
+			</widget>
+			<addaction name="menu40513" />
+			<widget class="QMenu" name="menu40514">
+				<property name="title">
+					<string>Western European</string>
+				</property>
+				<addaction name="IDM_FORMAT_ISO_8859_1" />
+				<addaction name="IDM_FORMAT_ISO_8859_15" />
+				<addaction name="IDM_FORMAT_DOS_850" />
+				<addaction name="IDM_FORMAT_DOS_858" />
+				<addaction name="IDM_FORMAT_DOS_860" />
+				<addaction name="IDM_FORMAT_DOS_863" />
+				<addaction name="IDM_FORMAT_DOS_437" />
+				<addaction name="IDM_FORMAT_WIN_1252" />
+			</widget>
+			<addaction name="menu40514" />
+			<widget class="QMenu" name="menu40515">
+				<property name="title">
+					<string>Vietnamese</string>
+				</property>
+				<addaction name="IDM_FORMAT_WIN_1258" />
+			</widget>
+			<addaction name="menu40515" />
+		</widget>
+		<addaction name="menu405" />
+		<addaction name="separator" />
+		<addaction name="IDM_FORMAT_CONV2_ANSI" />
+		<addaction name="IDM_FORMAT_CONV2_AS_UTF_8" />
+		<addaction name="IDM_FORMAT_CONV2_UTF_8" />
+		<addaction name="IDM_FORMAT_CONV2_UCS_2BE" />
+		<addaction name="IDM_FORMAT_CONV2_UCS_2LE" />
+	</widget>
+	<addaction name="menu4" />
+	<widget class="QMenu" name="menu5">
+		<property name="title">
+			<string>&amp;Language</string>
+		</property>
+		<addaction name="IDM_LANG_FLASH" />
+		<addaction name="IDM_LANG_ADA" />
+		<addaction name="IDM_LANG_ASN1" />
+		<addaction name="IDM_LANG_ASP" />
+		<addaction name="IDM_LANG_ASM" />
+		<addaction name="IDM_LANG_AU3" />
+		<addaction name="IDM_LANG_AVS" />
+		<addaction name="IDM_LANG_BAANC" />
+		<addaction name="IDM_LANG_BATCH" />
+		<addaction name="IDM_LANG_BLITZBASIC" />
+		<addaction name="IDM_LANG_C" />
+		<addaction name="IDM_LANG_CS" />
+		<addaction name="IDM_LANG_CPP" />
+		<addaction name="IDM_LANG_CAML" />
+		<addaction name="IDM_LANG_CMAKE" />
+		<addaction name="IDM_LANG_COBOL" />
+		<addaction name="IDM_LANG_CSOUND" />
+		<addaction name="IDM_LANG_COFFEESCRIPT" />
+		<addaction name="IDM_LANG_CSS" />
+		<addaction name="IDM_LANG_D" />
+		<addaction name="IDM_LANG_DIFF" />
+		<addaction name="IDM_LANG_ERLANG" />
+		<addaction name="IDM_LANG_ESCRIPT" />
+		<addaction name="IDM_LANG_FORTH" />
+		<addaction name="IDM_LANG_FORTRAN" />
+		<addaction name="IDM_LANG_FORTRAN_77" />
+		<addaction name="IDM_LANG_FREEBASIC" />
+		<addaction name="IDM_LANG_GUI4CLI" />
+		<addaction name="IDM_LANG_HASKELL" />
+		<addaction name="IDM_LANG_HTML" />
+		<addaction name="IDM_LANG_INI" />
+		<addaction name="IDM_LANG_INNO" />
+		<addaction name="IDM_LANG_IHEX" />
+		<addaction name="IDM_LANG_JAVA" />
+		<addaction name="IDM_LANG_JS" />
+		<addaction name="IDM_LANG_JSON" />
+		<addaction name="IDM_LANG_JSP" />
+		<addaction name="IDM_LANG_KIX" />
+		<addaction name="IDM_LANG_LISP" />
+		<addaction name="IDM_LANG_LATEX" />
+		<addaction name="IDM_LANG_LUA" />
+		<addaction name="IDM_LANG_MAKEFILE" />
+		<addaction name="IDM_LANG_MATLAB" />
+		<addaction name="IDM_LANG_MMIXAL" />
+		<addaction name="IDM_LANG_ASCII" />
+		<addaction name="IDM_LANG_NIMROD" />
+		<addaction name="IDM_LANG_NNCRONTAB" />
+		<addaction name="IDM_LANG_TEXT" />
+		<addaction name="IDM_LANG_NSIS" />
+		<addaction name="IDM_LANG_OBJC" />
+		<addaction name="IDM_LANG_OSCRIPT" />
+		<addaction name="IDM_LANG_PASCAL" />
+		<addaction name="IDM_LANG_PERL" />
+		<addaction name="IDM_LANG_PHP" />
+		<addaction name="IDM_LANG_PS" />
+		<addaction name="IDM_LANG_POWERSHELL" />
+		<addaction name="IDM_LANG_PROPS" />
+		<addaction name="IDM_LANG_PUREBASIC" />
+		<addaction name="IDM_LANG_PYTHON" />
+		<addaction name="IDM_LANG_R" />
+		<addaction name="IDM_LANG_REBOL" />
+		<addaction name="IDM_LANG_REGISTRY" />
+		<addaction name="IDM_LANG_RC" />
+		<addaction name="IDM_LANG_RUBY" />
+		<addaction name="IDM_LANG_RUST" />
+		<addaction name="IDM_LANG_BASH" />
+		<addaction name="IDM_LANG_SCHEME" />
+		<addaction name="IDM_LANG_SMALLTALK" />
+		<addaction name="IDM_LANG_SPICE" />
+		<addaction name="IDM_LANG_SQL" />
+		<addaction name="IDM_LANG_SWIFT" />
+		<addaction name="IDM_LANG_SREC" />
+		<addaction name="IDM_LANG_TCL" />
+		<addaction name="IDM_LANG_TEHEX" />
+		<addaction name="IDM_LANG_TEX" />
+		<addaction name="IDM_LANG_TXT2TAGS" />
+		<addaction name="IDM_LANG_VERILOG" />
+		<addaction name="IDM_LANG_VHDL" />
+		<addaction name="IDM_LANG_VB" />
+		<addaction name="IDM_LANG_VISUALPROLOG" />
+		<addaction name="IDM_LANG_XML" />
+		<addaction name="IDM_LANG_YAML" />
+		<addaction name="separator" />
+		<addaction name="IDM_LANG_USER_DLG" />
+		<addaction name="IDM_LANG_USER" />
+	</widget>
+	<addaction name="menu5" />
+	<widget class="QMenu" name="menu6">
+		<property name="title">
+			<string>&amp;Language</string>
+		</property>
+		<widget class="QMenu" name="menu600">
+			<property name="title">
+				<string>A</string>
+			</property>
+			<addaction name="IDM_LANG_FLASH" />
+			<addaction name="IDM_LANG_ADA" />
+			<addaction name="IDM_LANG_ASN1" />
+			<addaction name="IDM_LANG_ASP" />
+			<addaction name="IDM_LANG_ASM" />
+			<addaction name="IDM_LANG_AU3" />
+			<addaction name="IDM_LANG_AVS" />
+		</widget>
+		<addaction name="menu600" />
+		<widget class="QMenu" name="menu601">
+			<property name="title">
+				<string>B</string>
+			</property>
+			<addaction name="IDM_LANG_BAANC" />
+			<addaction name="IDM_LANG_BATCH" />
+			<addaction name="IDM_LANG_BLITZBASIC" />
+		</widget>
+		<addaction name="menu601" />
+		<widget class="QMenu" name="menu602">
+			<property name="title">
+				<string>C</string>
+			</property>
+			<addaction name="IDM_LANG_C" />
+			<addaction name="IDM_LANG_CS" />
+			<addaction name="IDM_LANG_CPP" />
+			<addaction name="IDM_LANG_CAML" />
+			<addaction name="IDM_LANG_CMAKE" />
+			<addaction name="IDM_LANG_COBOL" />
+			<addaction name="IDM_LANG_CSOUND" />
+			<addaction name="IDM_LANG_COFFEESCRIPT" />
+			<addaction name="IDM_LANG_CSS" />
+		</widget>
+		<addaction name="menu602" />
+		<widget class="QMenu" name="menu603">
+			<property name="title">
+				<string>D</string>
+			</property>
+			<addaction name="IDM_LANG_D" />
+			<addaction name="IDM_LANG_DIFF" />
+		</widget>
+		<addaction name="menu603" />
+		<widget class="QMenu" name="menu604">
+			<property name="title">
+				<string>E</string>
+			</property>
+			<addaction name="IDM_LANG_ERLANG" />
+			<addaction name="IDM_LANG_ESCRIPT" />
+		</widget>
+		<addaction name="menu604" />
+		<widget class="QMenu" name="menu605">
+			<property name="title">
+				<string>F</string>
+			</property>
+			<addaction name="IDM_LANG_FORTH" />
+			<addaction name="IDM_LANG_FORTRAN" />
+			<addaction name="IDM_LANG_FORTRAN_77" />
+			<addaction name="IDM_LANG_FREEBASIC" />
+		</widget>
+		<addaction name="menu605" />
+		<addaction name="IDM_LANG_GUI4CLI" />
+		<widget class="QMenu" name="menu607">
+			<property name="title">
+				<string>H</string>
+			</property>
+			<addaction name="IDM_LANG_HASKELL" />
+			<addaction name="IDM_LANG_HTML" />
+		</widget>
+		<addaction name="menu607" />
+		<widget class="QMenu" name="menu608">
+			<property name="title">
+				<string>I</string>
+			</property>
+			<addaction name="IDM_LANG_INI" />
+			<addaction name="IDM_LANG_INNO" />
+			<addaction name="IDM_LANG_IHEX" />
+		</widget>
+		<addaction name="menu608" />
+		<widget class="QMenu" name="menu609">
+			<property name="title">
+				<string>J</string>
+			</property>
+			<addaction name="IDM_LANG_JAVA" />
+			<addaction name="IDM_LANG_JS" />
+			<addaction name="IDM_LANG_JSON" />
+			<addaction name="IDM_LANG_JSP" />
+		</widget>
+		<addaction name="menu609" />
+		<addaction name="IDM_LANG_KIX" />
+		<widget class="QMenu" name="menu611">
+			<property name="title">
+				<string>L</string>
+			</property>
+			<addaction name="IDM_LANG_LATEX" />
+			<addaction name="IDM_LANG_LISP" />
+			<addaction name="IDM_LANG_LUA" />
+		</widget>
+		<addaction name="menu611" />
+		<widget class="QMenu" name="menu612">
+			<property name="title">
+				<string>M</string>
+			</property>
+			<addaction name="IDM_LANG_MAKEFILE" />
+			<addaction name="IDM_LANG_MATLAB" />
+			<addaction name="IDM_LANG_MMIXAL" />
+			<addaction name="IDM_LANG_ASCII" />
+		</widget>
+		<addaction name="menu612" />
+		<widget class="QMenu" name="menu613">
+			<property name="title">
+				<string>N</string>
+			</property>
+			<addaction name="IDM_LANG_NIMROD" />
+			<addaction name="IDM_LANG_NNCRONTAB" />
+			<addaction name="IDM_LANG_TEXT" />
+			<addaction name="IDM_LANG_NSIS" />
+		</widget>
+		<addaction name="menu613" />
+		<widget class="QMenu" name="menu614">
+			<property name="title">
+				<string>O</string>
+			</property>
+			<addaction name="IDM_LANG_OBJC" />
+			<addaction name="IDM_LANG_OSCRIPT" />
+		</widget>
+		<addaction name="menu614" />
+		<widget class="QMenu" name="menu615">
+			<property name="title">
+				<string>P</string>
+			</property>
+			<addaction name="IDM_LANG_PASCAL" />
+			<addaction name="IDM_LANG_PERL" />
+			<addaction name="IDM_LANG_PHP" />
+			<addaction name="IDM_LANG_PS" />
+			<addaction name="IDM_LANG_POWERSHELL" />
+			<addaction name="IDM_LANG_PROPS" />
+			<addaction name="IDM_LANG_PUREBASIC" />
+			<addaction name="IDM_LANG_PYTHON" />
+		</widget>
+		<addaction name="menu615" />
+		<widget class="QMenu" name="menu616">
+			<property name="title">
+				<string>R</string>
+			</property>
+			<addaction name="IDM_LANG_R" />
+			<addaction name="IDM_LANG_REBOL" />
+			<addaction name="IDM_LANG_REGISTRY" />
+			<addaction name="IDM_LANG_RC" />
+			<addaction name="IDM_LANG_RUBY" />
+			<addaction name="IDM_LANG_RUST" />
+		</widget>
+		<addaction name="menu616" />
+		<widget class="QMenu" name="menu617">
+			<property name="title">
+				<string>S</string>
+			</property>
+			<addaction name="IDM_LANG_BASH" />
+			<addaction name="IDM_LANG_SCHEME" />
+			<addaction name="IDM_LANG_SMALLTALK" />
+			<addaction name="IDM_LANG_SPICE" />
+			<addaction name="IDM_LANG_SQL" />
+			<addaction name="IDM_LANG_SWIFT" />
+			<addaction name="IDM_LANG_SREC" />
+		</widget>
+		<addaction name="menu617" />
+		<widget class="QMenu" name="menu618">
+			<property name="title">
+				<string>T</string>
+			</property>
+			<addaction name="IDM_LANG_TCL" />
+			<addaction name="IDM_LANG_TEHEX" />
+			<addaction name="IDM_LANG_TEX" />
+			<addaction name="IDM_LANG_TXT2TAGS" />
+		</widget>
+		<addaction name="menu618" />
+		<widget class="QMenu" name="menu619">
+			<property name="title">
+				<string>V</string>
+			</property>
+			<addaction name="IDM_LANG_VB" />
+			<addaction name="IDM_LANG_VISUALPROLOG" />
+			<addaction name="IDM_LANG_VHDL" />
+			<addaction name="IDM_LANG_VERILOG" />
+		</widget>
+		<addaction name="menu619" />
+		<addaction name="IDM_LANG_XML" />
+		<addaction name="IDM_LANG_YAML" />
+		<addaction name="separator" />
+		<addaction name="IDM_LANG_USER_DLG" />
+		<addaction name="IDM_LANG_USER" />
+	</widget>
+	<addaction name="menu6" />
+	<widget class="QMenu" name="menu7">
+		<property name="title">
+			<string>Se&amp;ttings</string>
+		</property>
+		<addaction name="IDM_SETTING_PREFERENCE" />
+		<addaction name="IDM_LANGSTYLE_CONFIG_DLG" />
+		<addaction name="IDM_SETTING_SHORTCUT_MAPPER" />
+		<addaction name="separator" />
+		<widget class="QMenu" name="menu704">
+			<property name="title">
+				<string>Import</string>
+			</property>
+			<addaction name="IDM_SETTING_IMPORTPLUGIN" />
+			<addaction name="IDM_SETTING_IMPORTSTYLETHEMS" />
+		</widget>
+		<addaction name="menu704" />
+		<addaction name="separator" />
+		<addaction name="IDM_SETTING_EDITCONTEXTMENU" />
+	</widget>
+	<addaction name="menu7" />
+	<widget class="QMenu" name="menu8">
+		<property name="title">
+			<string>T&amp;ools</string>
+		</property>
+		<widget class="QMenu" name="menu800">
+			<property name="title">
+				<string>MD5</string>
+			</property>
+			<addaction name="IDM_TOOL_MD5_GENERATE" />
+			<addaction name="IDM_TOOL_MD5_GENERATEFROMFILE" />
+			<addaction name="IDM_TOOL_MD5_GENERATEINTOCLIPBOARD" />
+		</widget>
+		<addaction name="menu800" />
+		<widget class="QMenu" name="menu801">
+			<property name="title">
+				<string>SHA-256</string>
+			</property>
+			<addaction name="IDM_TOOL_SHA256_GENERATE" />
+			<addaction name="IDM_TOOL_SHA256_GENERATEFROMFILE" />
+			<addaction name="IDM_TOOL_SHA256_GENERATEINTOCLIPBOARD" />
+		</widget>
+		<addaction name="menu801" />
+	</widget>
+	<addaction name="menu8" />
+	<widget class="QMenu" name="menu9">
+		<property name="title">
+			<string>&amp;Macro</string>
+		</property>
+		<addaction name="IDM_MACRO_STARTRECORDINGMACRO" />
+		<addaction name="IDM_MACRO_STOPRECORDINGMACRO" />
+		<addaction name="IDM_MACRO_PLAYBACKRECORDEDMACRO" />
+		<addaction name="IDM_MACRO_SAVECURRENTMACRO" />
+		<addaction name="IDM_MACRO_RUNMULTIMACRODLG" />
+	</widget>
+	<addaction name="menu9" />
+	<widget class="QMenu" name="menu10">
+		<property name="title">
+			<string>&amp;Run</string>
+		</property>
+		<addaction name="IDM_EXECUTE" />
+	</widget>
+	<addaction name="menu10" />
+	<widget class="QMenu" name="menu11">
+		<property name="title">
+			<string>&amp;?</string>
+		</property>
+		<addaction name="IDM_CMDLINEARGUMENTS" />
+		<addaction name="separator" />
+		<addaction name="IDM_HOMESWEETHOME" />
+		<addaction name="IDM_PROJECTPAGE" />
+		<addaction name="IDM_FORUM" />
+		<addaction name="IDM_ONLINESUPPORT" />
+		<addaction name="separator" />
+		<addaction name="IDM_UPDATE_NPP" />
+		<addaction name="IDM_CONFUPDATERPROXY" />
+		<addaction name="separator" />
+		<addaction name="IDM_DEBUGINFO" />
+		<addaction name="IDM_ABOUT" />
+	</widget>
+	<addaction name="menu11" />
+	<addaction name="IDM_FILE_CLOSE" />
+</widget>
+<action name="IDM_FILE_NEW">
+	<property name="text">
+		<string>&amp;New</string>
+	</property>
+</action>
+<action name="IDM_FILE_OPEN">
+	<property name="text">
+		<string>&amp;Open...</string>
+	</property>
+</action>
+<action name="IDM_FILE_OPEN_FOLDER">
+	<property name="text">
+		<string>Explorer</string>
+	</property>
+</action>
+<action name="IDM_FILE_OPEN_CMD">
+	<property name="text">
+		<string>cmd</string>
+	</property>
+</action>
+<action name="IDM_FILE_OPEN_DEFAULT_VIEWER">
+	<property name="text">
+		<string>Open in Default Viewer</string>
+	</property>
+</action>
+<action name="IDM_FILE_OPENFOLDERASWORSPACE">
+	<property name="text">
+		<string>Open Folder as Workspace...</string>
+	</property>
+</action>
+<action name="IDM_FILE_RELOAD">
+	<property name="text">
+		<string>Re&amp;load from Disk</string>
+	</property>
+</action>
+<action name="IDM_FILE_SAVE">
+	<property name="text">
+		<string>&amp;Save</string>
+	</property>
+</action>
+<action name="IDM_FILE_SAVEAS">
+	<property name="text">
+		<string>Save &amp;As...</string>
+	</property>
+</action>
+<action name="IDM_FILE_SAVECOPYAS">
+	<property name="text">
+		<string>Save a Copy As...</string>
+	</property>
+</action>
+<action name="IDM_FILE_SAVEALL">
+	<property name="text">
+		<string>Sav&amp;e All</string>
+	</property>
+</action>
+<action name="IDM_FILE_RENAME">
+	<property name="text">
+		<string>Rename...</string>
+	</property>
+</action>
+<action name="IDM_FILE_CLOSE">
+	<property name="text">
+		<string>&amp;Close</string>
+	</property>
+</action>
+<action name="IDM_FILE_CLOSEALL">
+	<property name="text">
+		<string>Clos&amp;e All</string>
+	</property>
+</action>
+<action name="IDM_FILE_CLOSEALL_BUT_CURRENT">
+	<property name="text">
+		<string>Close All but Active Document</string>
+	</property>
+</action>
+<action name="IDM_FILE_CLOSEALL_TOLEFT">
+	<property name="text">
+		<string>Close All to the Left</string>
+	</property>
+</action>
+<action name="IDM_FILE_CLOSEALL_TORIGHT">
+	<property name="text">
+		<string>Close All to the Right</string>
+	</property>
+</action>
+<action name="IDM_FILE_CLOSEALL_UNCHANGED">
+	<property name="text">
+		<string>Close All Unchanged</string>
+	</property>
+</action>
+<action name="IDM_FILE_DELETE">
+	<property name="text">
+		<string>Move to Recycle Bin</string>
+	</property>
+</action>
+<action name="IDM_FILE_LOADSESSION">
+	<property name="text">
+		<string>Load Session...</string>
+	</property>
+</action>
+<action name="IDM_FILE_SAVESESSION">
+	<property name="text">
+		<string>Save Session...</string>
+	</property>
+</action>
+<action name="IDM_FILE_PRINT">
+	<property name="text">
+		<string>Print...</string>
+	</property>
+</action>
+<action name="IDM_FILE_PRINTNOW">
+	<property name="text">
+		<string>Print Now</string>
+	</property>
+</action>
+<action name="IDM_FILE_EXIT">
+	<property name="text">
+		<string>E&amp;xit</string>
+	</property>
+</action>
+<action name="IDM_EDIT_UNDO">
+	<property name="text">
+		<string>&amp;Undo</string>
+	</property>
+</action>
+<action name="IDM_EDIT_REDO">
+	<property name="text">
+		<string>&amp;Redo</string>
+	</property>
+</action>
+<action name="IDM_EDIT_CUT">
+	<property name="text">
+		<string>Cu&amp;t</string>
+	</property>
+</action>
+<action name="IDM_EDIT_COPY">
+	<property name="text">
+		<string>&amp;Copy</string>
+	</property>
+</action>
+<action name="IDM_EDIT_PASTE">
+	<property name="text">
+		<string>&amp;Paste</string>
+	</property>
+</action>
+<action name="IDM_EDIT_DELETE">
+	<property name="text">
+		<string>&amp;Delete</string>
+	</property>
+</action>
+<action name="IDM_EDIT_SELECTALL">
+	<property name="text">
+		<string>Select A&amp;ll</string>
+	</property>
+</action>
+<action name="IDM_EDIT_BEGINENDSELECT">
+	<property name="text">
+		<string>Begin/End Select</string>
+	</property>
+</action>
+<action name="IDM_EDIT_FULLPATHTOCLIP">
+	<property name="text">
+		<string>Current Full File path to Clipboard</string>
+	</property>
+</action>
+<action name="IDM_EDIT_FILENAMETOCLIP">
+	<property name="text">
+		<string>Current Filename to Clipboard</string>
+	</property>
+</action>
+<action name="IDM_EDIT_CURRENTDIRTOCLIP">
+	<property name="text">
+		<string>Current Dir. Path to Clipboard</string>
+	</property>
+</action>
+<action name="IDM_EDIT_INS_TAB">
+	<property name="text">
+		<string>Increase Line Indent</string>
+	</property>
+</action>
+<action name="IDM_EDIT_RMV_TAB">
+	<property name="text">
+		<string>Decrease Line Indent</string>
+	</property>
+</action>
+<action name="IDM_EDIT_UPPERCASE">
+	<property name="text">
+		<string>&amp;UPPERCASE</string>
+	</property>
+</action>
+<action name="IDM_EDIT_LOWERCASE">
+	<property name="text">
+		<string>&amp;lowercase</string>
+	</property>
+</action>
+<action name="IDM_EDIT_PROPERCASE_FORCE">
+	<property name="text">
+		<string>&amp;Proper Case</string>
+	</property>
+</action>
+<action name="IDM_EDIT_PROPERCASE_BLEND">
+	<property name="text">
+		<string>Proper Case (blend)</string>
+	</property>
+</action>
+<action name="IDM_EDIT_SENTENCECASE_FORCE">
+	<property name="text">
+		<string>&amp;Sentence case</string>
+	</property>
+</action>
+<action name="IDM_EDIT_SENTENCECASE_BLEND">
+	<property name="text">
+		<string>Sentence case (blend)</string>
+	</property>
+</action>
+<action name="IDM_EDIT_INVERTCASE">
+	<property name="text">
+		<string>&amp;iNVERT cASE</string>
+	</property>
+</action>
+<action name="IDM_EDIT_RANDOMCASE">
+	<property name="text">
+		<string>&amp;ranDOm CasE</string>
+	</property>
+</action>
+<action name="IDM_EDIT_DUP_LINE">
+	<property name="text">
+		<string>Duplicate Current Line</string>
+	</property>
+</action>
+<action name="IDM_EDIT_REMOVE_DUP_LINES">
+	<property name="text">
+		<string>Remove Consecutive Duplicate Lines</string>
+	</property>
+</action>
+<action name="IDM_EDIT_SPLIT_LINES">
+	<property name="text">
+		<string>Split Lines</string>
+	</property>
+</action>
+<action name="IDM_EDIT_JOIN_LINES">
+	<property name="text">
+		<string>Join Lines</string>
+	</property>
+</action>
+<action name="IDM_EDIT_LINE_UP">
+	<property name="text">
+		<string>Move Up Current Line</string>
+	</property>
+</action>
+<action name="IDM_EDIT_LINE_DOWN">
+	<property name="text">
+		<string>Move Down Current Line</string>
+	</property>
+</action>
+<action name="IDM_EDIT_REMOVEEMPTYLINES">
+	<property name="text">
+		<string>Remove Empty Lines</string>
+	</property>
+</action>
+<action name="IDM_EDIT_REMOVEEMPTYLINESWITHBLANK">
+	<property name="text">
+		<string>Remove Empty Lines (Containing Blank characters)</string>
+	</property>
+</action>
+<action name="IDM_EDIT_BLANKLINEABOVECURRENT">
+	<property name="text">
+		<string>Insert Blank Line Above Current</string>
+	</property>
+</action>
+<action name="IDM_EDIT_BLANKLINEBELOWCURRENT">
+	<property name="text">
+		<string>Insert Blank Line Below Current</string>
+	</property>
+</action>
+<action name="IDM_EDIT_SORTLINES_LEXICOGRAPHIC_ASCENDING">
+	<property name="text">
+		<string>Sort Lines Lexicographically Ascending</string>
+	</property>
+</action>
+<action name="IDM_EDIT_SORTLINES_INTEGER_ASCENDING">
+	<property name="text">
+		<string>Sort Lines As Integers Ascending</string>
+	</property>
+</action>
+<action name="IDM_EDIT_SORTLINES_DECIMALCOMMA_ASCENDING">
+	<property name="text">
+		<string>Sort Lines As Decimals (Comma) Ascending</string>
+	</property>
+</action>
+<action name="IDM_EDIT_SORTLINES_DECIMALDOT_ASCENDING">
+	<property name="text">
+		<string>Sort Lines As Decimals (Dot) Ascending</string>
+	</property>
+</action>
+<action name="IDM_EDIT_SORTLINES_LEXICOGRAPHIC_DESCENDING">
+	<property name="text">
+		<string>Sort Lines Lexicographically Descending</string>
+	</property>
+</action>
+<action name="IDM_EDIT_SORTLINES_INTEGER_DESCENDING">
+	<property name="text">
+		<string>Sort Lines As Integers Descending</string>
+	</property>
+</action>
+<action name="IDM_EDIT_SORTLINES_DECIMALCOMMA_DESCENDING">
+	<property name="text">
+		<string>Sort Lines As Decimals (Comma) Descending</string>
+	</property>
+</action>
+<action name="IDM_EDIT_SORTLINES_DECIMALDOT_DESCENDING">
+	<property name="text">
+		<string>Sort Lines As Decimals (Dot) Descending</string>
+	</property>
+</action>
+<action name="IDM_EDIT_BLOCK_COMMENT">
+	<property name="text">
+		<string>Toggle Single Line Comment</string>
+	</property>
+</action>
+<action name="IDM_EDIT_BLOCK_COMMENT_SET">
+	<property name="text">
+		<string>Single Line Comment</string>
+	</property>
+</action>
+<action name="IDM_EDIT_BLOCK_UNCOMMENT">
+	<property name="text">
+		<string>Single Line Uncomment</string>
+	</property>
+</action>
+<action name="IDM_EDIT_STREAM_COMMENT">
+	<property name="text">
+		<string>Block Comment</string>
+	</property>
+</action>
+<action name="IDM_EDIT_STREAM_UNCOMMENT">
+	<property name="text">
+		<string>Block Uncomment</string>
+	</property>
+</action>
+<action name="IDM_EDIT_AUTOCOMPLETE">
+	<property name="text">
+		<string>Function Completion</string>
+	</property>
+</action>
+<action name="IDM_EDIT_AUTOCOMPLETE_CURRENTFILE">
+	<property name="text">
+		<string>Word Completion</string>
+	</property>
+</action>
+<action name="IDM_EDIT_FUNCCALLTIP">
+	<property name="text">
+		<string>Function Parameters Hint</string>
+	</property>
+</action>
+<action name="IDM_EDIT_AUTOCOMPLETE_PATH">
+	<property name="text">
+		<string>Path Completion</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_TODOS">
+	<property name="text">
+		<string>Windows (CR LF)</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_TOUNIX">
+	<property name="text">
+		<string>Unix (LF)</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_TOMAC">
+	<property name="text">
+		<string>Macintosh (CR)</string>
+	</property>
+</action>
+<action name="IDM_EDIT_TRIMTRAILING">
+	<property name="text">
+		<string>Trim Trailing Space</string>
+	</property>
+</action>
+<action name="IDM_EDIT_TRIMLINEHEAD">
+	<property name="text">
+		<string>Trim Leading Space</string>
+	</property>
+</action>
+<action name="IDM_EDIT_TRIM_BOTH">
+	<property name="text">
+		<string>Trim Leading and Trailing Space</string>
+	</property>
+</action>
+<action name="IDM_EDIT_EOL2WS">
+	<property name="text">
+		<string>EOL to Space</string>
+	</property>
+</action>
+<action name="IDM_EDIT_TRIMALL">
+	<property name="text">
+		<string>Remove Unnecessary Blank and EOL</string>
+	</property>
+</action>
+<action name="IDM_EDIT_TAB2SW">
+	<property name="text">
+		<string>TAB to Space</string>
+	</property>
+</action>
+<action name="IDM_EDIT_SW2TAB_ALL">
+	<property name="text">
+		<string>Space to TAB (All)</string>
+	</property>
+</action>
+<action name="IDM_EDIT_SW2TAB_LEADING">
+	<property name="text">
+		<string>Space to TAB (Leading)</string>
+	</property>
+</action>
+<action name="IDM_EDIT_PASTE_AS_HTML">
+	<property name="text">
+		<string>Paste HTML Content</string>
+	</property>
+</action>
+<action name="IDM_EDIT_PASTE_AS_RTF">
+	<property name="text">
+		<string>Paste RTF Content</string>
+	</property>
+</action>
+<action name="IDM_EDIT_COPY_BINARY">
+	<property name="text">
+		<string>Copy Binary Content</string>
+	</property>
+</action>
+<action name="IDM_EDIT_CUT_BINARY">
+	<property name="text">
+		<string>Cut Binary Content</string>
+	</property>
+</action>
+<action name="IDM_EDIT_PASTE_BINARY">
+	<property name="text">
+		<string>Paste Binary Content</string>
+	</property>
+</action>
+<action name="IDM_EDIT_OPENASFILE">
+	<property name="text">
+		<string>Open File</string>
+	</property>
+</action>
+<action name="IDM_EDIT_OPENINFOLDER">
+	<property name="text">
+		<string>Open Containing Folder in Explorer</string>
+	</property>
+</action>
+<action name="IDM_EDIT_SEARCHONINTERNET">
+	<property name="text">
+		<string>Search on Internet</string>
+	</property>
+</action>
+<action name="IDM_EDIT_CHANGESEARCHENGINE">
+	<property name="text">
+		<string>Change Search Engine...</string>
+	</property>
+</action>
+<action name="IDM_EDIT_COLUMNMODETIP">
+	<property name="text">
+		<string>Column Mode...</string>
+	</property>
+</action>
+<action name="IDM_EDIT_COLUMNMODE">
+	<property name="text">
+		<string>Column Editor...</string>
+	</property>
+</action>
+<action name="IDM_EDIT_CHAR_PANEL">
+	<property name="text">
+		<string>Character Panel</string>
+	</property>
+</action>
+<action name="IDM_EDIT_CLIPBOARDHISTORY_PANEL">
+	<property name="text">
+		<string>Clipboard History</string>
+	</property>
+</action>
+<action name="IDM_EDIT_SETREADONLY">
+	<property name="text">
+		<string>Set Read-Only</string>
+	</property>
+</action>
+<action name="IDM_EDIT_CLEARREADONLY">
+	<property name="text">
+		<string>Clear Read-Only Flag</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_FIND">
+	<property name="text">
+		<string>&amp;Find...</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_FINDINFILES">
+	<property name="text">
+		<string>Find in Files...</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_FINDNEXT">
+	<property name="text">
+		<string>Find &amp;Next</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_FINDPREV">
+	<property name="text">
+		<string>Find &amp;Previous</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_SETANDFINDNEXT">
+	<property name="text">
+		<string>Select and Find Next</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_SETANDFINDPREV">
+	<property name="text">
+		<string>Select and Find Previous</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_VOLATILE_FINDNEXT">
+	<property name="text">
+		<string>Find (Volatile) Next</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_VOLATILE_FINDPREV">
+	<property name="text">
+		<string>Find (Volatile) Previous</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_REPLACE">
+	<property name="text">
+		<string>&amp;Replace...</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_FINDINCREMENT">
+	<property name="text">
+		<string>&amp;Incremental Search</string>
+	</property>
+</action>
+<action name="IDM_FOCUS_ON_FOUND_RESULTS">
+	<property name="text">
+		<string>Search Results Window</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_GOTONEXTFOUND">
+	<property name="text">
+		<string>Next Search Result</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_GOTOPREVFOUND">
+	<property name="text">
+		<string>Previous Search Result</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_GOTOLINE">
+	<property name="text">
+		<string>&amp;Go to...</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_GOTOMATCHINGBRACE">
+	<property name="text">
+		<string>Go to Matching Brace</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_SELECTMATCHINGBRACES">
+	<property name="text">
+		<string>Select All Between Matching Braces</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_MARK">
+	<property name="text">
+		<string>Mar&amp;k...</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_MARKALLEXT1">
+	<property name="text">
+		<string>Using 1st Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_MARKALLEXT2">
+	<property name="text">
+		<string>Using 2nd Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_MARKALLEXT3">
+	<property name="text">
+		<string>Using 3rd Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_MARKALLEXT4">
+	<property name="text">
+		<string>Using 4th Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_MARKALLEXT5">
+	<property name="text">
+		<string>Using 5th Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_UNMARKALLEXT1">
+	<property name="text">
+		<string>Clear 1st Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_UNMARKALLEXT2">
+	<property name="text">
+		<string>Clear 2nd Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_UNMARKALLEXT3">
+	<property name="text">
+		<string>Clear 3rd Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_UNMARKALLEXT4">
+	<property name="text">
+		<string>Clear 4th Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_UNMARKALLEXT5">
+	<property name="text">
+		<string>Clear 5th Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_CLEARALLMARKS">
+	<property name="text">
+		<string>Clear all Styles</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_GOPREVMARKER1">
+	<property name="text">
+		<string>1st Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_GOPREVMARKER2">
+	<property name="text">
+		<string>2nd Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_GOPREVMARKER3">
+	<property name="text">
+		<string>3rd Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_GOPREVMARKER4">
+	<property name="text">
+		<string>4th Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_GOPREVMARKER5">
+	<property name="text">
+		<string>5th Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_GOPREVMARKER_DEF">
+	<property name="text">
+		<string>Find Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_GONEXTMARKER1">
+	<property name="text">
+		<string>1st Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_GONEXTMARKER2">
+	<property name="text">
+		<string>2nd Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_GONEXTMARKER3">
+	<property name="text">
+		<string>3rd Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_GONEXTMARKER4">
+	<property name="text">
+		<string>4th Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_GONEXTMARKER5">
+	<property name="text">
+		<string>5th Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_GONEXTMARKER_DEF">
+	<property name="text">
+		<string>Find Style</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_TOGGLE_BOOKMARK">
+	<property name="text">
+		<string>Toggle Bookmark</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_NEXT_BOOKMARK">
+	<property name="text">
+		<string>Next Bookmark</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_PREV_BOOKMARK">
+	<property name="text">
+		<string>Previous Bookmark</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_CLEAR_BOOKMARKS">
+	<property name="text">
+		<string>Clear All Bookmarks</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_CUTMARKEDLINES">
+	<property name="text">
+		<string>Cut Bookmarked Lines</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_COPYMARKEDLINES">
+	<property name="text">
+		<string>Copy Bookmarked Lines</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_PASTEMARKEDLINES">
+	<property name="text">
+		<string>Paste to (Replace) Bookmarked Lines</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_DELETEMARKEDLINES">
+	<property name="text">
+		<string>Remove Bookmarked Lines</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_DELETEUNMARKEDLINES">
+	<property name="text">
+		<string>Remove Unmarked Lines</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_INVERSEMARKS">
+	<property name="text">
+		<string>Inverse Bookmark</string>
+	</property>
+</action>
+<action name="IDM_SEARCH_FINDCHARINRANGE">
+	<property name="text">
+		<string>Find characters in range...</string>
+	</property>
+</action>
+<action name="IDM_VIEW_ALWAYSONTOP">
+	<property name="text">
+		<string>Always on Top</string>
+	</property>
+</action>
+<action name="IDM_VIEW_FULLSCREENTOGGLE">
+	<property name="text">
+		<string>Toggle Full Screen Mode</string>
+	</property>
+</action>
+<action name="IDM_VIEW_POSTIT">
+	<property name="text">
+		<string>Post-It</string>
+	</property>
+</action>
+<action name="IDM_VIEW_IN_FIREFOX">
+	<property name="text">
+		<string>Firefox</string>
+	</property>
+</action>
+<action name="IDM_VIEW_IN_CHROME">
+	<property name="text">
+		<string>Chrome</string>
+	</property>
+</action>
+<action name="IDM_VIEW_IN_EDGE">
+	<property name="text">
+		<string>Edge</string>
+	</property>
+</action>
+<action name="IDM_VIEW_IN_IE">
+	<property name="text">
+		<string>IE</string>
+	</property>
+</action>
+<action name="IDM_VIEW_TAB_SPACE">
+	<property name="text">
+		<string>Show White Space and TAB</string>
+	</property>
+</action>
+<action name="IDM_VIEW_EOL">
+	<property name="text">
+		<string>Show End of Line</string>
+	</property>
+</action>
+<action name="IDM_VIEW_ALL_CHARACTERS">
+	<property name="text">
+		<string>Show All Characters</string>
+	</property>
+</action>
+<action name="IDM_VIEW_INDENT_GUIDE">
+	<property name="text">
+		<string>Show Indent Guide</string>
+	</property>
+</action>
+<action name="IDM_VIEW_WRAP_SYMBOL">
+	<property name="text">
+		<string>Show Wrap Symbol</string>
+	</property>
+</action>
+<action name="IDM_VIEW_ZOOMIN">
+	<property name="text">
+		<string>Zoom &amp;In (Ctrl+Mouse Wheel Up)</string>
+	</property>
+</action>
+<action name="IDM_VIEW_ZOOMOUT">
+	<property name="text">
+		<string>Zoom &amp;Out (Ctrl+Mouse Wheel Down)</string>
+	</property>
+</action>
+<action name="IDM_VIEW_ZOOMRESTORE">
+	<property name="text">
+		<string>Restore Default Zoom</string>
+	</property>
+</action>
+<action name="IDM_VIEW_GOTO_ANOTHER_VIEW">
+	<property name="text">
+		<string>Move to Other View</string>
+	</property>
+</action>
+<action name="IDM_VIEW_CLONE_TO_ANOTHER_VIEW">
+	<property name="text">
+		<string>Clone to Other View</string>
+	</property>
+</action>
+<action name="IDM_VIEW_GOTO_NEW_INSTANCE">
+	<property name="text">
+		<string>Move to New Instance</string>
+	</property>
+</action>
+<action name="IDM_VIEW_LOAD_IN_NEW_INSTANCE">
+	<property name="text">
+		<string>Open in New Instance</string>
+	</property>
+</action>
+<action name="IDM_VIEW_TAB1">
+	<property name="text">
+		<string>1st Tab</string>
+	</property>
+</action>
+<action name="IDM_VIEW_TAB2">
+	<property name="text">
+		<string>2nd Tab</string>
+	</property>
+</action>
+<action name="IDM_VIEW_TAB3">
+	<property name="text">
+		<string>3rd Tab</string>
+	</property>
+</action>
+<action name="IDM_VIEW_TAB4">
+	<property name="text">
+		<string>4th Tab</string>
+	</property>
+</action>
+<action name="IDM_VIEW_TAB5">
+	<property name="text">
+		<string>5th Tab</string>
+	</property>
+</action>
+<action name="IDM_VIEW_TAB6">
+	<property name="text">
+		<string>6th Tab</string>
+	</property>
+</action>
+<action name="IDM_VIEW_TAB7">
+	<property name="text">
+		<string>7th Tab</string>
+	</property>
+</action>
+<action name="IDM_VIEW_TAB8">
+	<property name="text">
+		<string>8th Tab</string>
+	</property>
+</action>
+<action name="IDM_VIEW_TAB9">
+	<property name="text">
+		<string>9th Tab</string>
+	</property>
+</action>
+<action name="IDM_VIEW_TAB_NEXT">
+	<property name="text">
+		<string>Next Tab</string>
+	</property>
+</action>
+<action name="IDM_VIEW_TAB_PREV">
+	<property name="text">
+		<string>Previous Tab</string>
+	</property>
+</action>
+<action name="IDM_VIEW_TAB_MOVEFORWARD">
+	<property name="text">
+		<string>Move Tab Forward</string>
+	</property>
+</action>
+<action name="IDM_VIEW_TAB_MOVEBACKWARD">
+	<property name="text">
+		<string>Move Tab Backward</string>
+	</property>
+</action>
+<action name="IDM_VIEW_WRAP">
+	<property name="text">
+		<string>Word wrap</string>
+	</property>
+</action>
+<action name="IDM_VIEW_SWITCHTO_OTHER_VIEW">
+	<property name="text">
+		<string>Focus on Another View</string>
+	</property>
+</action>
+<action name="IDM_VIEW_HIDELINES">
+	<property name="text">
+		<string>Hide Lines</string>
+	</property>
+</action>
+<action name="IDM_VIEW_TOGGLE_FOLDALL">
+	<property name="text">
+		<string>Fold All</string>
+	</property>
+</action>
+<action name="IDM_VIEW_TOGGLE_UNFOLDALL">
+	<property name="text">
+		<string>Unfold All</string>
+	</property>
+</action>
+<action name="IDM_VIEW_FOLD_CURRENT">
+	<property name="text">
+		<string>Collapse Current Level</string>
+	</property>
+</action>
+<action name="IDM_VIEW_UNFOLD_CURRENT">
+	<property name="text">
+		<string>Uncollapse Current Level</string>
+	</property>
+</action>
+<action name="IDM_VIEW_FOLD_1">
+	<property name="text">
+		<string>1</string>
+	</property>
+</action>
+<action name="IDM_VIEW_FOLD_2">
+	<property name="text">
+		<string>2</string>
+	</property>
+</action>
+<action name="IDM_VIEW_FOLD_3">
+	<property name="text">
+		<string>3</string>
+	</property>
+</action>
+<action name="IDM_VIEW_FOLD_4">
+	<property name="text">
+		<string>4</string>
+	</property>
+</action>
+<action name="IDM_VIEW_FOLD_5">
+	<property name="text">
+		<string>5</string>
+	</property>
+</action>
+<action name="IDM_VIEW_FOLD_6">
+	<property name="text">
+		<string>6</string>
+	</property>
+</action>
+<action name="IDM_VIEW_FOLD_7">
+	<property name="text">
+		<string>7</string>
+	</property>
+</action>
+<action name="IDM_VIEW_FOLD_8">
+	<property name="text">
+		<string>8</string>
+	</property>
+</action>
+<action name="IDM_VIEW_UNFOLD_1">
+	<property name="text">
+		<string>1</string>
+	</property>
+</action>
+<action name="IDM_VIEW_UNFOLD_2">
+	<property name="text">
+		<string>2</string>
+	</property>
+</action>
+<action name="IDM_VIEW_UNFOLD_3">
+	<property name="text">
+		<string>3</string>
+	</property>
+</action>
+<action name="IDM_VIEW_UNFOLD_4">
+	<property name="text">
+		<string>4</string>
+	</property>
+</action>
+<action name="IDM_VIEW_UNFOLD_5">
+	<property name="text">
+		<string>5</string>
+	</property>
+</action>
+<action name="IDM_VIEW_UNFOLD_6">
+	<property name="text">
+		<string>6</string>
+	</property>
+</action>
+<action name="IDM_VIEW_UNFOLD_7">
+	<property name="text">
+		<string>7</string>
+	</property>
+</action>
+<action name="IDM_VIEW_UNFOLD_8">
+	<property name="text">
+		<string>8</string>
+	</property>
+</action>
+<action name="IDM_VIEW_SUMMARY">
+	<property name="text">
+		<string>Summary...</string>
+	</property>
+</action>
+<action name="IDM_VIEW_PROJECT_PANEL_1">
+	<property name="text">
+		<string>Project Panel 1</string>
+	</property>
+</action>
+<action name="IDM_VIEW_PROJECT_PANEL_2">
+	<property name="text">
+		<string>Project Panel 2</string>
+	</property>
+</action>
+<action name="IDM_VIEW_PROJECT_PANEL_3">
+	<property name="text">
+		<string>Project Panel 3</string>
+	</property>
+</action>
+<action name="IDM_VIEW_FILEBROWSER">
+	<property name="text">
+		<string>Folder as Workspace</string>
+	</property>
+</action>
+<action name="IDM_VIEW_DOC_MAP">
+	<property name="text">
+		<string>Document Map</string>
+	</property>
+</action>
+<action name="IDM_VIEW_FUNC_LIST">
+	<property name="text">
+		<string>Function List</string>
+	</property>
+</action>
+<action name="IDM_VIEW_SYNSCROLLV">
+	<property name="text">
+		<string>Synchronize Vertical Scrolling</string>
+	</property>
+</action>
+<action name="IDM_VIEW_SYNSCROLLH">
+	<property name="text">
+		<string>Synchronize Horizontal Scrolling</string>
+	</property>
+</action>
+<action name="IDM_EDIT_RTL">
+	<property name="text">
+		<string>Text Direction RTL</string>
+	</property>
+</action>
+<action name="IDM_EDIT_LTR">
+	<property name="text">
+		<string>Text Direction LTR</string>
+	</property>
+</action>
+<action name="IDM_VIEW_MONITORING">
+	<property name="text">
+		<string>Monitoring (tail -f)</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_ANSI">
+	<property name="text">
+		<string>ANSI</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_AS_UTF_8">
+	<property name="text">
+		<string>UTF-8</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_UTF_8">
+	<property name="text">
+		<string>UTF-8-BOM</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_UCS_2BE">
+	<property name="text">
+		<string>UCS-2 BE BOM</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_UCS_2LE">
+	<property name="text">
+		<string>UCS-2 LE BOM</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_ISO_8859_6">
+	<property name="text">
+		<string>ISO 8859-6</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_DOS_720">
+	<property name="text">
+		<string>OEM 720</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_WIN_1256">
+	<property name="text">
+		<string>Windows-1256</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_ISO_8859_4">
+	<property name="text">
+		<string>ISO 8859-4</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_ISO_8859_13">
+	<property name="text">
+		<string>ISO 8859-13</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_DOS_775">
+	<property name="text">
+		<string>OEM 775</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_WIN_1257">
+	<property name="text">
+		<string>Windows-1257</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_ISO_8859_14">
+	<property name="text">
+		<string>ISO 8859-14</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_ISO_8859_5">
+	<property name="text">
+		<string>ISO 8859-5</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_KOI8R_CYRILLIC">
+	<property name="text">
+		<string>KOI8-R</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_KOI8U_CYRILLIC">
+	<property name="text">
+		<string>KOI8-U</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_MAC_CYRILLIC">
+	<property name="text">
+		<string>Macintosh</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_DOS_855">
+	<property name="text">
+		<string>OEM 855</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_DOS_866">
+	<property name="text">
+		<string>OEM 866</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_WIN_1251">
+	<property name="text">
+		<string>Windows-1251</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_DOS_852">
+	<property name="text">
+		<string>OEM 852</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_WIN_1250">
+	<property name="text">
+		<string>Windows-1250</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_BIG5">
+	<property name="text">
+		<string>Big5 (Traditional)</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_GB2312">
+	<property name="text">
+		<string>GB2312 (Simplified)</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_ISO_8859_2">
+	<property name="text">
+		<string>ISO 8859-2</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_ISO_8859_7">
+	<property name="text">
+		<string>ISO 8859-7</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_DOS_737">
+	<property name="text">
+		<string>OEM 737</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_DOS_869">
+	<property name="text">
+		<string>OEM 869</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_WIN_1253">
+	<property name="text">
+		<string>Windows-1253</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_ISO_8859_8">
+	<property name="text">
+		<string>ISO 8859-8</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_DOS_862">
+	<property name="text">
+		<string>OEM 862</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_WIN_1255">
+	<property name="text">
+		<string>Windows-1255</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_SHIFT_JIS">
+	<property name="text">
+		<string>Shift-JIS</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_KOREAN_WIN">
+	<property name="text">
+		<string>Windows 949</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_EUC_KR">
+	<property name="text">
+		<string>EUC-KR</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_DOS_861">
+	<property name="text">
+		<string>OEM 861 : Icelandic</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_DOS_865">
+	<property name="text">
+		<string>OEM 865 : Nordic</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_TIS_620">
+	<property name="text">
+		<string>TIS-620</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_ISO_8859_3">
+	<property name="text">
+		<string>ISO 8859-3</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_ISO_8859_9">
+	<property name="text">
+		<string>ISO 8859-9</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_DOS_857">
+	<property name="text">
+		<string>OEM 857</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_WIN_1254">
+	<property name="text">
+		<string>Windows-1254</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_ISO_8859_1">
+	<property name="text">
+		<string>ISO 8859-1</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_ISO_8859_15">
+	<property name="text">
+		<string>ISO 8859-15</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_DOS_850">
+	<property name="text">
+		<string>OEM 850</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_DOS_858">
+	<property name="text">
+		<string>OEM 858</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_DOS_860">
+	<property name="text">
+		<string>OEM 860 : Portuguese</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_DOS_863">
+	<property name="text">
+		<string>OEM 863 : French</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_DOS_437">
+	<property name="text">
+		<string>OEM-US</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_WIN_1252">
+	<property name="text">
+		<string>Windows-1252</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_WIN_1258">
+	<property name="text">
+		<string>Windows-1258</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_CONV2_ANSI">
+	<property name="text">
+		<string>Convert to ANSI</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_CONV2_AS_UTF_8">
+	<property name="text">
+		<string>Convert to UTF-8</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_CONV2_UTF_8">
+	<property name="text">
+		<string>Convert to UTF-8-BOM</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_CONV2_UCS_2BE">
+	<property name="text">
+		<string>Convert to UCS-2 BE BOM</string>
+	</property>
+</action>
+<action name="IDM_FORMAT_CONV2_UCS_2LE">
+	<property name="text">
+		<string>Convert to UCS-2 LE BOM</string>
+	</property>
+</action>
+<action name="IDM_LANG_FLASH">
+	<property name="text">
+		<string>ActionScript</string>
+	</property>
+</action>
+<action name="IDM_LANG_ADA">
+	<property name="text">
+		<string>Ada</string>
+	</property>
+</action>
+<action name="IDM_LANG_ASN1">
+	<property name="text">
+		<string>ASN.1</string>
+	</property>
+</action>
+<action name="IDM_LANG_ASP">
+	<property name="text">
+		<string>ASP</string>
+	</property>
+</action>
+<action name="IDM_LANG_ASM">
+	<property name="text">
+		<string>Assembly</string>
+	</property>
+</action>
+<action name="IDM_LANG_AU3">
+	<property name="text">
+		<string>AutoIt</string>
+	</property>
+</action>
+<action name="IDM_LANG_AVS">
+	<property name="text">
+		<string>AviSynth</string>
+	</property>
+</action>
+<action name="IDM_LANG_BAANC">
+	<property name="text">
+		<string>BaanC</string>
+	</property>
+</action>
+<action name="IDM_LANG_BATCH">
+	<property name="text">
+		<string>Batch</string>
+	</property>
+</action>
+<action name="IDM_LANG_BLITZBASIC">
+	<property name="text">
+		<string>Blitzbasic</string>
+	</property>
+</action>
+<action name="IDM_LANG_C">
+	<property name="text">
+		<string>C</string>
+	</property>
+</action>
+<action name="IDM_LANG_CS">
+	<property name="text">
+		<string>C#</string>
+	</property>
+</action>
+<action name="IDM_LANG_CPP">
+	<property name="text">
+		<string>C++</string>
+	</property>
+</action>
+<action name="IDM_LANG_CAML">
+	<property name="text">
+		<string>Caml</string>
+	</property>
+</action>
+<action name="IDM_LANG_CMAKE">
+	<property name="text">
+		<string>CMake</string>
+	</property>
+</action>
+<action name="IDM_LANG_COBOL">
+	<property name="text">
+		<string>COBOL</string>
+	</property>
+</action>
+<action name="IDM_LANG_CSOUND">
+	<property name="text">
+		<string>CSound</string>
+	</property>
+</action>
+<action name="IDM_LANG_COFFEESCRIPT">
+	<property name="text">
+		<string>CoffeeScript</string>
+	</property>
+</action>
+<action name="IDM_LANG_CSS">
+	<property name="text">
+		<string>CSS</string>
+	</property>
+</action>
+<action name="IDM_LANG_D">
+	<property name="text">
+		<string>D</string>
+	</property>
+</action>
+<action name="IDM_LANG_DIFF">
+	<property name="text">
+		<string>Diff</string>
+	</property>
+</action>
+<action name="IDM_LANG_ERLANG">
+	<property name="text">
+		<string>Erlang</string>
+	</property>
+</action>
+<action name="IDM_LANG_ESCRIPT">
+	<property name="text">
+		<string>ESCRIPT</string>
+	</property>
+</action>
+<action name="IDM_LANG_FORTH">
+	<property name="text">
+		<string>Forth</string>
+	</property>
+</action>
+<action name="IDM_LANG_FORTRAN">
+	<property name="text">
+		<string>Fortran (free form)</string>
+	</property>
+</action>
+<action name="IDM_LANG_FORTRAN_77">
+	<property name="text">
+		<string>Fortran (fixed form)</string>
+	</property>
+</action>
+<action name="IDM_LANG_FREEBASIC">
+	<property name="text">
+		<string>Freebasic</string>
+	</property>
+</action>
+<action name="IDM_LANG_GUI4CLI">
+	<property name="text">
+		<string>Gui4Cli</string>
+	</property>
+</action>
+<action name="IDM_LANG_HASKELL">
+	<property name="text">
+		<string>Haskell</string>
+	</property>
+</action>
+<action name="IDM_LANG_HTML">
+	<property name="text">
+		<string>HTML</string>
+	</property>
+</action>
+<action name="IDM_LANG_INI">
+	<property name="text">
+		<string>INI file</string>
+	</property>
+</action>
+<action name="IDM_LANG_INNO">
+	<property name="text">
+		<string>Inno Setup</string>
+	</property>
+</action>
+<action name="IDM_LANG_IHEX">
+	<property name="text">
+		<string>Intel HEX</string>
+	</property>
+</action>
+<action name="IDM_LANG_JAVA">
+	<property name="text">
+		<string>Java</string>
+	</property>
+</action>
+<action name="IDM_LANG_JS">
+	<property name="text">
+		<string>JavaScript</string>
+	</property>
+</action>
+<action name="IDM_LANG_JSON">
+	<property name="text">
+		<string>JSON</string>
+	</property>
+</action>
+<action name="IDM_LANG_JSP">
+	<property name="text">
+		<string>JSP</string>
+	</property>
+</action>
+<action name="IDM_LANG_KIX">
+	<property name="text">
+		<string>KIXtart</string>
+	</property>
+</action>
+<action name="IDM_LANG_LISP">
+	<property name="text">
+		<string>LISP</string>
+	</property>
+</action>
+<action name="IDM_LANG_LATEX">
+	<property name="text">
+		<string>LaTeX</string>
+	</property>
+</action>
+<action name="IDM_LANG_LUA">
+	<property name="text">
+		<string>Lua</string>
+	</property>
+</action>
+<action name="IDM_LANG_MAKEFILE">
+	<property name="text">
+		<string>Makefile</string>
+	</property>
+</action>
+<action name="IDM_LANG_MATLAB">
+	<property name="text">
+		<string>Matlab</string>
+	</property>
+</action>
+<action name="IDM_LANG_MMIXAL">
+	<property name="text">
+		<string>MMIXAL</string>
+	</property>
+</action>
+<action name="IDM_LANG_ASCII">
+	<property name="text">
+		<string>MS-DOS Style</string>
+	</property>
+</action>
+<action name="IDM_LANG_NIMROD">
+	<property name="text">
+		<string>Nimrod</string>
+	</property>
+</action>
+<action name="IDM_LANG_NNCRONTAB">
+	<property name="text">
+		<string>Nncrontab</string>
+	</property>
+</action>
+<action name="IDM_LANG_TEXT">
+	<property name="text">
+		<string>Normal Text</string>
+	</property>
+</action>
+<action name="IDM_LANG_NSIS">
+	<property name="text">
+		<string>NSIS</string>
+	</property>
+</action>
+<action name="IDM_LANG_OBJC">
+	<property name="text">
+		<string>Objective-C</string>
+	</property>
+</action>
+<action name="IDM_LANG_OSCRIPT">
+	<property name="text">
+		<string>OScript</string>
+	</property>
+</action>
+<action name="IDM_LANG_PASCAL">
+	<property name="text">
+		<string>Pascal</string>
+	</property>
+</action>
+<action name="IDM_LANG_PERL">
+	<property name="text">
+		<string>Perl</string>
+	</property>
+</action>
+<action name="IDM_LANG_PHP">
+	<property name="text">
+		<string>PHP</string>
+	</property>
+</action>
+<action name="IDM_LANG_PS">
+	<property name="text">
+		<string>PostScript</string>
+	</property>
+</action>
+<action name="IDM_LANG_POWERSHELL">
+	<property name="text">
+		<string>PowerShell</string>
+	</property>
+</action>
+<action name="IDM_LANG_PROPS">
+	<property name="text">
+		<string>Properties</string>
+	</property>
+</action>
+<action name="IDM_LANG_PUREBASIC">
+	<property name="text">
+		<string>Purebasic</string>
+	</property>
+</action>
+<action name="IDM_LANG_PYTHON">
+	<property name="text">
+		<string>Python</string>
+	</property>
+</action>
+<action name="IDM_LANG_R">
+	<property name="text">
+		<string>R</string>
+	</property>
+</action>
+<action name="IDM_LANG_REBOL">
+	<property name="text">
+		<string>REBOL</string>
+	</property>
+</action>
+<action name="IDM_LANG_REGISTRY">
+	<property name="text">
+		<string>Registry</string>
+	</property>
+</action>
+<action name="IDM_LANG_RC">
+	<property name="text">
+		<string>Resource file</string>
+	</property>
+</action>
+<action name="IDM_LANG_RUBY">
+	<property name="text">
+		<string>Ruby</string>
+	</property>
+</action>
+<action name="IDM_LANG_RUST">
+	<property name="text">
+		<string>Rust</string>
+	</property>
+</action>
+<action name="IDM_LANG_BASH">
+	<property name="text">
+		<string>Shell</string>
+	</property>
+</action>
+<action name="IDM_LANG_SCHEME">
+	<property name="text">
+		<string>Scheme</string>
+	</property>
+</action>
+<action name="IDM_LANG_SMALLTALK">
+	<property name="text">
+		<string>Smalltalk</string>
+	</property>
+</action>
+<action name="IDM_LANG_SPICE">
+	<property name="text">
+		<string>Spice</string>
+	</property>
+</action>
+<action name="IDM_LANG_SQL">
+	<property name="text">
+		<string>SQL</string>
+	</property>
+</action>
+<action name="IDM_LANG_SWIFT">
+	<property name="text">
+		<string>Swift</string>
+	</property>
+</action>
+<action name="IDM_LANG_SREC">
+	<property name="text">
+		<string>S-Record</string>
+	</property>
+</action>
+<action name="IDM_LANG_TCL">
+	<property name="text">
+		<string>TCL</string>
+	</property>
+</action>
+<action name="IDM_LANG_TEHEX">
+	<property name="text">
+		<string>Tektronix extended HEX</string>
+	</property>
+</action>
+<action name="IDM_LANG_TEX">
+	<property name="text">
+		<string>TeX</string>
+	</property>
+</action>
+<action name="IDM_LANG_TXT2TAGS">
+	<property name="text">
+		<string>txt2tags</string>
+	</property>
+</action>
+<action name="IDM_LANG_VERILOG">
+	<property name="text">
+		<string>Verilog</string>
+	</property>
+</action>
+<action name="IDM_LANG_VHDL">
+	<property name="text">
+		<string>VHDL</string>
+	</property>
+</action>
+<action name="IDM_LANG_VB">
+	<property name="text">
+		<string>Visual Basic</string>
+	</property>
+</action>
+<action name="IDM_LANG_VISUALPROLOG">
+	<property name="text">
+		<string>Visual Prolog</string>
+	</property>
+</action>
+<action name="IDM_LANG_XML">
+	<property name="text">
+		<string>XML</string>
+	</property>
+</action>
+<action name="IDM_LANG_YAML">
+	<property name="text">
+		<string>YAML</string>
+	</property>
+</action>
+<action name="IDM_LANG_USER_DLG">
+	<property name="text">
+		<string>Define your language...</string>
+	</property>
+</action>
+<action name="IDM_LANG_USER">
+	<property name="text">
+		<string>User-Defined</string>
+	</property>
+</action>
+<action name="IDM_LANG_FLASH">
+	<property name="text">
+		<string>ActionScript</string>
+	</property>
+</action>
+<action name="IDM_LANG_ADA">
+	<property name="text">
+		<string>Ada</string>
+	</property>
+</action>
+<action name="IDM_LANG_ASN1">
+	<property name="text">
+		<string>ASN.1</string>
+	</property>
+</action>
+<action name="IDM_LANG_ASP">
+	<property name="text">
+		<string>ASP</string>
+	</property>
+</action>
+<action name="IDM_LANG_ASM">
+	<property name="text">
+		<string>Assembly</string>
+	</property>
+</action>
+<action name="IDM_LANG_AU3">
+	<property name="text">
+		<string>AutoIt</string>
+	</property>
+</action>
+<action name="IDM_LANG_AVS">
+	<property name="text">
+		<string>AviSynth</string>
+	</property>
+</action>
+<action name="IDM_LANG_BAANC">
+	<property name="text">
+		<string>BaanC</string>
+	</property>
+</action>
+<action name="IDM_LANG_BATCH">
+	<property name="text">
+		<string>Batch</string>
+	</property>
+</action>
+<action name="IDM_LANG_BLITZBASIC">
+	<property name="text">
+		<string>Blitzbasic</string>
+	</property>
+</action>
+<action name="IDM_LANG_C">
+	<property name="text">
+		<string>C</string>
+	</property>
+</action>
+<action name="IDM_LANG_CS">
+	<property name="text">
+		<string>C#</string>
+	</property>
+</action>
+<action name="IDM_LANG_CPP">
+	<property name="text">
+		<string>C++</string>
+	</property>
+</action>
+<action name="IDM_LANG_CAML">
+	<property name="text">
+		<string>Caml</string>
+	</property>
+</action>
+<action name="IDM_LANG_CMAKE">
+	<property name="text">
+		<string>CMake</string>
+	</property>
+</action>
+<action name="IDM_LANG_COBOL">
+	<property name="text">
+		<string>COBOL</string>
+	</property>
+</action>
+<action name="IDM_LANG_CSOUND">
+	<property name="text">
+		<string>CSound</string>
+	</property>
+</action>
+<action name="IDM_LANG_COFFEESCRIPT">
+	<property name="text">
+		<string>CoffeeScript</string>
+	</property>
+</action>
+<action name="IDM_LANG_CSS">
+	<property name="text">
+		<string>CSS</string>
+	</property>
+</action>
+<action name="IDM_LANG_D">
+	<property name="text">
+		<string>D</string>
+	</property>
+</action>
+<action name="IDM_LANG_DIFF">
+	<property name="text">
+		<string>Diff</string>
+	</property>
+</action>
+<action name="IDM_LANG_ERLANG">
+	<property name="text">
+		<string>Erlang</string>
+	</property>
+</action>
+<action name="IDM_LANG_ESCRIPT">
+	<property name="text">
+		<string>ESCRIPT</string>
+	</property>
+</action>
+<action name="IDM_LANG_FORTH">
+	<property name="text">
+		<string>Forth</string>
+	</property>
+</action>
+<action name="IDM_LANG_FORTRAN">
+	<property name="text">
+		<string>Fortran (free form)</string>
+	</property>
+</action>
+<action name="IDM_LANG_FORTRAN_77">
+	<property name="text">
+		<string>Fortran (fixed form)</string>
+	</property>
+</action>
+<action name="IDM_LANG_FREEBASIC">
+	<property name="text">
+		<string>Freebasic</string>
+	</property>
+</action>
+<action name="IDM_LANG_GUI4CLI">
+	<property name="text">
+		<string>Gui4Cli</string>
+	</property>
+</action>
+<action name="IDM_LANG_HASKELL">
+	<property name="text">
+		<string>Haskell</string>
+	</property>
+</action>
+<action name="IDM_LANG_HTML">
+	<property name="text">
+		<string>HTML</string>
+	</property>
+</action>
+<action name="IDM_LANG_INI">
+	<property name="text">
+		<string>INI file</string>
+	</property>
+</action>
+<action name="IDM_LANG_INNO">
+	<property name="text">
+		<string>Inno Setup</string>
+	</property>
+</action>
+<action name="IDM_LANG_IHEX">
+	<property name="text">
+		<string>Intel HEX</string>
+	</property>
+</action>
+<action name="IDM_LANG_JAVA">
+	<property name="text">
+		<string>Java</string>
+	</property>
+</action>
+<action name="IDM_LANG_JS">
+	<property name="text">
+		<string>JavaScript</string>
+	</property>
+</action>
+<action name="IDM_LANG_JSON">
+	<property name="text">
+		<string>JSON</string>
+	</property>
+</action>
+<action name="IDM_LANG_JSP">
+	<property name="text">
+		<string>JSP</string>
+	</property>
+</action>
+<action name="IDM_LANG_KIX">
+	<property name="text">
+		<string>KIXtart</string>
+	</property>
+</action>
+<action name="IDM_LANG_LATEX">
+	<property name="text">
+		<string>LaTeX</string>
+	</property>
+</action>
+<action name="IDM_LANG_LISP">
+	<property name="text">
+		<string>LISP</string>
+	</property>
+</action>
+<action name="IDM_LANG_LUA">
+	<property name="text">
+		<string>Lua</string>
+	</property>
+</action>
+<action name="IDM_LANG_MAKEFILE">
+	<property name="text">
+		<string>Makefile</string>
+	</property>
+</action>
+<action name="IDM_LANG_MATLAB">
+	<property name="text">
+		<string>Matlab</string>
+	</property>
+</action>
+<action name="IDM_LANG_MMIXAL">
+	<property name="text">
+		<string>MMIXAL</string>
+	</property>
+</action>
+<action name="IDM_LANG_ASCII">
+	<property name="text">
+		<string>MS-DOS Style</string>
+	</property>
+</action>
+<action name="IDM_LANG_NIMROD">
+	<property name="text">
+		<string>Nimrod</string>
+	</property>
+</action>
+<action name="IDM_LANG_NNCRONTAB">
+	<property name="text">
+		<string>Nncrontab</string>
+	</property>
+</action>
+<action name="IDM_LANG_TEXT">
+	<property name="text">
+		<string>Normal Text</string>
+	</property>
+</action>
+<action name="IDM_LANG_NSIS">
+	<property name="text">
+		<string>NSIS</string>
+	</property>
+</action>
+<action name="IDM_LANG_OBJC">
+	<property name="text">
+		<string>Objective-C</string>
+	</property>
+</action>
+<action name="IDM_LANG_OSCRIPT">
+	<property name="text">
+		<string>OScript</string>
+	</property>
+</action>
+<action name="IDM_LANG_PASCAL">
+	<property name="text">
+		<string>Pascal</string>
+	</property>
+</action>
+<action name="IDM_LANG_PERL">
+	<property name="text">
+		<string>Perl</string>
+	</property>
+</action>
+<action name="IDM_LANG_PHP">
+	<property name="text">
+		<string>PHP</string>
+	</property>
+</action>
+<action name="IDM_LANG_PS">
+	<property name="text">
+		<string>PostScript</string>
+	</property>
+</action>
+<action name="IDM_LANG_POWERSHELL">
+	<property name="text">
+		<string>PowerShell</string>
+	</property>
+</action>
+<action name="IDM_LANG_PROPS">
+	<property name="text">
+		<string>Properties</string>
+	</property>
+</action>
+<action name="IDM_LANG_PUREBASIC">
+	<property name="text">
+		<string>Purebasic</string>
+	</property>
+</action>
+<action name="IDM_LANG_PYTHON">
+	<property name="text">
+		<string>Python</string>
+	</property>
+</action>
+<action name="IDM_LANG_R">
+	<property name="text">
+		<string>R</string>
+	</property>
+</action>
+<action name="IDM_LANG_REBOL">
+	<property name="text">
+		<string>REBOL</string>
+	</property>
+</action>
+<action name="IDM_LANG_REGISTRY">
+	<property name="text">
+		<string>Registry</string>
+	</property>
+</action>
+<action name="IDM_LANG_RC">
+	<property name="text">
+		<string>Resource file</string>
+	</property>
+</action>
+<action name="IDM_LANG_RUBY">
+	<property name="text">
+		<string>Ruby</string>
+	</property>
+</action>
+<action name="IDM_LANG_RUST">
+	<property name="text">
+		<string>Rust</string>
+	</property>
+</action>
+<action name="IDM_LANG_BASH">
+	<property name="text">
+		<string>Shell</string>
+	</property>
+</action>
+<action name="IDM_LANG_SCHEME">
+	<property name="text">
+		<string>Scheme</string>
+	</property>
+</action>
+<action name="IDM_LANG_SMALLTALK">
+	<property name="text">
+		<string>Smalltalk</string>
+	</property>
+</action>
+<action name="IDM_LANG_SPICE">
+	<property name="text">
+		<string>Spice</string>
+	</property>
+</action>
+<action name="IDM_LANG_SQL">
+	<property name="text">
+		<string>SQL</string>
+	</property>
+</action>
+<action name="IDM_LANG_SWIFT">
+	<property name="text">
+		<string>Swift</string>
+	</property>
+</action>
+<action name="IDM_LANG_SREC">
+	<property name="text">
+		<string>S-Record</string>
+	</property>
+</action>
+<action name="IDM_LANG_TCL">
+	<property name="text">
+		<string>TCL</string>
+	</property>
+</action>
+<action name="IDM_LANG_TEHEX">
+	<property name="text">
+		<string>Tektronix extended HEX</string>
+	</property>
+</action>
+<action name="IDM_LANG_TEX">
+	<property name="text">
+		<string>TeX</string>
+	</property>
+</action>
+<action name="IDM_LANG_TXT2TAGS">
+	<property name="text">
+		<string>txt2tags</string>
+	</property>
+</action>
+<action name="IDM_LANG_VB">
+	<property name="text">
+		<string>Visual Basic</string>
+	</property>
+</action>
+<action name="IDM_LANG_VISUALPROLOG">
+	<property name="text">
+		<string>Visual Prolog</string>
+	</property>
+</action>
+<action name="IDM_LANG_VHDL">
+	<property name="text">
+		<string>VHDL</string>
+	</property>
+</action>
+<action name="IDM_LANG_VERILOG">
+	<property name="text">
+		<string>Verilog</string>
+	</property>
+</action>
+<action name="IDM_LANG_XML">
+	<property name="text">
+		<string>XML</string>
+	</property>
+</action>
+<action name="IDM_LANG_YAML">
+	<property name="text">
+		<string>YAML</string>
+	</property>
+</action>
+<action name="IDM_LANG_USER_DLG">
+	<property name="text">
+		<string>Define your language...</string>
+	</property>
+</action>
+<action name="IDM_LANG_USER">
+	<property name="text">
+		<string>User-Defined</string>
+	</property>
+</action>
+<action name="IDM_SETTING_PREFERENCE">
+	<property name="text">
+		<string>Preferences...</string>
+	</property>
+</action>
+<action name="IDM_LANGSTYLE_CONFIG_DLG">
+	<property name="text">
+		<string>Style Configurator...</string>
+	</property>
+</action>
+<action name="IDM_SETTING_SHORTCUT_MAPPER">
+	<property name="text">
+		<string>Shortcut Mapper...</string>
+	</property>
+</action>
+<action name="IDM_SETTING_IMPORTPLUGIN">
+	<property name="text">
+		<string>Import plugin(s)...</string>
+	</property>
+</action>
+<action name="IDM_SETTING_IMPORTSTYLETHEMS">
+	<property name="text">
+		<string>Import style theme(s)...</string>
+	</property>
+</action>
+<action name="IDM_SETTING_EDITCONTEXTMENU">
+	<property name="text">
+		<string>Edit Popup ContextMenu</string>
+	</property>
+</action>
+<action name="IDM_TOOL_MD5_GENERATE">
+	<property name="text">
+		<string>Generate...</string>
+	</property>
+</action>
+<action name="IDM_TOOL_MD5_GENERATEFROMFILE">
+	<property name="text">
+		<string>Generate from files...</string>
+	</property>
+</action>
+<action name="IDM_TOOL_MD5_GENERATEINTOCLIPBOARD">
+	<property name="text">
+		<string>Generate from selection into clipboard</string>
+	</property>
+</action>
+<action name="IDM_TOOL_SHA256_GENERATE">
+	<property name="text">
+		<string>Generate...</string>
+	</property>
+</action>
+<action name="IDM_TOOL_SHA256_GENERATEFROMFILE">
+	<property name="text">
+		<string>Generate from files...</string>
+	</property>
+</action>
+<action name="IDM_TOOL_SHA256_GENERATEINTOCLIPBOARD">
+	<property name="text">
+		<string>Generate from selection into clipboard</string>
+	</property>
+</action>
+<action name="IDM_MACRO_STARTRECORDINGMACRO">
+	<property name="text">
+		<string>Start Re&amp;cording</string>
+	</property>
+</action>
+<action name="IDM_MACRO_STOPRECORDINGMACRO">
+	<property name="text">
+		<string>S&amp;top Recording</string>
+	</property>
+</action>
+<action name="IDM_MACRO_PLAYBACKRECORDEDMACRO">
+	<property name="text">
+		<string>&amp;Playback</string>
+	</property>
+</action>
+<action name="IDM_MACRO_SAVECURRENTMACRO">
+	<property name="text">
+		<string>&amp;Save Current Recorded Macro...</string>
+	</property>
+</action>
+<action name="IDM_MACRO_RUNMULTIMACRODLG">
+	<property name="text">
+		<string>&amp;Run a Macro Multiple Times...</string>
+	</property>
+</action>
+<action name="IDM_EXECUTE">
+	<property name="text">
+		<string>&amp;Run...</string>
+	</property>
+</action>
+<action name="IDM_CMDLINEARGUMENTS">
+	<property name="text">
+		<string>Command Line Arguments...</string>
+	</property>
+</action>
+<action name="IDM_HOMESWEETHOME">
+	<property name="text">
+		<string>Notepad++ Home</string>
+	</property>
+</action>
+<action name="IDM_PROJECTPAGE">
+	<property name="text">
+		<string>Notepad++ Project Page</string>
+	</property>
+</action>
+<action name="IDM_FORUM">
+	<property name="text">
+		<string>Notepad++ Community (Forum)</string>
+	</property>
+</action>
+<action name="IDM_ONLINESUPPORT">
+	<property name="text">
+		<string>Live Support</string>
+	</property>
+</action>
+<action name="IDM_UPDATE_NPP">
+	<property name="text">
+		<string>Update Notepad++</string>
+	</property>
+</action>
+<action name="IDM_CONFUPDATERPROXY">
+	<property name="text">
+		<string>Set Updater Proxy...</string>
+	</property>
+</action>
+<action name="IDM_DEBUGINFO">
+	<property name="text">
+		<string>Debug Info...</string>
+	</property>
+</action>
+<action name="IDM_ABOUT">
+	<property name="text">
+		<string>About Notepad++</string>
+	</property>
+</action>
+<action name="IDM_FILE_CLOSE">
+	<property name="text">
+		<string>X</string>
+	</property>
+</action>

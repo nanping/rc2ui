@@ -1,0 +1,80 @@
+<widget class="QDialog" name="IDD_WINDOWS">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>450</width>
+			<height>300</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Windows</string>
+	</property>
+	<widget />
+	<!--CONTROL         "", IDC_WINDOWS_LIST, TEXT("SysListView32"), LVS_REPORT | LVS_OWNERDATA | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP, 7, 7, 206, 160-->
+	<widget class="QPushButton" name="IDOK">
+		<property name="geometry">
+			<rect>
+				<x>219</x>
+				<y>7</y>
+				<width>60</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>&amp;Activate</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_WINDOWS_SAVE">
+		<property name="geometry">
+			<rect>
+				<x>219</x>
+				<y>26</y>
+				<width>60</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"&amp;Save"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_WINDOWS_CLOSE">
+		<property name="geometry">
+			<rect>
+				<x>219</x>
+				<y>44</y>
+				<width>60</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"&amp;Close window(s)"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_WINDOWS_SORT">
+		<property name="geometry">
+			<rect>
+				<x>219</x>
+				<y>60</y>
+				<width>60</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Sort &amp;tabs"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDCANCEL">
+		<property name="geometry">
+			<rect>
+				<x>219</x>
+				<y>169</y>
+				<width>60</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"&amp;OK"</string>
+		</property>
+	</widget>
+</widget>

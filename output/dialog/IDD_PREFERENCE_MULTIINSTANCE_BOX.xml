@@ -1,0 +1,78 @@
+<widget class="QDialog" name="IDD_PREFERENCE_MULTIINSTANCE_BOX">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>455</width>
+			<height>185</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<widget class="QGroupBox" name="IDC_MULTIINST_GB_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>89</x>
+				<y>44</y>
+				<width>268</width>
+				<height>110</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Multi-instance settings"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_SESSIONININST_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>122</x>
+				<y>61</y>
+				<width>226</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Open session in a new instance of Notepad++"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_MULTIINST_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>122</x>
+				<y>80</y>
+				<width>218</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Always in multi-instance mode"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_MONOINST_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>122</x>
+				<y>99</y>
+				<width>196</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Default (mono-instance)"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDD_STATIC_RESTARTNOTE">
+		<property name="geometry">
+			<rect>
+				<x>110</x>
+				<y>124</y>
+				<width>239</width>
+				<height>20</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"* The modification of this setting needs to restart Notepad++"</string>
+		</property>
+	</widget>
+</widget>

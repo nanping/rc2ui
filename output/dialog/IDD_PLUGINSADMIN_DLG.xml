@@ -1,0 +1,111 @@
+<widget class="QDialog" name="IDD_PLUGINSADMIN_DLG">
+	<property name="geometry">
+		<rect>
+			<x>36</x>
+			<y>44</y>
+			<width>500</width>
+			<height>300</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Plugins Admin</string>
+	</property>
+	<widget class="QLabel" name="IDC_PLUGINADM_SEARCH_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>50</x>
+				<y>38</y>
+				<width>50</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Search: "</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_PLUGINADM_SEARCH_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>160</x>
+				<y>35</y>
+				<width>150</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_PLUGINADM_RESEARCH_NEXT">
+		<property name="geometry">
+			<rect>
+				<x>332</x>
+				<y>35</y>
+				<width>57</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Next"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_PLUGINADM_INSTALL">
+		<property name="geometry">
+			<rect>
+				<x>432</x>
+				<y>35</y>
+				<width>57</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Install"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_PLUGINADM_UPDATE">
+		<property name="geometry">
+			<rect>
+				<x>432</x>
+				<y>35</y>
+				<width>57</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Update"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_PLUGINADM_REMOVE">
+		<property name="geometry">
+			<rect>
+				<x>432</x>
+				<y>35</y>
+				<width>57</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Remove"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_PLUGINADM_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>30</x>
+				<y>160</y>
+				<width>220</width>
+				<height>80</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDCANCEL">
+		<property name="geometry">
+			<rect>
+				<x>225</x>
+				<y>270</y>
+				<width>57</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Close"</string>
+		</property>
+	</widget>
+</widget>

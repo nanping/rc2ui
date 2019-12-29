@@ -1,0 +1,112 @@
+<widget class="QDialog" name="IDD_RUN_MACRO_DLG">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>168</width>
+			<height>110</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Run a Macro Multiple Times</string>
+	</property>
+	<!--WS_SYSMENU-->
+	<widget class="QPushButton" name="IDOK">
+		<property name="geometry">
+			<rect>
+				<x>27</x>
+				<y>82</y>
+				<width>50</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>&amp;Run</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDCANCEL">
+		<property name="geometry">
+			<rect>
+				<x>91</x>
+				<y>82</y>
+				<width>50</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"&amp;Cancel"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_M_RUN_MULTI">
+		<property name="geometry">
+			<rect>
+				<x>18</x>
+				<y>38</y>
+				<width>47</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Run"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_M_RUN_EOF">
+		<property name="geometry">
+			<rect>
+				<x>18</x>
+				<y>56</y>
+				<width>140</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Run until the &amp;end of file"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_M_RUN_TIMES">
+		<property name="geometry">
+			<rect>
+				<x>67</x>
+				<y>35</y>
+				<width>25</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QComboBox" name="IDC_MACRO_COMBO">
+		<property name="geometry">
+			<rect>
+				<x>67</x>
+				<y>10</y>
+				<width>96</width>
+				<height>30</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_MACRO2RUN_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>5</x>
+				<y>12</y>
+				<width>59</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Macro to run :"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_TIMES_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>97</x>
+				<y>38</y>
+				<width>65</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"times"</string>
+		</property>
+	</widget>
+</widget>

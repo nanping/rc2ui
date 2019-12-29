@@ -1,0 +1,22 @@
+<widget class="QMenuBar" name="IDR_WINDOWS_MENU">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>1193</width>
+			<height>26</height>
+		</rect>
+	</property>
+	<addaction name="IDM_WINDOW_MRU_FIRST" />
+	<addaction name="IDM_WINDOW_WINDOWS" />
+</widget>
+<action name="IDM_WINDOW_MRU_FIRST">
+	<property name="text">
+		<string>Recent Window</string>
+	</property>
+</action>
+<action name="IDM_WINDOW_WINDOWS">
+	<property name="text">
+		<string>&amp;Windows...</string>
+	</property>
+</action>

@@ -1,0 +1,114 @@
+<widget class="QDialog" name="IDD_INCREMENT_FIND">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>400</width>
+			<height>20</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<widget class="QPushButton" name="IDCANCEL">
+		<property name="geometry">
+			<rect>
+				<x>2</x>
+				<y>3</y>
+				<width>16</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"X"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_INCSTATIC">
+		<property name="geometry">
+			<rect>
+				<x>20</x>
+				<y>6</y>
+				<width>25</width>
+				<height>12</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Find :"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_INCFINDTEXT">
+		<property name="geometry">
+			<rect>
+				<x>45</x>
+				<y>6</y>
+				<width>175</width>
+				<height>10</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_INCFINDPREVOK | WS_TABSTOP">
+		<property name="geometry">
+			<rect>
+				<x>223</x>
+				<y>3</y>
+				<width>16</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"&lt;"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_INCFINDNXTOK | WS_TABSTOP">
+		<property name="geometry">
+			<rect>
+				<x>243</x>
+				<y>3</y>
+				<width>16</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"&gt;"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_INCFINDHILITEALL">
+		<property name="geometry">
+			<rect>
+				<x>270</x>
+				<y>5</y>
+				<width>65</width>
+				<height>12</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"&amp;Highlight all"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_INCFINDMATCHCASE">
+		<property name="geometry">
+			<rect>
+				<x>335</x>
+				<y>5</y>
+				<width>60</width>
+				<height>12</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Match &amp;case"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_INCFINDSTATUS">
+		<property name="geometry">
+			<rect>
+				<x>400</x>
+				<y>6</y>
+				<width>180</width>
+				<height>12</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>""</string>
+		</property>
+	</widget>
+</widget>

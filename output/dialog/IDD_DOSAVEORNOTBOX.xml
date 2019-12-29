@@ -1,0 +1,91 @@
+<widget class="QDialog" name="IDD_DOSAVEORNOTBOX">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>310</width>
+			<height>80</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Save</string>
+	</property>
+	<widget class="QLabel" name="IDC_DOSAVEORNOTTEX">
+		<property name="geometry">
+			<rect>
+				<x>7</x>
+				<y>10</y>
+				<width>290</width>
+				<height>40</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>""</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDYES">
+		<property name="geometry">
+			<rect>
+				<x>10</x>
+				<y>60</y>
+				<width>50</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>Yes</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDNO">
+		<property name="geometry">
+			<rect>
+				<x>65</x>
+				<y>60</y>
+				<width>50</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"No"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDCANCEL">
+		<property name="geometry">
+			<rect>
+				<x>120</x>
+				<y>60</y>
+				<width>50</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Cancel"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDRETRY">
+		<property name="geometry">
+			<rect>
+				<x>175</x>
+				<y>60</y>
+				<width>60</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Yes to all"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDIGNORE">
+		<property name="geometry">
+			<rect>
+				<x>240</x>
+				<y>60</y>
+				<width>60</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"No to all"</string>
+		</property>
+	</widget>
+</widget>

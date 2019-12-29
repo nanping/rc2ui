@@ -1,0 +1,31 @@
+<widget class="QDialog" name="IDD_CONTAINER_DLG">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>186</width>
+			<height>103</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Selected Tab</string>
+	</property>
+	<!--WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME-->
+	<widget />
+	<!--CONTROL         "Caption",IDC_BTN_CAPTION,"Button",BS_OWNERDRAW | NOT-->
+	<widget class="QLabel" name="IDC_CLIENT_TAB">
+		<property name="geometry">
+			<rect>
+				<x>16</x>
+				<y>28</y>
+				<width>156</width>
+				<height>50</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>""</string>
+		</property>
+	</widget>
+	<widget />
+	<!--CONTROL         "Tab1",IDC_TAB_CONT,"SysTabControl32",TCS_BOTTOM |-->
+</widget>

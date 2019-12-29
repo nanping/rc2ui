@@ -1,0 +1,564 @@
+<widget class="QDialog" name="IDD_FIND_REPLACE_DLG">
+	<property name="geometry">
+		<rect>
+			<x>36</x>
+			<y>44</y>
+			<width>382</width>
+			<height>200</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Replace</string>
+	</property>
+	<widget class="QLabel" name="IDFINDWHAT_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>6</x>
+				<y>22</y>
+				<width>75</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"&amp;Find what :"</string>
+		</property>
+	</widget>
+	<widget class="QComboBox" name="IDFINDWHAT">
+		<property name="geometry">
+			<rect>
+				<x>83</x>
+				<y>20</y>
+				<width>178</width>
+				<height>150</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLabel" name="ID_STATICTEXT_REPLACE">
+		<property name="geometry">
+			<rect>
+				<x>6</x>
+				<y>40</y>
+				<width>75</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Rep&amp;lace with :"</string>
+		</property>
+	</widget>
+	<widget class="QComboBox" name="IDREPLACEWITH">
+		<property name="geometry">
+			<rect>
+				<x>83</x>
+				<y>38</y>
+				<width>178</width>
+				<height>50</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDD_FINDINFILES_FILTERS_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>27</x>
+				<y>58</y>
+				<width>53</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Filter&amp;s :"</string>
+		</property>
+	</widget>
+	<widget class="QComboBox" name="IDD_FINDINFILES_FILTERS_COMBO">
+		<property name="geometry">
+			<rect>
+				<x>83</x>
+				<y>56</y>
+				<width>178</width>
+				<height>150</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDD_FINDINFILES_DIR_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>7</x>
+				<y>76</y>
+				<width>40</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Dir&amp;ectory :"</string>
+		</property>
+	</widget>
+	<widget class="QComboBox" name="IDD_FINDINFILES_DIR_COMBO">
+		<property name="geometry">
+			<rect>
+				<x>49</x>
+				<y>74</y>
+				<width>190</width>
+				<height>150</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDD_FINDINFILES_BROWSE_BUTTON">
+		<property name="geometry">
+			<rect>
+				<x>245</x>
+				<y>74</y>
+				<width>15</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"..."</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDD_FINDINFILES_FOLDERFOLLOWSDOC_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>270</x>
+				<y>73</y>
+				<width>94</width>
+				<height>15</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Follow current doc."</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDD_FINDINFILES_RECURSIVE_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>270</x>
+				<y>87</y>
+				<width>94</width>
+				<height>15</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"In all su&amp;b-folders"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDD_FINDINFILES_INHIDDENDIR_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>270</x>
+				<y>101</y>
+				<width>94</width>
+				<height>15</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"In &amp;hidden folders"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_MARKLINE_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>52</y>
+				<width>100</width>
+				<height>15</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Book&amp;mark line"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_PURGE_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>64</y>
+				<width>99</width>
+				<height>15</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Purge for each search"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDCMARKALL">
+		<property name="geometry">
+			<rect>
+				<x>268</x>
+				<y>20</y>
+				<width>91</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Mark All"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_REPLACEINSELECTION">
+		<property name="geometry">
+			<rect>
+				<x>192</x>
+				<y>50</y>
+				<width>170</width>
+				<height>23</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>""</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_IN_SELECTION_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>200</x>
+				<y>58</y>
+				<width>59</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"In select&amp;ion"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_CLEAR_ALL">
+		<property name="geometry">
+			<rect>
+				<x>268</x>
+				<y>38</y>
+				<width>91</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Clear all marks"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_BACKWARDDIRECTION">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>76</y>
+				<width>140</width>
+				<height>15</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Backward direction"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDWHOLEWORD">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>88</y>
+				<width>140</width>
+				<height>15</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Match &amp;whole word only"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDMATCHCASE">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>100</y>
+				<width>140</width>
+				<height>15</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Match &amp;case"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDWRAP">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>112</y>
+				<width>110</width>
+				<height>15</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Wra&amp;p around"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_MODE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>6</x>
+				<y>131</y>
+				<width>159</width>
+				<height>48</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Search Mode"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDNORMAL">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>143</y>
+				<width>126</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"&amp;Normal"</string>
+		</property>
+	</widget>
+	<widget />
+	<!--CONTROL         "E&xtended (\\n, \\r, \\t, \\0, \\x...)",IDEXTENDED,-->
+	<widget class="QRadioButton" name="IDREGEXP">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>167</y>
+				<width>78</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Re&amp;gular expression"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDREDOTMATCHNL">
+		<property name="geometry">
+			<rect>
+				<x>93</x>
+				<y>167</y>
+				<width>68</width>
+				<height>9</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"&amp;. matches newline"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_FINDPREV">
+		<property name="geometry">
+			<rect>
+				<x>268</x>
+				<y>20</y>
+				<width>18</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>""</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_FINDNEXT">
+		<property name="geometry">
+			<rect>
+				<x>289</x>
+				<y>20</y>
+				<width>70</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>""</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDOK">
+		<property name="geometry">
+			<rect>
+				<x>268</x>
+				<y>20</y>
+				<width>91</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Find Next"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_2_BUTTONS_MODE">
+		<property name="geometry">
+			<rect>
+				<x>363</x>
+				<y>20</y>
+				<width>15</width>
+				<height>15</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>""</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDCCOUNTALL">
+		<property name="geometry">
+			<rect>
+				<x>268</x>
+				<y>38</y>
+				<width>91</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Coun&amp;t"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_FINDALL_OPENEDFILES">
+		<property name="geometry">
+			<rect>
+				<x>268</x>
+				<y>56</y>
+				<width>91</width>
+				<height>21</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Find All in All &amp;Opened Documents"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_FINDALL_CURRENTFILE">
+		<property name="geometry">
+			<rect>
+				<x>268</x>
+				<y>80</y>
+				<width>91</width>
+				<height>21</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Find All in Current &amp;Document"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDREPLACE">
+		<property name="geometry">
+			<rect>
+				<x>268</x>
+				<y>38</y>
+				<width>91</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"&amp;Replace"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDREPLACEALL">
+		<property name="geometry">
+			<rect>
+				<x>268</x>
+				<y>56</y>
+				<width>91</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Replace &amp;All"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_REPLACE_OPENEDFILES">
+		<property name="geometry">
+			<rect>
+				<x>268</x>
+				<y>74</y>
+				<width>91</width>
+				<height>21</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Replace All in All Opened Doc&amp;uments"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDD_FINDINFILES_FIND_BUTTON">
+		<property name="geometry">
+			<rect>
+				<x>268</x>
+				<y>20</y>
+				<width>91</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Find All"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDD_FINDINFILES_REPLACEINFILES">
+		<property name="geometry">
+			<rect>
+				<x>268</x>
+				<y>38</y>
+				<width>91</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"&amp;Replace in Files"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDCANCEL">
+		<property name="geometry">
+			<rect>
+				<x>268</x>
+				<y>98</y>
+				<width>91</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Close"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_TRANSPARENT_GRPBOX">
+		<property name="geometry">
+			<rect>
+				<x>258</x>
+				<y>131</y>
+				<width>99</width>
+				<height>48</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>""</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_TRANSPARENT_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>254</x>
+				<y>131</y>
+				<width>80</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Transparenc&amp;y"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_TRANSPARENT_LOSSFOCUS_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>268</x>
+				<y>143</y>
+				<width>85</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"On losing focus"</string>
+		</property>
+	</widget>
+	<widget class="QRadioButton" name="IDC_TRANSPARENT_ALWAYS_RADIO">
+		<property name="geometry">
+			<rect>
+				<x>268</x>
+				<y>155</y>
+				<width>85</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Always"</string>
+		</property>
+	</widget>
+	<widget />
+	<!--CONTROL         "",IDC_PERCENTAGE_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | NOT WS_VISIBLE | WS_TABSTOP,265,166,85,10-->
+</widget>

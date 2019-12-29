@@ -1,0 +1,143 @@
+<widget class="QDialog" name="IDD_PREFERENCE_HILITE_BOX">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>455</width>
+			<height>185</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<widget class="QGroupBox" name="IDC_SMARTHILITING_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>147</x>
+				<y>21</y>
+				<width>155</width>
+				<height>81</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Smart Highlighting"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_ENABLSMARTHILITE">
+		<property name="geometry">
+			<rect>
+				<x>155</x>
+				<y>31</y>
+				<width>142</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Enable"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_SMARTHILITECASESENSITIVE">
+		<property name="geometry">
+			<rect>
+				<x>155</x>
+				<y>45</y>
+				<width>142</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Match case"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_SMARTHILITEWHOLEWORDONLY">
+		<property name="geometry">
+			<rect>
+				<x>155</x>
+				<y>58</y>
+				<width>142</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Match whole word only"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_SMARTHILITEUSEFINDSETTINGS">
+		<property name="geometry">
+			<rect>
+				<x>155</x>
+				<y>72</y>
+				<width>142</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Use Find dialog settings"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_SMARTHILITEANOTHERRVIEW">
+		<property name="geometry">
+			<rect>
+				<x>155</x>
+				<y>86</y>
+				<width>142</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Highlight another view"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_TAGMATCHEDHILITE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>147</x>
+				<y>110</y>
+				<width>155</width>
+				<height>55</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Highlight Matching Tags"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_ENABLTAGSMATCHHILITE">
+		<property name="geometry">
+			<rect>
+				<x>155</x>
+				<y>120</y>
+				<width>140</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Enable"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_ENABLTAGATTRHILITE">
+		<property name="geometry">
+			<rect>
+				<x>155</x>
+				<y>134</y>
+				<width>140</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Highlight tag attributes"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_HIGHLITENONEHTMLZONE">
+		<property name="geometry">
+			<rect>
+				<x>155</x>
+				<y>148</y>
+				<width>140</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Highlight comment/php/asp zone"</string>
+		</property>
+	</widget>
+</widget>

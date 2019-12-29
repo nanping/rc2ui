@@ -1,0 +1,72 @@
+<widget class="QDialog" name="IDD_HASHFROMFILES_DLG">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>357</width>
+			<height>213</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Generate MD5 digest from files</string>
+	</property>
+	<widget class="QPushButton" name="IDC_HASH_FILEBROWSER_BUTTON">
+		<property name="geometry">
+			<rect>
+				<x>9</x>
+				<y>4</y>
+				<width>131</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Choose files to generate MD5..."</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_HASH_PATH_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>9</x>
+				<y>21</y>
+				<width>340</width>
+				<height>64</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_HASH_RESULT_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>9</x>
+				<y>105</y>
+				<width>340</width>
+				<height>64</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_HASH_TOCLIPBOARD_BUTTON">
+		<property name="geometry">
+			<rect>
+				<x>259</x>
+				<y>172</y>
+				<width>90</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Copy to Clipboard"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDCANCEL">
+		<property name="geometry">
+			<rect>
+				<x>148</x>
+				<y>190</y>
+				<width>60</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Close"</string>
+		</property>
+	</widget>
+</widget>

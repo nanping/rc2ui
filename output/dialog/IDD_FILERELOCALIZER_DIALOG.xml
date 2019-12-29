@@ -1,0 +1,49 @@
+<widget class="QDialog" name="IDD_FILERELOCALIZER_DIALOG">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>350</width>
+			<height>48</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Change file full path name</string>
+	</property>
+	<widget class="QPushButton" name="IDOK">
+		<property name="geometry">
+			<rect>
+				<x>235</x>
+				<y>27</y>
+				<width>50</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>OK</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDCANCEL">
+		<property name="geometry">
+			<rect>
+				<x>290</x>
+				<y>27</y>
+				<width>50</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Cancel"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_EDIT_FILEFULLPATHNAME">
+		<property name="geometry">
+			<rect>
+				<x>7</x>
+				<y>7</y>
+				<width>335</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+</widget>

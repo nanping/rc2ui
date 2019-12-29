@@ -1,0 +1,212 @@
+<widget class="QDialog" name="IDD_SHORTCUTSCINT_DLG">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>286</width>
+			<height>114</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Shortcut</string>
+	</property>
+	<widget class="QCheckBox" name="IDC_CTRL_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>114</x>
+				<y>27</y>
+				<width>33</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"CTRL"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_ALT_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>114</x>
+				<y>48</y>
+				<width>28</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"ALT"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_SHIFT_CHECK">
+		<property name="geometry">
+			<rect>
+				<x>159</x>
+				<y>39</y>
+				<width>35</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"SHIFT"</string>
+		</property>
+	</widget>
+	<widget class="QComboBox" name="IDC_KEY_COMBO">
+		<property name="geometry">
+			<rect>
+				<x>212</x>
+				<y>37</y>
+				<width>64</width>
+				<height>270</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_BUTTON_APPLY">
+		<property name="geometry">
+			<rect>
+				<x>210</x>
+				<y>66</y>
+				<width>48</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Apply"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDOK">
+		<property name="geometry">
+			<rect>
+				<x>144</x>
+				<y>84</y>
+				<width>48</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"OK"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDCANCEL">
+		<property name="geometry">
+			<rect>
+				<x>210</x>
+				<y>84</y>
+				<width>48</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Cancel"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>147</x>
+				<y>39</y>
+				<width>8</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"+"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>198</x>
+				<y>39</y>
+				<width>8</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"+"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_NAME_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>158</x>
+				<y>6</y>
+				<width>118</width>
+				<height>14</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_NAME_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>117</x>
+				<y>9</y>
+				<width>34</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Name :"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_WARNING_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>6</x>
+				<y>101</y>
+				<width>162</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"This will remove shortcut from this command"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_CONFLICT_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>6</x>
+				<y>101</y>
+				<width>162</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"CONFLICT FOUND!"</string>
+		</property>
+	</widget>
+	<widget class="QListView" name="IDC_LIST_KEYS">
+		<property name="geometry">
+			<rect>
+				<x>6</x>
+				<y>6</y>
+				<width>90</width>
+				<height>72</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_BUTTON_ADD">
+		<property name="geometry">
+			<rect>
+				<x>6</x>
+				<y>84</y>
+				<width>42</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Add"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_BUTTON_RMVE">
+		<property name="geometry">
+			<rect>
+				<x>56</x>
+				<y>84</y>
+				<width>40</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Remove"</string>
+		</property>
+	</widget>
+</widget>

@@ -1,0 +1,845 @@
+<widget class="QDialog" name="IDD_SYMBOL_STYLE_DLG">
+	<property name="geometry">
+		<rect>
+			<x>36</x>
+			<y>44</y>
+			<width>466</width>
+			<height>415</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<widget class="QLineEdit" name="IDC_OPERATOR1_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>15</x>
+				<y>31</y>
+				<width>205</width>
+				<height>19</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_OPERATOR2_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>247</x>
+				<y>31</y>
+				<width>206</width>
+				<height>19</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_OPERATOR_STYLER">
+		<property name="geometry">
+			<rect>
+				<x>14</x>
+				<y>12</y>
+				<width>54</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Styler"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_OPERATOR_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>8</x>
+				<y>3</y>
+				<width>451</width>
+				<height>55</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Operators style"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_OPERATOR1_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>142</x>
+				<y>20</y>
+				<width>75</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Operators 1"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_OPERATOR2_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>328</x>
+				<y>20</y>
+				<width>124</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Operators 2 (separators required)"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER1_BOUNDARYOPEN_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>72</x>
+				<y>88</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER1_ESCAPE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>72</x>
+				<y>108</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER1_BOUNDARYCLOSE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>72</x>
+				<y>126</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_DELIMITER1_STYLER">
+		<property name="geometry">
+			<rect>
+				<x>162</x>
+				<y>71</y>
+				<width>54</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Styler"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER1_BOUNDARYOPEN_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>90</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Open: "</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER1_ESCAPE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>109</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Escape: "</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER1_BOUNDARYCLOSE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>127</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Close: "</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_DELIMITER1_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>8</x>
+				<y>63</y>
+				<width>212</width>
+				<height>82</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Delimiter 1 style"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER2_BOUNDARYOPEN_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>309</x>
+				<y>88</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER2_ESCAPE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>309</x>
+				<y>107</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER2_BOUNDARYCLOSE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>309</x>
+				<y>125</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_DELIMITER2_STYLER">
+		<property name="geometry">
+			<rect>
+				<x>399</x>
+				<y>71</y>
+				<width>54</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Styler"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER2_BOUNDARYOPEN_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>251</x>
+				<y>90</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Open: "</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER2_ESCAPE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>251</x>
+				<y>109</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Escape: "</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER2_BOUNDARYCLOSE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>251</x>
+				<y>127</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Close: "</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_DELIMITER2_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>245</x>
+				<y>63</y>
+				<width>212</width>
+				<height>82</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Delimiter 2 style"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER3_BOUNDARYOPEN_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>72</x>
+				<y>174</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER3_ESCAPE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>72</x>
+				<y>193</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER3_BOUNDARYCLOSE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>72</x>
+				<y>212</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_DELIMITER3_STYLER">
+		<property name="geometry">
+			<rect>
+				<x>162</x>
+				<y>156</y>
+				<width>54</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Styler"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER3_BOUNDARYOPEN_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>176</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Open: "</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER3_ESCAPE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>195</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Escape: "</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER3_BOUNDARYCLOSE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>214</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Close: "</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_DELIMITER3_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>8</x>
+				<y>148</y>
+				<width>212</width>
+				<height>82</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Delimiter 3 style"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER4_BOUNDARYOPEN_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>309</x>
+				<y>174</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER4_ESCAPE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>309</x>
+				<y>193</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER4_BOUNDARYCLOSE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>309</x>
+				<y>212</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_DELIMITER4_STYLER">
+		<property name="geometry">
+			<rect>
+				<x>399</x>
+				<y>156</y>
+				<width>54</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Styler"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER4_BOUNDARYOPEN_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>251</x>
+				<y>176</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Open: "</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER4_ESCAPE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>251</x>
+				<y>195</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Escape: "</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER4_BOUNDARYCLOSE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>251</x>
+				<y>214</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Close: "</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_DELIMITER4_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>245</x>
+				<y>148</y>
+				<width>212</width>
+				<height>82</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Delimiter 4 style"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER5_BOUNDARYOPEN_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>72</x>
+				<y>259</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER5_ESCAPE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>72</x>
+				<y>278</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER5_BOUNDARYCLOSE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>72</x>
+				<y>298</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_DELIMITER5_STYLER">
+		<property name="geometry">
+			<rect>
+				<x>162</x>
+				<y>242</y>
+				<width>54</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Styler"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER5_BOUNDARYOPEN_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>260</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Open: "</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER5_ESCAPE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>279</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Escape: "</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER5_BOUNDARYCLOSE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>299</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Close: "</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_DELIMITER5_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>8</x>
+				<y>234</y>
+				<width>212</width>
+				<height>82</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Delimiter 5 style"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER6_BOUNDARYOPEN_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>309</x>
+				<y>259</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER6_ESCAPE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>309</x>
+				<y>278</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER6_BOUNDARYCLOSE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>309</x>
+				<y>297</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_DELIMITER6_STYLER">
+		<property name="geometry">
+			<rect>
+				<x>399</x>
+				<y>242</y>
+				<width>54</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Styler"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER6_BOUNDARYOPEN_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>251</x>
+				<y>261</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Open: "</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER6_ESCAPE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>251</x>
+				<y>280</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Escape: "</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER6_BOUNDARYCLOSE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>251</x>
+				<y>299</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Close: "</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_DELIMITER6_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>245</x>
+				<y>234</y>
+				<width>212</width>
+				<height>82</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Delimiter 6 style"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER7_BOUNDARYOPEN_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>72</x>
+				<y>345</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER7_ESCAPE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>72</x>
+				<y>364</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER7_BOUNDARYCLOSE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>72</x>
+				<y>383</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_DELIMITER7_STYLER">
+		<property name="geometry">
+			<rect>
+				<x>162</x>
+				<y>328</y>
+				<width>54</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Styler"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER7_BOUNDARYOPEN_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>251</x>
+				<y>347</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Open: "</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER7_ESCAPE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>251</x>
+				<y>365</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Escape: "</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER7_BOUNDARYCLOSE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>251</x>
+				<y>384</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Close: "</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_DELIMITER7_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>8</x>
+				<y>320</y>
+				<width>212</width>
+				<height>82</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Delimiter 7 style"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER8_BOUNDARYOPEN_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>309</x>
+				<y>345</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER8_ESCAPE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>309</x>
+				<y>364</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_DELIMITER8_BOUNDARYCLOSE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>309</x>
+				<y>383</y>
+				<width>144</width>
+				<height>12</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_DELIMITER8_STYLER">
+		<property name="geometry">
+			<rect>
+				<x>399</x>
+				<y>328</y>
+				<width>54</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Styler"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER8_BOUNDARYOPEN_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>346</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Open: "</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER8_ESCAPE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>365</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Escape: "</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DELIMITER8_BOUNDARYCLOSE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>385</y>
+				<width>56</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Close: "</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_DELIMITER8_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>245</x>
+				<y>320</y>
+				<width>212</width>
+				<height>82</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Delimiter 8 style"</string>
+		</property>
+	</widget>
+</widget>

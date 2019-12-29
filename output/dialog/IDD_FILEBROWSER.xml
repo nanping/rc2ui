@@ -1,0 +1,13 @@
+<widget class="QDialog" name="IDD_FILEBROWSER">
+	<property name="geometry">
+		<rect>
+			<x>26</x>
+			<y>41</y>
+			<width>142</width>
+			<height>324</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>File Browser</string>
+	</property>
+</widget>

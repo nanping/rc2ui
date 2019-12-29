@@ -1,0 +1,449 @@
+<widget class="QDialog" name="IDD_STYLER_POPUP_DLG">
+	<property name="geometry">
+		<rect>
+			<x>100</x>
+			<y>50</y>
+			<width>324</width>
+			<height>305</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Styler Dialog</string>
+	</property>
+	<widget class="QPushButton" name="IDOK">
+		<property name="geometry">
+			<rect>
+				<x>100</x>
+				<y>280</y>
+				<width>50</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>OK</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDCANCEL">
+		<property name="geometry">
+			<rect>
+				<x>172</x>
+				<y>280</y>
+				<width>50</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Cancel"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_BOLD">
+		<property name="geometry">
+			<rect>
+				<x>201</x>
+				<y>31</y>
+				<width>90</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Bold"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_ITALIC">
+		<property name="geometry">
+			<rect>
+				<x>201</x>
+				<y>45</y>
+				<width>90</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Italic"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_UNDERLINE">
+		<property name="geometry">
+			<rect>
+				<x>201</x>
+				<y>59</y>
+				<width>90</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Underline"</string>
+		</property>
+	</widget>
+	<widget class="QComboBox" name="IDC_STYLER_COMBO_FONT_NAME">
+		<property name="geometry">
+			<rect>
+				<x>65</x>
+				<y>32</y>
+				<width>104</width>
+				<height>80</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QComboBox" name="IDC_STYLER_COMBO_FONT_SIZE">
+		<property name="geometry">
+			<rect>
+				<x>65</x>
+				<y>53</y>
+				<width>104</width>
+				<height>77</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_STYLER_FG_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>14</x>
+				<y>85</y>
+				<width>75</width>
+				<height>11</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Foreground color:"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_STYLER_BG_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>153</x>
+				<y>86</y>
+				<width>75</width>
+				<height>11</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Background color:"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_NESTING_DELIMITER1">
+		<property name="geometry">
+			<rect>
+				<x>38</x>
+				<y>132</y>
+				<width>76</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Delimiter 1"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_NESTING_DELIMITER2">
+		<property name="geometry">
+			<rect>
+				<x>38</x>
+				<y>149</y>
+				<width>76</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Delimiter 2"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_NESTING_DELIMITER3">
+		<property name="geometry">
+			<rect>
+				<x>38</x>
+				<y>166</y>
+				<width>76</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Delimiter 3"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_NESTING_COMMENT">
+		<property name="geometry">
+			<rect>
+				<x>209</x>
+				<y>132</y>
+				<width>76</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Comment"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_NESTING_COMMENT_LINE">
+		<property name="geometry">
+			<rect>
+				<x>209</x>
+				<y>149</y>
+				<width>76</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Comment line"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_NESTING_KEYWORD1">
+		<property name="geometry">
+			<rect>
+				<x>119</x>
+				<y>132</y>
+				<width>76</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Keyword 1"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_NESTING_KEYWORD2">
+		<property name="geometry">
+			<rect>
+				<x>119</x>
+				<y>149</y>
+				<width>76</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Keyword 2"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_NESTING_KEYWORD3">
+		<property name="geometry">
+			<rect>
+				<x>119</x>
+				<y>166</y>
+				<width>76</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Keyword 3"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_NESTING_KEYWORD4">
+		<property name="geometry">
+			<rect>
+				<x>119</x>
+				<y>183</y>
+				<width>76</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Keyword 4"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_STYLER_STATIC_NESTING_GROUP">
+		<property name="geometry">
+			<rect>
+				<x>14</x>
+				<y>116</y>
+				<width>295</width>
+				<height>157</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Nesting:"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_STYLER_STATIC_FONT_OPTIONS">
+		<property name="geometry">
+			<rect>
+				<x>14</x>
+				<y>15</y>
+				<width>295</width>
+				<height>95</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Font options:"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_NESTING_DELIMITER4">
+		<property name="geometry">
+			<rect>
+				<x>38</x>
+				<y>183</y>
+				<width>76</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Delimiter 4"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_NESTING_DELIMITER5">
+		<property name="geometry">
+			<rect>
+				<x>38</x>
+				<y>200</y>
+				<width>76</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Delimiter 5"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_NESTING_DELIMITER6">
+		<property name="geometry">
+			<rect>
+				<x>38</x>
+				<y>217</y>
+				<width>76</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Delimiter 6"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_NESTING_DELIMITER7">
+		<property name="geometry">
+			<rect>
+				<x>38</x>
+				<y>234</y>
+				<width>76</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Delimiter 7"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_NESTING_DELIMITER8">
+		<property name="geometry">
+			<rect>
+				<x>38</x>
+				<y>251</y>
+				<width>76</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Delimiter 8"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_NESTING_KEYWORD5">
+		<property name="geometry">
+			<rect>
+				<x>119</x>
+				<y>200</y>
+				<width>76</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Keyword 5"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_NESTING_KEYWORD6">
+		<property name="geometry">
+			<rect>
+				<x>119</x>
+				<y>217</y>
+				<width>76</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Keyword 6"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_NESTING_KEYWORD7">
+		<property name="geometry">
+			<rect>
+				<x>119</x>
+				<y>234</y>
+				<width>76</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Keyword 7"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_NESTING_KEYWORD8">
+		<property name="geometry">
+			<rect>
+				<x>119</x>
+				<y>251</y>
+				<width>76</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Keyword 8"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_STYLER_NAME_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>23</x>
+				<y>32</y>
+				<width>36</width>
+				<height>12</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Name:"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_STYLER_SIZE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>22</x>
+				<y>53</y>
+				<width>36</width>
+				<height>12</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Size:"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_NESTING_OPERATORS1">
+		<property name="geometry">
+			<rect>
+				<x>209</x>
+				<y>166</y>
+				<width>76</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Operators 1"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_NESTING_OPERATORS2">
+		<property name="geometry">
+			<rect>
+				<x>209</x>
+				<y>183</y>
+				<width>76</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Operators 2"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_STYLER_CHECK_NESTING_NUMBERS">
+		<property name="geometry">
+			<rect>
+				<x>209</x>
+				<y>200</y>
+				<width>76</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Numbers"</string>
+		</property>
+	</widget>
+</widget>

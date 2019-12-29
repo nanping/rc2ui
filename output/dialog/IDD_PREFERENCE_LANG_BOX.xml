@@ -1,0 +1,212 @@
+<widget class="QDialog" name="IDD_PREFERENCE_LANG_BOX">
+	<property name="geometry">
+		<rect>
+			<x>0</x>
+			<y>0</y>
+			<width>455</width>
+			<height>185</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<widget class="QGroupBox" name="IDC_CHECK_LANGMENU_GR_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>34</x>
+				<y>3</y>
+				<width>220</width>
+				<height>172</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Language Menu"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_LANGMENUCOMPACT">
+		<property name="geometry">
+			<rect>
+				<x>48</x>
+				<y>14</y>
+				<width>174</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Make language menu compact"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_ENABLEDITEMS_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>52</x>
+				<y>31</y>
+				<width>72</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Available items"</string>
+		</property>
+	</widget>
+	<widget class="QListView" name="IDC_LIST_ENABLEDLANG">
+		<property name="geometry">
+			<rect>
+				<x>47</x>
+				<y>44</y>
+				<width>78</width>
+				<height>120</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_BUTTON_REMOVE">
+		<property name="geometry">
+			<rect>
+				<x>132</x>
+				<y>76</y>
+				<width>25</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"-&gt;"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_BUTTON_RESTORE">
+		<property name="geometry">
+			<rect>
+				<x>132</x>
+				<y>107</y>
+				<width>25</width>
+				<height>14</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"&lt;-"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_DISABLEDITEMS_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>167</x>
+				<y>31</y>
+				<width>72</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Disabled items"</string>
+		</property>
+	</widget>
+	<widget class="QListView" name="IDC_LIST_DISABLEDLANG">
+		<property name="geometry">
+			<rect>
+				<x>164</x>
+				<y>44</y>
+				<width>78</width>
+				<height>120</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_TABSETTING_GB_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>275</x>
+				<y>3</y>
+				<width>130</width>
+				<height>172</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Tab Settings"</string>
+		</property>
+	</widget>
+	<widget class="QListView" name="IDC_LIST_TABSETTNG">
+		<property name="geometry">
+			<rect>
+				<x>297</x>
+				<y>18</y>
+				<width>84</width>
+				<height>100</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_GR_TABVALUE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>287</x>
+				<y>125</y>
+				<width>110</width>
+				<height>42</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>""</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_DEFAULTTABVALUE">
+		<property name="geometry">
+			<rect>
+				<x>283</x>
+				<y>125</y>
+				<width>85</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Use default value"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_TABSIZE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>288</x>
+				<y>138</y>
+				<width>58</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Tab size : "</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_TABSIZEVAL_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>348</x>
+				<y>138</y>
+				<width>18</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"0"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_TABSIZEVAL_DISABLE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>348</x>
+				<y>138</y>
+				<width>18</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"0"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_CHECK_REPLACEBYSPACE">
+		<property name="geometry">
+			<rect>
+				<x>295</x>
+				<y>149</y>
+				<width>100</width>
+				<height>10</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Replace by space"</string>
+		</property>
+	</widget>
+</widget>

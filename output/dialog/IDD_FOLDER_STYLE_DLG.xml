@@ -1,0 +1,376 @@
+<widget class="QDialog" name="IDD_FOLDER_STYLE_DLG">
+	<property name="geometry">
+		<rect>
+			<x>36</x>
+			<y>44</y>
+			<width>466</width>
+			<height>415</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string />
+	</property>
+	<widget class="QLabel" name="IDC_WEB_HELP_LINK">
+		<property name="geometry">
+			<rect>
+				<x>40</x>
+				<y>45</y>
+				<width>160</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"https://ivan-radic.github.io/udl-documentation/"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_WEB_HELP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>40</x>
+				<y>31</y>
+				<width>160</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Temporary doc site:"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_WEB_HELP_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>14</y>
+				<width>210</width>
+				<height>49</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Documentation:"</string>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_DEFAULT_STYLER">
+		<property name="geometry">
+			<rect>
+				<x>87</x>
+				<y>94</y>
+				<width>54</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Styler"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_DEFAULT_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>71</y>
+				<width>210</width>
+				<height>49</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Default style:"</string>
+		</property>
+	</widget>
+	<widget class="QCheckBox" name="IDC_FOLDER_FOLD_COMPACT">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>143</y>
+				<width>152</width>
+				<height>11</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Fold &amp;compact (fold empty lines too)"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_FOLDER_IN_COMMENT_OPEN_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>252</x>
+				<y>62</y>
+				<width>190</width>
+				<height>22</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_FOLDER_IN_COMMENT_MIDDLE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>252</x>
+				<y>99</y>
+				<width>190</width>
+				<height>22</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_FOLDER_IN_COMMENT_CLOSE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>252</x>
+				<y>137</y>
+				<width>190</width>
+				<height>22</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_FOLDER_IN_COMMENT_STYLER">
+		<property name="geometry">
+			<rect>
+				<x>252</x>
+				<y>30</y>
+				<width>54</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Styler"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_FOLDER_IN_COMMENT_OPEN_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>252</x>
+				<y>53</y>
+				<width>113</width>
+				<height>8</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Open:"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_FOLDER_IN_COMMENT_MIDDLE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>252</x>
+				<y>89</y>
+				<width>113</width>
+				<height>9</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Middle:"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_FOLDER_IN_COMMENT_CLOSE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>252</x>
+				<y>126</y>
+				<width>113</width>
+				<height>9</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Close:"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_FOLDER_IN_COMMENT_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>241</x>
+				<y>14</y>
+				<width>210</width>
+				<height>156</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Folding in comment style:"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_FOLDER_IN_CODE1_OPEN_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>22</x>
+				<y>236</y>
+				<width>190</width>
+				<height>22</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_FOLDER_IN_CODE1_MIDDLE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>22</x>
+				<y>273</y>
+				<width>190</width>
+				<height>22</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_FOLDER_IN_CODE1_CLOSE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>22</x>
+				<y>311</y>
+				<width>190</width>
+				<height>22</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_FOLDER_IN_CODE1_STYLER">
+		<property name="geometry">
+			<rect>
+				<x>22</x>
+				<y>203</y>
+				<width>54</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Styler"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_FOLDER_IN_CODE1_OPEN_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>23</x>
+				<y>224</y>
+				<width>113</width>
+				<height>9</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Open:"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_FOLDER_IN_CODE1_MIDDLE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>23</x>
+				<y>262</y>
+				<width>113</width>
+				<height>9</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Middle:"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_FOLDER_IN_CODE1_CLOSE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>23</x>
+				<y>299</y>
+				<width>113</width>
+				<height>9</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Close:"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_FOLDER_IN_CODE1_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>12</x>
+				<y>186</y>
+				<width>210</width>
+				<height>156</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Folding in code 1 style:"</string>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_FOLDER_IN_CODE2_OPEN_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>253</x>
+				<y>236</y>
+				<width>190</width>
+				<height>22</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_FOLDER_IN_CODE2_MIDDLE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>253</x>
+				<y>273</y>
+				<width>190</width>
+				<height>22</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QLineEdit" name="IDC_FOLDER_IN_CODE2_CLOSE_EDIT">
+		<property name="geometry">
+			<rect>
+				<x>253</x>
+				<y>311</y>
+				<width>190</width>
+				<height>22</height>
+			</rect>
+		</property>
+	</widget>
+	<widget class="QPushButton" name="IDC_FOLDER_IN_CODE2_STYLER">
+		<property name="geometry">
+			<rect>
+				<x>253</x>
+				<y>202</y>
+				<width>54</width>
+				<height>13</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Styler"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_FOLDER_IN_CODE2_OPEN_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>253</x>
+				<y>224</y>
+				<width>113</width>
+				<height>9</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Open:"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_FOLDER_IN_CODE2_MIDDLE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>253</x>
+				<y>261</y>
+				<width>113</width>
+				<height>9</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Middle:"</string>
+		</property>
+	</widget>
+	<widget class="QLabel" name="IDC_FOLDER_IN_CODE2_CLOSE_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>253</x>
+				<y>298</y>
+				<width>113</width>
+				<height>9</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Close:"</string>
+		</property>
+	</widget>
+	<widget class="QGroupBox" name="IDC_FOLDER_IN_CODE2_DESCGROUP_STATIC">
+		<property name="geometry">
+			<rect>
+				<x>242</x>
+				<y>186</y>
+				<width>210</width>
+				<height>156</height>
+			</rect>
+		</property>
+		<property name="title">
+			<string>"Folding in code 2 style (separators needed):"</string>
+		</property>
+	</widget>
+</widget>

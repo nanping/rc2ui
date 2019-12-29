@@ -1,0 +1,23 @@
+<widget class="QDialog" name="IDD_CLIPBOARDHISTORY_PANEL">
+	<property name="geometry">
+		<rect>
+			<x>26</x>
+			<y>41</y>
+			<width>142</width>
+			<height>324</height>
+		</rect>
+	</property>
+	<property name="windowTitle">
+		<string>Clipboard History</string>
+	</property>
+	<widget class="QListView" name="IDC_LIST_CLIPBOARD">
+		<property name="geometry">
+			<rect>
+				<x>50</x>
+				<y>44</y>
+				<width>78</width>
+				<height>120</height>
+			</rect>
+		</property>
+	</widget>
+</widget>
